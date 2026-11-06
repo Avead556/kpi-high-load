@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PodMonitor
+metadata:
+  name: web
+  namespace: monitoring
+spec:
+  namespaceSelector:
+    matchNames: [vaccines]
+  selector:
+    matchLabels: {app: web}
+  podMetricsEndpoints:
+    - port: http
+      path: /metrics
+      interval: 5s

@@ -1,0 +1,30 @@
+NAME STATUS ROLES VERSION
+lab3-control-plane Ready control-plane v1.37.0
+lab3-worker Ready <none> v1.37.0
+lab3-worker2 Ready <none> v1.37.0
+
+node/lab3-control-plane
+Taints:             node-role.kubernetes.io/control-plane:NoSchedule
+
+kube-system         coredns-559f6c778d-t6z9k                                  Running  lab3-control-plane
+kube-system         coredns-559f6c778d-w9264                                  Running  lab3-control-plane
+kube-system         etcd-lab3-control-plane                                   Running  lab3-control-plane
+kube-system         kindnet-rqp8s                                             Running  lab3-worker2
+kube-system         kindnet-vkhfz                                             Running  lab3-worker
+kube-system         kindnet-xdlwn                                             Running  lab3-control-plane
+kube-system         kube-apiserver-lab3-control-plane                         Running  lab3-control-plane
+kube-system         kube-controller-manager-lab3-control-plane                Running  lab3-control-plane
+kube-system         kube-proxy-ds57g                                          Running  lab3-worker
+kube-system         kube-proxy-kpwfn                                          Running  lab3-worker2
+kube-system         kube-proxy-lxcrw                                          Running  lab3-control-plane
+kube-system         kube-scheduler-lab3-control-plane                         Running  lab3-control-plane
+kube-system         metrics-server-668475c79c-zlmdh                           Running  lab3-control-plane
+local-path-storage  local-path-provisioner-75f7fc7dc5-rwpj7                   Running  lab3-control-plane
+monitoring          kps-kube-prometheus-stack-operator-796c5dd8c-k87n8        Running  lab3-control-plane
+monitoring          kps-kube-state-metrics-77674766c9-4vt22                   Running  lab3-control-plane
+monitoring          prometheus-kps-kube-prometheus-stack-prometheus-0         Running  lab3-control-plane
+vaccines            pg-exporter-prometheus-postgres-exporter-dc966bc64-vn5m7  Running  lab3-control-plane
+vaccines            postgres-0                                                Running  lab3-control-plane
+vaccines            web-76484bc4b8-8sj9w                                      Running  lab3-worker2
+vaccines            web-76484bc4b8-d24pt                                      Running  lab3-worker
+vaccines            web-76484bc4b8-dxf56                                      Running  lab3-worker

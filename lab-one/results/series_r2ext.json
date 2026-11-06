@@ -1,0 +1,328 @@
+[
+  {
+    "label": "r2ext",
+    "target_rps": 1000,
+    "median_run": 3,
+    "offered_rps": 999.87,
+    "achieved_rps": 999.93,
+    "p50_ms": 2.23,
+    "p95_ms": 3.56,
+    "p99_ms": 10.12,
+    "mean_ms": 2.41,
+    "non_2xx_share": 0.0,
+    "measured_L": 2.53,
+    "on_wire_mean": 1.305,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 9.2,
+      "vaccine-lots-lb-1": 8.2,
+      "vaccine-lots-web-1": 29.0,
+      "vaccine-lots-web-2": 28.7
+    },
+    "host_cpu_busy_pct": 36.3,
+    "instances": {
+      "7034f5fbe703": 14998,
+      "96425e32d84a": 14998
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.97,
+        "p50_ms": 2.29,
+        "p95_ms": 3.59,
+        "p99_ms": 7.11,
+        "mean_ms": 2.42,
+        "non_2xx_share": 0.0,
+        "measured_L": 2.44,
+        "on_wire_mean": 1.241
+      },
+      {
+        "run": 2,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.93,
+        "p50_ms": 2.28,
+        "p95_ms": 3.61,
+        "p99_ms": 8.84,
+        "mean_ms": 2.4,
+        "non_2xx_share": 0.0,
+        "measured_L": 2.494,
+        "on_wire_mean": 1.252
+      },
+      {
+        "run": 3,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.93,
+        "p50_ms": 2.23,
+        "p95_ms": 3.56,
+        "p99_ms": 10.12,
+        "mean_ms": 2.41,
+        "non_2xx_share": 0.0,
+        "measured_L": 2.53,
+        "on_wire_mean": 1.305
+      }
+    ]
+  },
+  {
+    "label": "r2ext",
+    "target_rps": 2000,
+    "median_run": 3,
+    "offered_rps": 1999.73,
+    "achieved_rps": 1999.83,
+    "p50_ms": 1.71,
+    "p95_ms": 3.19,
+    "p99_ms": 23.72,
+    "mean_ms": 2.31,
+    "non_2xx_share": 0.0,
+    "measured_L": 4.54,
+    "on_wire_mean": 2.969,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 15.7,
+      "vaccine-lots-lb-1": 14.6,
+      "vaccine-lots-web-1": 43.8,
+      "vaccine-lots-web-2": 43.7
+    },
+    "host_cpu_busy_pct": 39.8,
+    "instances": {
+      "7034f5fbe703": 29996,
+      "96425e32d84a": 29996
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 1999.73,
+        "achieved_rps": 1999.87,
+        "p50_ms": 1.61,
+        "p95_ms": 2.73,
+        "p99_ms": 19.81,
+        "mean_ms": 2.11,
+        "non_2xx_share": 0.0,
+        "measured_L": 4.135,
+        "on_wire_mean": 2.569
+      },
+      {
+        "run": 2,
+        "offered_rps": 1999.73,
+        "achieved_rps": 1999.83,
+        "p50_ms": 1.72,
+        "p95_ms": 3.05,
+        "p99_ms": 25.9,
+        "mean_ms": 2.43,
+        "non_2xx_share": 0.0,
+        "measured_L": 4.771,
+        "on_wire_mean": 3.149
+      },
+      {
+        "run": 3,
+        "offered_rps": 1999.73,
+        "achieved_rps": 1999.83,
+        "p50_ms": 1.71,
+        "p95_ms": 3.19,
+        "p99_ms": 23.72,
+        "mean_ms": 2.31,
+        "non_2xx_share": 0.0,
+        "measured_L": 4.54,
+        "on_wire_mean": 2.969
+      }
+    ]
+  },
+  {
+    "label": "r2ext",
+    "target_rps": 3000,
+    "median_run": 3,
+    "offered_rps": 3000.0,
+    "achieved_rps": 2999.73,
+    "p50_ms": 1.62,
+    "p95_ms": 21.09,
+    "p99_ms": 63.23,
+    "mean_ms": 4.26,
+    "non_2xx_share": 0.0,
+    "measured_L": 12.321,
+    "on_wire_mean": 10.597,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 22.0,
+      "vaccine-lots-lb-1": 22.4,
+      "vaccine-lots-web-1": 58.1,
+      "vaccine-lots-web-2": 60.1
+    },
+    "host_cpu_busy_pct": 51.4,
+    "instances": {
+      "7034f5fbe703": 45000,
+      "96425e32d84a": 45000
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2998.8,
+        "p50_ms": 1.58,
+        "p95_ms": 16.74,
+        "p99_ms": 54.61,
+        "mean_ms": 3.76,
+        "non_2xx_share": 0.0,
+        "measured_L": 10.952,
+        "on_wire_mean": 9.315
+      },
+      {
+        "run": 2,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2999.9,
+        "p50_ms": 1.58,
+        "p95_ms": 13.0,
+        "p99_ms": 45.01,
+        "mean_ms": 3.27,
+        "non_2xx_share": 0.0,
+        "measured_L": 9.503,
+        "on_wire_mean": 7.857
+      },
+      {
+        "run": 3,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2999.73,
+        "p50_ms": 1.62,
+        "p95_ms": 21.09,
+        "p99_ms": 63.23,
+        "mean_ms": 4.26,
+        "non_2xx_share": 0.0,
+        "measured_L": 12.321,
+        "on_wire_mean": 10.597
+      }
+    ]
+  },
+  {
+    "label": "r2ext",
+    "target_rps": 4000,
+    "median_run": 1,
+    "offered_rps": 3999.87,
+    "achieved_rps": 3791.0,
+    "p50_ms": 357.53,
+    "p95_ms": 2413.28,
+    "p99_ms": 3866.11,
+    "mean_ms": 677.25,
+    "non_2xx_share": 0.0,
+    "measured_L": 2461.996,
+    "on_wire_mean": 949.526,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 37.4,
+      "vaccine-lots-lb-1": 35.8,
+      "vaccine-lots-web-1": 73.7,
+      "vaccine-lots-web-2": 90.9
+    },
+    "host_cpu_busy_pct": 55.7,
+    "instances": {
+      "96425e32d84a": 59998,
+      "7034f5fbe703": 59996,
+      "-": 2
+    },
+    "errors": {
+      "TimeoutError": 2
+    },
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 3999.87,
+        "achieved_rps": 3791.0,
+        "p50_ms": 357.53,
+        "p95_ms": 2413.28,
+        "p99_ms": 3866.11,
+        "mean_ms": 677.25,
+        "non_2xx_share": 0.0,
+        "measured_L": 2461.996,
+        "on_wire_mean": 949.526
+      },
+      {
+        "run": 2,
+        "offered_rps": 3999.87,
+        "achieved_rps": 3812.17,
+        "p50_ms": 564.33,
+        "p95_ms": 2549.4,
+        "p99_ms": 3911.45,
+        "mean_ms": 867.07,
+        "non_2xx_share": 0.0,
+        "measured_L": 3283.208,
+        "on_wire_mean": 1337.087
+      },
+      {
+        "run": 3,
+        "offered_rps": 3999.87,
+        "achieved_rps": 3725.6,
+        "p50_ms": 806.77,
+        "p95_ms": 2781.68,
+        "p99_ms": 4117.25,
+        "mean_ms": 987.6,
+        "non_2xx_share": 0.0,
+        "measured_L": 3649.603,
+        "on_wire_mean": 1030.018
+      }
+    ]
+  },
+  {
+    "label": "r2ext",
+    "target_rps": 5000,
+    "median_run": 1,
+    "offered_rps": 4999.73,
+    "achieved_rps": 3548.83,
+    "p50_ms": 9877.13,
+    "p95_ms": 14637.43,
+    "p99_ms": 15937.93,
+    "mean_ms": 9768.72,
+    "non_2xx_share": 0.0,
+    "measured_L": 36021.591,
+    "on_wire_mean": 1536.0,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 36.3,
+      "vaccine-lots-lb-1": 32.4,
+      "vaccine-lots-web-1": 84.5,
+      "vaccine-lots-web-2": 104.7
+    },
+    "host_cpu_busy_pct": 56.2,
+    "instances": {
+      "96425e32d84a": 74970,
+      "7034f5fbe703": 75018,
+      "-": 4
+    },
+    "errors": {
+      "TimeoutError": 4
+    },
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 4999.73,
+        "achieved_rps": 3548.83,
+        "p50_ms": 9877.13,
+        "p95_ms": 14637.43,
+        "p99_ms": 15937.93,
+        "mean_ms": 9768.72,
+        "non_2xx_share": 0.0,
+        "measured_L": 36021.591,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 2,
+        "offered_rps": 4999.73,
+        "achieved_rps": 3546.43,
+        "p50_ms": 9116.28,
+        "p95_ms": 13749.66,
+        "p99_ms": 14916.9,
+        "mean_ms": 8937.27,
+        "non_2xx_share": 0.0,
+        "measured_L": 33124.526,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 3,
+        "offered_rps": 4999.73,
+        "achieved_rps": 3621.23,
+        "p50_ms": 9060.68,
+        "p95_ms": 13488.19,
+        "p99_ms": 14650.26,
+        "mean_ms": 8942.03,
+        "non_2xx_share": 0.0,
+        "measured_L": 33030.11,
+        "on_wire_mean": 1536.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+created id=102
+before: uid=4b513662-be45-481b-8cba-421061c69c7e started=2026-11-05T23:09:05Z
+pod "postgres-0" deleted from vaccines namespace
+pod/postgres-0 condition met
+after:  uid=e93294b4-5d3b-4f90-9c5b-c207bd228e15 started=2026-11-06T01:08:40Z
+NAME              STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+data-postgres-0   Bound    pvc-03c64ca9-2eef-4940-8467-b7d50cc8b94d   1Gi        RWO            standard       <unset>                 119m
+GET after restart:
+{"id":102,"lot_number":"LOT-PERSIST-0001","vaccine":"BCG","doses":200,"temperature_regime":"+2..+8","manufactured_on":"2026-02-01","expires_on":"2027-02-01","created_at":"2026-11-06T01:08:39.154330Z","updated_at":"2026-11-06T01:08:39.154330Z"}
+cleanup DELETE -> 204

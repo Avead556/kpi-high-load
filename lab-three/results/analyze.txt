@@ -1,0 +1,27 @@
+N  X(N)     std    step   p99c     p99s     thr_mean thr_max  I      unreached
+1  5384.4   158.1  5400   462.03   8.85     0.0304   0.0304   -      False
+2  7986.1   459.7  8200   3632.27  6.82     0.0191   0.0341   1.023  False
+     most: web-674b9f767b-nqfvh 4077.8 rps, p99 server 7.28 ms, throttling 0.0341
+     least: web-674b9f767b-5rb6h 3896.6 rps, p99 server 5.67 ms, throttling 0.004
+3  9001.8   553.9  9200   3706.01  5.88     0.0      0.0      1.028  False
+     most: web-674b9f767b-6vchf 3107.6 rps, p99 server 3.99 ms, throttling 0.0
+     least: web-674b9f767b-nqfvh 2864.4 rps, p99 server 5.23 ms, throttling 0.0
+USL k8s: sigma = 0.2509, kappa = 0.04878, N* = 3.918890274060336 (two-parameter fit)
+USL compose: sigma = 0.3325, kappa = 0.07385, N* = 3.01
+p99_0 = 9.88 ms, p99 jump (fixed) = 139.96 ms
+run    theta_U theta_O a_U    a_O    W    violations non2xx
+fixed  0.000   0.667   0.000  1.333  540  64         0
+hpa    0.189   0.500   0.211  1.000  442  100        37347
+        {'desired_first_change_s': 29, 'desired_first_change_to': 3.0, 'peak_ready': 3, 'peak_ready_s': 34, 'peak_ready_reached_at_s': 34, 'p99_recover_s': None, 'p99_threshold_ms': 167.95, 'scale_down_s': None, 'ready_at_jump_end': 3}
+drain pdb=no: ready_min 1, seconds<R 7, drain took 7.1s, before p99 605.01 / during p99 5000.52 ms, errors 35135, max p99/s 5058.31, kinds {'Timeout': 27664, 'Timeout waiting for connection': 19295}
+drain pdb=yes: ready_min 2, seconds<R 7, drain took 17.7s, before p99 102.62 / during p99 238.93 ms, errors 0, max p99/s 401.53, kinds {}
+attempts:
+  fixed                                         1615: 1614.9 rps, p99 9.88 ms, bad 0 | 8077: 8076.1 rps, p99 139.96 ms, bad 0 | 1615: 1615.8 rps, p99 14.03 ms, bad 0
+  hpa                                           1615: 1614.9 rps, p99 37.54 ms, bad 0 | 8077: 6810.4 rps, p99 5000.18 ms, bad 36891 | 1615: 2044.7 rps, p99 4989.17 ms, bad 456
+  rejected/drain_nopdb_overloaded_before        6000: 4700.8 rps, p99 5000.43 ms, bad 8997 | 6000: 5095.8 rps, p99 5000.85 ms, bad 138547
+  rejected/fixed_host_pause                     1615: 1614.9 rps, p99 9.88 ms, bad 0 | 8077: 8077.1 rps, p99 211.03 ms, bad 0 | 1615: 1501.9 rps, p99 5000.37 ms, bad 10192
+  rejected/fixed_jump_overload                  1615: 1614.9 rps, p99 16.61 ms, bad 0 | 8077: 7211.7 rps, p99 5000.32 ms, bad 12596 | 1615: 2050.8 rps, p99 4905.5 ms, bad 115
+  rejected/fixed_liveness_3s                    1615: 1614.9 rps, p99 13.0 ms, bad 0 | 8077: 8041.1 rps, p99 775.12 ms, bad 0 | 1615: 1639.1 rps, p99 295.51 ms, bad 0
+  rejected/fixed_repeat_late                    1615: 1614.9 rps, p99 23.54 ms, bad 0 | 8077: 2367.4 rps, p99 5002.16 ms, bad 302211 | 1615: 1632.2 rps, p99 5000.57 ms, bad 38836
+  rejected/hpa_generator_reset                  1615: 1614.9 rps, p99 9.39 ms, bad 0 | 8077: 1278.1 rps, p99 5036.86 ms, bad 367552 | 1615: 1615.6 rps, p99 5011.35 ms, bad 40348
+  rejected/hpa_liveness_3s                      1615: 1614.9 rps, p99 3.51 ms, bad 0 | 8077: 1220.0 rps, p99 6487.68 ms, bad 371057 | 1615: 1538.7 rps, p99 5006.73 ms, bad 47253

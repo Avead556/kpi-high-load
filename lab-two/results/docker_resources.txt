@@ -1,0 +1,2 @@
+Docker Desktop VM: 12 CPU, 21470375936 bytes memory
+host: 12 38654705664 Apple M3 Pro 

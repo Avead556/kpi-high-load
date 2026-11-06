@@ -1,0 +1,5 @@
+NAME                 IMAGE                  COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+vaccine-lots-db-1    postgres:17-alpine     "docker-entrypoint.s…"   db        12 seconds ago   Up 12 seconds (healthy)   
+vaccine-lots-lb-1    nginx:1.28-alpine      "/docker-entrypoint.…"   lb        12 seconds ago   Up 5 seconds              0.0.0.0:8018->80/tcp
+vaccine-lots-web-1   vaccine-lots-web:1.0   "uvicorn app.main:ap…"   web       12 seconds ago   Up 10 seconds (healthy)   8000/tcp
+vaccine-lots-web-2   vaccine-lots-web:1.0   "uvicorn app.main:ap…"   web       12 seconds ago   Up 10 seconds (healthy)   8000/tcp

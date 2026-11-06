@@ -1,0 +1,2 @@
+docker stop vaccine-lots-web-1: exit code 0, took 0.39 s
+10 s around the stop (21 s of records): 21001 x 2xx, 0 x non-2xx, 0 connection errors, max p99 19.26 ms

@@ -1,0 +1,4 @@
+rate 1000: achieved 1000 rps, cpu used 6.9 s over ~22 s, periods 226, throttled 9 (4.0%), throttled time 0.27 s, p99 16.3 ms max/s
+rate 2000: achieved 2000 rps, cpu used 10.1 s over ~22 s, periods 229, throttled 14 (6.1%), throttled time 0.59 s, p99 54.8 ms max/s
+rate 3000: achieved 3000 rps, cpu used 13.1 s over ~22 s, periods 228, throttled 27 (11.8%), throttled time 1.46 s, p99 205.5 ms max/s
+rate 3400: achieved 1668 rps, cpu used 16.2 s over ~22 s, periods 308, throttled 36 (11.7%), throttled time 1.30 s, p99 5194.4 ms max/s

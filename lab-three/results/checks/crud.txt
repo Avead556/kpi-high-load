@@ -1,0 +1,12 @@
+POST
+HTTP/1.1 201 Created | X-Pod: web-76484bc4b8-8sj9w | {"id":101,"lot_number":"LOT-K8S-0001","vaccine":"Comirnaty","doses":500,"temperature_regime":"-90..-60","manufactured_on":"2026-03-01","expires_on":"2026-12-01","created_at":"2026-11-06T01:08:38.679731Z","updated_at":"2026-11-06T01:08:38.679731Z"}
+GET
+HTTP/1.1 200 OK | X-Pod: web-76484bc4b8-d24pt | {"id":101,"lot_number":"LOT-K8S-0001","vaccine":"Comirnaty","doses":500,"temperature_regime":"-90..-60","manufactured_on":"2026-03-01","expires_on":"2026-12-01","created_at":"2026-11-06T01:08:38.679731Z","updated_at":"2026-11-06T01:08:38.679731Z"}
+PUT
+HTTP/1.1 200 OK | X-Pod: web-76484bc4b8-8sj9w | {"id":101,"lot_number":"LOT-K8S-0001","vaccine":"Comirnaty","doses":1000,"temperature_regime":"-90..-60","manufactured_on":"2026-03-01","expires_on":"2026-12-01","created_at":"2026-11-06T01:08:38.679731Z","updated_at":"2026-11-06T01:08:39.087118Z"}
+GET
+HTTP/1.1 200 OK | X-Pod: web-76484bc4b8-dxf56 | {"id":101,"lot_number":"LOT-K8S-0001","vaccine":"Comirnaty","doses":1000,"temperature_regime":"-90..-60","manufactured_on":"2026-03-01","expires_on":"2026-12-01","created_at":"2026-11-06T01:08:38.679731Z","updated_at":"2026-11-06T01:08:39.087118Z"}
+DELETE
+HTTP/1.1 204 No Content | X-Pod: web-76484bc4b8-d24pt | 
+GET
+HTTP/1.1 404 Not Found | X-Pod: web-76484bc4b8-dxf56 | {"error":"vaccine lot 101 not found"}

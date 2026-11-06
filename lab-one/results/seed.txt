@@ -1,0 +1,1 @@
+created 100 lots, 0 already present, ids 1..100

@@ -1,0 +1,65 @@
+{
+  "path": "/vaccine-lots/{id}",
+  "url": "http://127.0.0.1:8080",
+  "procs": 8,
+  "conns": 24,
+  "per_conn": 100,
+  "timeout_s": 5.0,
+  "warmup_s": 0,
+  "warmup_rate": 200,
+  "start_rps": 200,
+  "step_rps": 200,
+  "step_seconds": 30,
+  "window_s": 20,
+  "profile": [
+    [
+      30.0,
+      6000.0
+    ],
+    [
+      120.0,
+      6000.0
+    ]
+  ],
+  "start_epoch": 1793926081.754,
+  "stopped_at_s": 150,
+  "decisions": [],
+  "steps": [],
+  "segments": [
+    {
+      "begin_s": 0,
+      "end_s": 30.0,
+      "target_rps": 6000.0,
+      "achieved_mean": 6000.1,
+      "p50_ms": 1.63,
+      "p99_ms": 102.62,
+      "non_2xx": 0
+    },
+    {
+      "begin_s": 30.0,
+      "end_s": 150.0,
+      "target_rps": 6000.0,
+      "achieved_mean": 6000.4,
+      "p50_ms": 1.61,
+      "p99_ms": 238.93,
+      "non_2xx": 0
+    }
+  ],
+  "X": null,
+  "pods_total": {
+    "web-79d5499db8-5rlrn": 318243,
+    "web-79d5499db8-b4zph": 85200,
+    "web-79d5499db8-lh65j": 225430,
+    "web-79d5499db8-nj4q8": 209492,
+    "web-79d5499db8-xbfpg": 61700
+  },
+  "error_kinds": {},
+  "totals": {
+    "scheduled": 900065,
+    "sent": 900065,
+    "achieved": 900065,
+    "non_2xx": 0,
+    "conn_errors": 0,
+    "conns_opened": 9010
+  }
+}

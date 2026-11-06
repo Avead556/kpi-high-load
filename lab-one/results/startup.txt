@@ -1,0 +1,4 @@
+run 1: first 200 on /healthz after 7.67 s
+run 2: first 200 on /healthz after 7.65 s
+run 3: first 200 on /healthz after 7.68 s
+median: 7.67 s

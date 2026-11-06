@@ -1,0 +1,24 @@
+{
+  "mode": "open",
+  "path": "/noop",
+  "target_rps": 4000.0,
+  "concurrency": null,
+  "duration_s": 30,
+  "warmup_s": 10,
+  "procs": 12,
+  "sent": 119996,
+  "achieved_rps": 3999.7,
+  "offered_rps": 3999.87,
+  "p50_ms": 0.54,
+  "p95_ms": 0.87,
+  "p99_ms": 1.58,
+  "mean_ms": 0.6,
+  "non_2xx": 0,
+  "non_2xx_share": 0.0,
+  "measured_L": 2.444,
+  "on_wire_mean": 1.527,
+  "instances": {
+    "-": 119996
+  },
+  "errors": {}
+}

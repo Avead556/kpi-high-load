@@ -1,0 +1,7 @@
+node/lab3-worker cordoned
+evicting pod vaccines/web-f665c499f-zbk48
+evicting pod vaccines/web-f665c499f-62nfh
+pod/web-f665c499f-62nfh evicted
+pod/web-f665c499f-zbk48 evicted
+node/lab3-worker drained
+Warning: ignoring DaemonSet-managed Pods: kube-system/kindnet-vkhfz, kube-system/kube-proxy-ds57g

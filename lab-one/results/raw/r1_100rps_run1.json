@@ -1,0 +1,32 @@
+{
+  "mode": "open",
+  "path": "/vaccine-lots/{id}",
+  "target_rps": 100.0,
+  "concurrency": null,
+  "duration_s": 30,
+  "warmup_s": 10,
+  "procs": 4,
+  "sent": 3000,
+  "achieved_rps": 100.0,
+  "offered_rps": 100.0,
+  "p50_ms": 4.26,
+  "p95_ms": 6.94,
+  "p99_ms": 8.98,
+  "mean_ms": 4.47,
+  "non_2xx": 0,
+  "non_2xx_share": 0.0,
+  "measured_L": 0.434,
+  "on_wire_mean": 0.275,
+  "instances": {
+    "bf477e448420": 3000
+  },
+  "errors": {},
+  "container_cpu_pct": {
+    "vaccine-lots-db-1": 2.7,
+    "vaccine-lots-lb-1": 2.1,
+    "vaccine-lots-web-1": 16.9
+  },
+  "host_cpu_busy_pct": 29.0,
+  "cpu_samples": 6,
+  "run": 1
+}

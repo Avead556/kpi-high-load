@@ -1,0 +1,24 @@
+{
+  "mode": "closed",
+  "path": "/vaccine-lots/{id}",
+  "target_rps": null,
+  "concurrency": 1536,
+  "duration_s": 30,
+  "warmup_s": 10,
+  "procs": 12,
+  "sent": 68108,
+  "achieved_rps": 2270.27,
+  "offered_rps": 2270.27,
+  "p50_ms": 632.78,
+  "p95_ms": 1988.67,
+  "p99_ms": 2886.62,
+  "mean_ms": 668.2,
+  "non_2xx": 0,
+  "non_2xx_share": 0.0,
+  "measured_L": 1536.0,
+  "on_wire_mean": 1536.0,
+  "instances": {
+    "bf477e448420": 68108
+  },
+  "errors": {}
+}

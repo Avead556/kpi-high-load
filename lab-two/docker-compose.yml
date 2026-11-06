@@ -1,0 +1,82 @@
+name: vaccine-lots
+
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: vaccines
+      POSTGRES_DB: vaccines
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U vaccines -d vaccines"]
+      interval: 1s
+      timeout: 2s
+      retries: 30
+    networks:
+      - backend
+
+  web:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: vaccine-lots-web:2.0
+    restart: unless-stopped
+    stop_grace_period: 15s
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: vaccines
+      DB_NAME: vaccines
+      DB_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      DB_POOL_SIZE: 10
+    expose:
+      - "8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    deploy:
+      replicas: ${WEB_REPLICAS:-1}
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+    networks:
+      - backend
+      - frontend
+
+  lb:
+    image: nginx:1.28-alpine
+    ports:
+      - "${LB_PORT:-8018}:80"
+    volumes:
+      - ./.docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      web:
+        condition: service_healthy
+    networks:
+      - frontend
+
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+    ports:
+      - "${PROMETHEUS_PORT:-9090}:9090"
+    volumes:
+      - ./.docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-data:/prometheus
+    networks:
+      - frontend
+
+volumes:
+  db-data:
+  prometheus-data:
+
+networks:
+  frontend:
+  backend:
+    internal: true

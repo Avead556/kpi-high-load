@@ -1,0 +1,6 @@
+segment 0-30s target 1615: achieved 1614.9, p99 37.54 ms, non-2xx 0
+segment 30-90s target 8077: achieved 6810.4, p99 5000.18 ms, non-2xx 36891
+segment 90-180s target 1615: achieved 2044.7, p99 4989.17 ms, non-2xx 456
+totals {'scheduled': 678443, 'sent': 667364, 'achieved': 641096, 'non_2xx': 37347, 'conn_errors': 0, 'conns_opened': 6688} errors {'Timeout': 26268, 'Timeout waiting for connection': 11079}
+NAME   REFERENCE        TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+web    Deployment/web   cpu: 27%/80%   1         3         3          4m39s

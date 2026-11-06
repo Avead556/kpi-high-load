@@ -1,0 +1,250 @@
+[
+  {
+    "label": "r1ext",
+    "target_rps": 1000,
+    "median_run": 1,
+    "offered_rps": 999.87,
+    "achieved_rps": 999.87,
+    "p50_ms": 2.26,
+    "p95_ms": 3.7,
+    "p99_ms": 20.49,
+    "mean_ms": 2.65,
+    "non_2xx_share": 0.0,
+    "measured_L": 2.685,
+    "on_wire_mean": 1.497,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 8.0,
+      "vaccine-lots-lb-1": 7.6,
+      "vaccine-lots-web-1": 42.5
+    },
+    "host_cpu_busy_pct": 34.3,
+    "instances": {
+      "bf477e448420": 29996
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.87,
+        "p50_ms": 2.26,
+        "p95_ms": 3.7,
+        "p99_ms": 20.49,
+        "mean_ms": 2.65,
+        "non_2xx_share": 0.0,
+        "measured_L": 2.685,
+        "on_wire_mean": 1.497
+      },
+      {
+        "run": 2,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.97,
+        "p50_ms": 2.38,
+        "p95_ms": 4.09,
+        "p99_ms": 20.7,
+        "mean_ms": 2.86,
+        "non_2xx_share": 0.0,
+        "measured_L": 2.797,
+        "on_wire_mean": 1.554
+      },
+      {
+        "run": 3,
+        "offered_rps": 999.87,
+        "achieved_rps": 999.27,
+        "p50_ms": 2.36,
+        "p95_ms": 4.46,
+        "p99_ms": 24.29,
+        "mean_ms": 2.97,
+        "non_2xx_share": 0.0,
+        "measured_L": 3.008,
+        "on_wire_mean": 1.689
+      }
+    ]
+  },
+  {
+    "label": "r1ext",
+    "target_rps": 2000,
+    "median_run": 2,
+    "offered_rps": 1999.73,
+    "achieved_rps": 1999.8,
+    "p50_ms": 1.93,
+    "p95_ms": 30.99,
+    "p99_ms": 74.65,
+    "mean_ms": 5.51,
+    "non_2xx_share": 0.0,
+    "measured_L": 10.983,
+    "on_wire_mean": 9.294,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 12.5,
+      "vaccine-lots-lb-1": 13.6,
+      "vaccine-lots-web-1": 68.5
+    },
+    "host_cpu_busy_pct": 37.4,
+    "instances": {
+      "bf477e448420": 59992
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 1999.73,
+        "achieved_rps": 2000.43,
+        "p50_ms": 1.91,
+        "p95_ms": 40.24,
+        "p99_ms": 86.81,
+        "mean_ms": 6.32,
+        "non_2xx_share": 0.0,
+        "measured_L": 12.706,
+        "on_wire_mean": 11.074
+      },
+      {
+        "run": 2,
+        "offered_rps": 1999.73,
+        "achieved_rps": 1999.8,
+        "p50_ms": 1.93,
+        "p95_ms": 30.99,
+        "p99_ms": 74.65,
+        "mean_ms": 5.51,
+        "non_2xx_share": 0.0,
+        "measured_L": 10.983,
+        "on_wire_mean": 9.294
+      },
+      {
+        "run": 3,
+        "offered_rps": 1999.73,
+        "achieved_rps": 1995.77,
+        "p50_ms": 1.9,
+        "p95_ms": 32.34,
+        "p99_ms": 121.61,
+        "mean_ms": 6.87,
+        "non_2xx_share": 0.0,
+        "measured_L": 13.441,
+        "on_wire_mean": 11.826
+      }
+    ]
+  },
+  {
+    "label": "r1ext",
+    "target_rps": 3000,
+    "median_run": 2,
+    "offered_rps": 3000.0,
+    "achieved_rps": 2255.23,
+    "p50_ms": 7283.45,
+    "p95_ms": 11746.43,
+    "p99_ms": 12566.42,
+    "mean_ms": 7202.05,
+    "non_2xx_share": 0.0,
+    "measured_L": 16124.52,
+    "on_wire_mean": 1536.0,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 16.9,
+      "vaccine-lots-lb-1": 15.8,
+      "vaccine-lots-web-1": 101.2
+    },
+    "host_cpu_busy_pct": 42.6,
+    "instances": {
+      "bf477e448420": 90000
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2302.47,
+        "p50_ms": 6570.03,
+        "p95_ms": 10881.56,
+        "p99_ms": 11725.08,
+        "mean_ms": 6558.29,
+        "non_2xx_share": 0.0,
+        "measured_L": 15015.804,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 2,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2255.23,
+        "p50_ms": 7283.45,
+        "p95_ms": 11746.43,
+        "p99_ms": 12566.42,
+        "mean_ms": 7202.05,
+        "non_2xx_share": 0.0,
+        "measured_L": 16124.52,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 3,
+        "offered_rps": 3000.0,
+        "achieved_rps": 2245.83,
+        "p50_ms": 6776.37,
+        "p95_ms": 12341.11,
+        "p99_ms": 13264.87,
+        "mean_ms": 7217.73,
+        "non_2xx_share": 0.0,
+        "measured_L": 15892.72,
+        "on_wire_mean": 1536.0
+      }
+    ]
+  },
+  {
+    "label": "r1ext",
+    "target_rps": 4000,
+    "median_run": 1,
+    "offered_rps": 3999.87,
+    "achieved_rps": 2245.1,
+    "p50_ms": 19014.65,
+    "p95_ms": 29205.3,
+    "p99_ms": 30200.84,
+    "mean_ms": 18799.71,
+    "non_2xx_share": 0.0,
+    "measured_L": 42432.656,
+    "on_wire_mean": 1536.0,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 17.3,
+      "vaccine-lots-lb-1": 16.7,
+      "vaccine-lots-web-1": 100.6
+    },
+    "host_cpu_busy_pct": 44.1,
+    "instances": {
+      "bf477e448420": 119996
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 3999.87,
+        "achieved_rps": 2245.1,
+        "p50_ms": 19014.65,
+        "p95_ms": 29205.3,
+        "p99_ms": 30200.84,
+        "mean_ms": 18799.71,
+        "non_2xx_share": 0.0,
+        "measured_L": 42432.656,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 2,
+        "offered_rps": 3999.87,
+        "achieved_rps": 2242.7,
+        "p50_ms": 18589.1,
+        "p95_ms": 29063.93,
+        "p99_ms": 30097.13,
+        "mean_ms": 18666.68,
+        "non_2xx_share": 0.0,
+        "measured_L": 42208.38,
+        "on_wire_mean": 1536.0
+      },
+      {
+        "run": 3,
+        "offered_rps": 3999.87,
+        "achieved_rps": 2300.1,
+        "p50_ms": 17903.87,
+        "p95_ms": 27904.25,
+        "p99_ms": 29012.46,
+        "mean_ms": 17793.52,
+        "non_2xx_share": 0.0,
+        "measured_L": 40448.269,
+        "on_wire_mean": 1536.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "stopped_container": "vaccine-lots-web-1",
+  "exit_code": 0,
+  "docker_stop_seconds": 0.39,
+  "window_seconds": 21,
+  "achieved": 21001,
+  "non_2xx": 0,
+  "conn_errors": 0,
+  "max_p99_ms": 19.26
+}

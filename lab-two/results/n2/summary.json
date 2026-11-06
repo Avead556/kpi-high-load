@@ -1,0 +1,572 @@
+{
+  "path": "/vaccine-lots/{id}",
+  "procs": 12,
+  "conn_limit_total": 15000,
+  "timeout_s": 5.0,
+  "warmup_s": 10,
+  "warmup_rate": 200,
+  "step_rps": 200,
+  "step_seconds": 20,
+  "g": 8000.3,
+  "start_epoch": 1792324970.377,
+  "stopped_at_s": 452,
+  "decisions": [
+    {
+      "step": 0,
+      "target": 200,
+      "achieved_mean": 200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 1,
+      "target": 400,
+      "achieved_mean": 400.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 2,
+      "target": 600,
+      "achieved_mean": 600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 3,
+      "target": 800,
+      "achieved_mean": 800.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 4,
+      "target": 1000,
+      "achieved_mean": 1000.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 5,
+      "target": 1200,
+      "achieved_mean": 1200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 6,
+      "target": 1400,
+      "achieved_mean": 1399.8,
+      "below_in_row": 0
+    },
+    {
+      "step": 7,
+      "target": 1600,
+      "achieved_mean": 1600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 8,
+      "target": 1800,
+      "achieved_mean": 1800.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 9,
+      "target": 2000,
+      "achieved_mean": 2000.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 10,
+      "target": 2200,
+      "achieved_mean": 2200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 11,
+      "target": 2400,
+      "achieved_mean": 2399.8,
+      "below_in_row": 0
+    },
+    {
+      "step": 12,
+      "target": 2600,
+      "achieved_mean": 2600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 13,
+      "target": 2800,
+      "achieved_mean": 2799.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 14,
+      "target": 3000,
+      "achieved_mean": 3000.3,
+      "below_in_row": 0
+    },
+    {
+      "step": 15,
+      "target": 3200,
+      "achieved_mean": 3199.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 16,
+      "target": 3400,
+      "achieved_mean": 3324.6,
+      "below_in_row": 0
+    },
+    {
+      "step": 17,
+      "target": 3600,
+      "achieved_mean": 3667.4,
+      "below_in_row": 0
+    },
+    {
+      "step": 18,
+      "target": 3800,
+      "achieved_mean": 3814.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 19,
+      "target": 4000,
+      "achieved_mean": 4000.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 20,
+      "target": 4200,
+      "achieved_mean": 1301.1,
+      "below_in_row": 1
+    },
+    {
+      "step": 21,
+      "target": 4400,
+      "achieved_mean": 0.0,
+      "below_in_row": 2
+    }
+  ],
+  "steps": [
+    {
+      "step": 0,
+      "target_rps": 200,
+      "begin_s": 10,
+      "end_s": 30,
+      "window_epoch": [
+        1792324985.377,
+        1792325000.377
+      ],
+      "sent_mean": 200.0,
+      "achieved_mean": 200.0,
+      "achieved_std": 0.0,
+      "p50_ms": 3.5,
+      "p95_ms": 5.23,
+      "p99_ms": 6.94,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 1,
+      "target_rps": 400,
+      "begin_s": 30,
+      "end_s": 50,
+      "window_epoch": [
+        1792325005.377,
+        1792325020.377
+      ],
+      "sent_mean": 400.0,
+      "achieved_mean": 400.0,
+      "achieved_std": 0.0,
+      "p50_ms": 3.43,
+      "p95_ms": 4.69,
+      "p99_ms": 6.35,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 2,
+      "target_rps": 600,
+      "begin_s": 50,
+      "end_s": 70,
+      "window_epoch": [
+        1792325025.377,
+        1792325040.377
+      ],
+      "sent_mean": 600.0,
+      "achieved_mean": 600.0,
+      "achieved_std": 0.0,
+      "p50_ms": 3.2,
+      "p95_ms": 4.77,
+      "p99_ms": 6.5,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 3,
+      "target_rps": 800,
+      "begin_s": 70,
+      "end_s": 90,
+      "window_epoch": [
+        1792325045.377,
+        1792325060.377
+      ],
+      "sent_mean": 800.0,
+      "achieved_mean": 800.0,
+      "achieved_std": 1.8,
+      "p50_ms": 3.24,
+      "p95_ms": 4.92,
+      "p99_ms": 12.34,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 4,
+      "target_rps": 1000,
+      "begin_s": 90,
+      "end_s": 110,
+      "window_epoch": [
+        1792325065.377,
+        1792325080.377
+      ],
+      "sent_mean": 1000.0,
+      "achieved_mean": 1000.0,
+      "achieved_std": 2.8,
+      "p50_ms": 2.77,
+      "p95_ms": 4.46,
+      "p99_ms": 9.03,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 5,
+      "target_rps": 1200,
+      "begin_s": 110,
+      "end_s": 130,
+      "window_epoch": [
+        1792325085.377,
+        1792325100.377
+      ],
+      "sent_mean": 1200.2,
+      "achieved_mean": 1200.0,
+      "achieved_std": 2.6,
+      "p50_ms": 2.55,
+      "p95_ms": 4.01,
+      "p99_ms": 9.27,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 6,
+      "target_rps": 1400,
+      "begin_s": 130,
+      "end_s": 150,
+      "window_epoch": [
+        1792325105.377,
+        1792325120.377
+      ],
+      "sent_mean": 1399.9,
+      "achieved_mean": 1399.8,
+      "achieved_std": 2.8,
+      "p50_ms": 2.41,
+      "p95_ms": 3.8,
+      "p99_ms": 8.6,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 7,
+      "target_rps": 1600,
+      "begin_s": 150,
+      "end_s": 170,
+      "window_epoch": [
+        1792325125.377,
+        1792325140.377
+      ],
+      "sent_mean": 1600.0,
+      "achieved_mean": 1600.0,
+      "achieved_std": 3.4,
+      "p50_ms": 2.06,
+      "p95_ms": 3.3,
+      "p99_ms": 5.86,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 8,
+      "target_rps": 1800,
+      "begin_s": 170,
+      "end_s": 190,
+      "window_epoch": [
+        1792325145.377,
+        1792325160.377
+      ],
+      "sent_mean": 1800.0,
+      "achieved_mean": 1800.0,
+      "achieved_std": 0.0,
+      "p50_ms": 1.94,
+      "p95_ms": 3.03,
+      "p99_ms": 9.95,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 9,
+      "target_rps": 2000,
+      "begin_s": 190,
+      "end_s": 210,
+      "window_epoch": [
+        1792325165.377,
+        1792325180.377
+      ],
+      "sent_mean": 1999.8,
+      "achieved_mean": 2000.0,
+      "achieved_std": 3.4,
+      "p50_ms": 1.84,
+      "p95_ms": 2.84,
+      "p99_ms": 8.83,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 10,
+      "target_rps": 2200,
+      "begin_s": 210,
+      "end_s": 230,
+      "window_epoch": [
+        1792325185.377,
+        1792325200.377
+      ],
+      "sent_mean": 2200.0,
+      "achieved_mean": 2200.0,
+      "achieved_std": 3.8,
+      "p50_ms": 1.74,
+      "p95_ms": 2.79,
+      "p99_ms": 10.87,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 11,
+      "target_rps": 2400,
+      "begin_s": 230,
+      "end_s": 250,
+      "window_epoch": [
+        1792325205.377,
+        1792325220.377
+      ],
+      "sent_mean": 2400.0,
+      "achieved_mean": 2399.8,
+      "achieved_std": 4.6,
+      "p50_ms": 1.72,
+      "p95_ms": 2.9,
+      "p99_ms": 19.51,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 12,
+      "target_rps": 2600,
+      "begin_s": 250,
+      "end_s": 270,
+      "window_epoch": [
+        1792325225.377,
+        1792325240.377
+      ],
+      "sent_mean": 2600.0,
+      "achieved_mean": 2600.0,
+      "achieved_std": 4.3,
+      "p50_ms": 1.67,
+      "p95_ms": 2.87,
+      "p99_ms": 18.13,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 13,
+      "target_rps": 2800,
+      "begin_s": 270,
+      "end_s": 290,
+      "window_epoch": [
+        1792325245.377,
+        1792325260.377
+      ],
+      "sent_mean": 2799.9,
+      "achieved_mean": 2799.9,
+      "achieved_std": 2.9,
+      "p50_ms": 1.62,
+      "p95_ms": 2.64,
+      "p99_ms": 16.97,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 14,
+      "target_rps": 3000,
+      "begin_s": 290,
+      "end_s": 310,
+      "window_epoch": [
+        1792325265.377,
+        1792325280.377
+      ],
+      "sent_mean": 3000.2,
+      "achieved_mean": 3000.3,
+      "achieved_std": 78.3,
+      "p50_ms": 1.58,
+      "p95_ms": 3.18,
+      "p99_ms": 36.58,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 15,
+      "target_rps": 3200,
+      "begin_s": 310,
+      "end_s": 330,
+      "window_epoch": [
+        1792325285.377,
+        1792325300.377
+      ],
+      "sent_mean": 3200.0,
+      "achieved_mean": 3199.9,
+      "achieved_std": 105.9,
+      "p50_ms": 1.55,
+      "p95_ms": 5.07,
+      "p99_ms": 75.98,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 16,
+      "target_rps": 3400,
+      "begin_s": 330,
+      "end_s": 350,
+      "window_epoch": [
+        1792325305.377,
+        1792325320.377
+      ],
+      "sent_mean": 3400.0,
+      "achieved_mean": 3324.6,
+      "achieved_std": 882.7,
+      "p50_ms": 2.22,
+      "p95_ms": 802.31,
+      "p99_ms": 1257.72,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 17,
+      "target_rps": 3600,
+      "begin_s": 350,
+      "end_s": 370,
+      "window_epoch": [
+        1792325325.377,
+        1792325340.377
+      ],
+      "sent_mean": 3600.0,
+      "achieved_mean": 3667.4,
+      "achieved_std": 327.2,
+      "p50_ms": 1.62,
+      "p95_ms": 152.29,
+      "p99_ms": 412.5,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 18,
+      "target_rps": 3800,
+      "begin_s": 370,
+      "end_s": 390,
+      "window_epoch": [
+        1792325345.377,
+        1792325360.377
+      ],
+      "sent_mean": 3800.0,
+      "achieved_mean": 3814.9,
+      "achieved_std": 211.3,
+      "p50_ms": 1.41,
+      "p95_ms": 54.34,
+      "p99_ms": 150.71,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 19,
+      "target_rps": 4000,
+      "begin_s": 390,
+      "end_s": 410,
+      "window_epoch": [
+        1792325365.377,
+        1792325380.377
+      ],
+      "sent_mean": 4000.0,
+      "achieved_mean": 4000.0,
+      "achieved_std": 70.4,
+      "p50_ms": 1.33,
+      "p95_ms": 26.98,
+      "p99_ms": 90.37,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 20,
+      "target_rps": 4200,
+      "begin_s": 410,
+      "end_s": 430,
+      "window_epoch": [
+        1792325385.377,
+        1792325400.377
+      ],
+      "sent_mean": 2156.9,
+      "achieved_mean": 1301.1,
+      "achieved_std": 1749.4,
+      "p50_ms": 1278.35,
+      "p95_ms": 5108.69,
+      "p99_ms": 5486.38,
+      "non_2xx_share": 0.39916,
+      "conn_errors": 10
+    },
+    {
+      "step": 21,
+      "target_rps": 4400,
+      "begin_s": 430,
+      "end_s": 450,
+      "window_epoch": [
+        1792325405.377,
+        1792325420.377
+      ],
+      "sent_mean": 1231.9,
+      "achieved_mean": 0.0,
+      "achieved_std": 0.0,
+      "p50_ms": 13443.71,
+      "p95_ms": 16849.79,
+      "p99_ms": 18773.36,
+      "non_2xx_share": 1.0,
+      "conn_errors": 14466
+    }
+  ],
+  "X": {
+    "step": 19,
+    "target_rps": 4000,
+    "begin_s": 390,
+    "end_s": 410,
+    "window_epoch": [
+      1792325365.377,
+      1792325380.377
+    ],
+    "sent_mean": 4000.0,
+    "achieved_mean": 4000.0,
+    "achieved_std": 70.4,
+    "p50_ms": 1.33,
+    "p95_ms": 26.98,
+    "p99_ms": 90.37,
+    "non_2xx_share": 0.0,
+    "conn_errors": 0
+  },
+  "pods": {
+    "3a2d541e6971": 441224,
+    "fb40f658f7c5": 444233
+  },
+  "error_kinds": {
+    "Timeout": 74372,
+    "ConnectionResetError": 7751,
+    "TimeoutError:60": 51619
+  }
+}

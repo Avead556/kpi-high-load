@@ -1,0 +1,194 @@
+[
+  {
+    "label": "r2",
+    "target_rps": 10,
+    "median_run": 2,
+    "offered_rps": 10.0,
+    "achieved_rps": 10.0,
+    "p50_ms": 5.92,
+    "p95_ms": 11.01,
+    "p99_ms": 12.0,
+    "mean_ms": 6.46,
+    "non_2xx_share": 0.0,
+    "measured_L": 0.069,
+    "on_wire_mean": 0.051,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 1.4,
+      "vaccine-lots-lb-1": 0.4,
+      "vaccine-lots-web-1": 11.3,
+      "vaccine-lots-web-2": 9.3
+    },
+    "host_cpu_busy_pct": 27.1,
+    "instances": {
+      "96425e32d84a": 150,
+      "7034f5fbe703": 150
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 10.0,
+        "achieved_rps": 10.0,
+        "p50_ms": 6.33,
+        "p95_ms": 10.03,
+        "p99_ms": 12.86,
+        "mean_ms": 6.37,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.067,
+        "on_wire_mean": 0.05
+      },
+      {
+        "run": 2,
+        "offered_rps": 10.0,
+        "achieved_rps": 10.0,
+        "p50_ms": 5.92,
+        "p95_ms": 11.01,
+        "p99_ms": 12.0,
+        "mean_ms": 6.46,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.069,
+        "on_wire_mean": 0.051
+      },
+      {
+        "run": 3,
+        "offered_rps": 10.0,
+        "achieved_rps": 10.0,
+        "p50_ms": 6.01,
+        "p95_ms": 10.16,
+        "p99_ms": 11.6,
+        "mean_ms": 6.36,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.068,
+        "on_wire_mean": 0.051
+      }
+    ]
+  },
+  {
+    "label": "r2",
+    "target_rps": 100,
+    "median_run": 2,
+    "offered_rps": 100.0,
+    "achieved_rps": 100.0,
+    "p50_ms": 4.43,
+    "p95_ms": 6.67,
+    "p99_ms": 7.65,
+    "mean_ms": 4.47,
+    "non_2xx_share": 0.0,
+    "measured_L": 0.442,
+    "on_wire_mean": 0.278,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 3.3,
+      "vaccine-lots-lb-1": 2.2,
+      "vaccine-lots-web-1": 13.9,
+      "vaccine-lots-web-2": 16.3
+    },
+    "host_cpu_busy_pct": 28.4,
+    "instances": {
+      "96425e32d84a": 1500,
+      "7034f5fbe703": 1500
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 100.0,
+        "achieved_rps": 100.0,
+        "p50_ms": 4.32,
+        "p95_ms": 6.66,
+        "p99_ms": 7.6,
+        "mean_ms": 4.36,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.438,
+        "on_wire_mean": 0.281
+      },
+      {
+        "run": 2,
+        "offered_rps": 100.0,
+        "achieved_rps": 100.0,
+        "p50_ms": 4.43,
+        "p95_ms": 6.67,
+        "p99_ms": 7.65,
+        "mean_ms": 4.47,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.442,
+        "on_wire_mean": 0.278
+      },
+      {
+        "run": 3,
+        "offered_rps": 100.0,
+        "achieved_rps": 100.0,
+        "p50_ms": 4.39,
+        "p95_ms": 6.82,
+        "p99_ms": 7.86,
+        "mean_ms": 4.42,
+        "non_2xx_share": 0.0,
+        "measured_L": 0.438,
+        "on_wire_mean": 0.281
+      }
+    ]
+  },
+  {
+    "label": "r2",
+    "target_rps": 500,
+    "median_run": 1,
+    "offered_rps": 499.73,
+    "achieved_rps": 499.77,
+    "p50_ms": 2.84,
+    "p95_ms": 4.28,
+    "p99_ms": 6.89,
+    "mean_ms": 2.82,
+    "non_2xx_share": 0.0,
+    "measured_L": 1.435,
+    "on_wire_mean": 0.768,
+    "container_cpu_pct": {
+      "vaccine-lots-db-1": 6.7,
+      "vaccine-lots-lb-1": 5.2,
+      "vaccine-lots-web-1": 23.5,
+      "vaccine-lots-web-2": 23.1
+    },
+    "host_cpu_busy_pct": 33.4,
+    "instances": {
+      "96425e32d84a": 7496,
+      "7034f5fbe703": 7496
+    },
+    "errors": {},
+    "runs": [
+      {
+        "run": 1,
+        "offered_rps": 499.73,
+        "achieved_rps": 499.77,
+        "p50_ms": 2.84,
+        "p95_ms": 4.28,
+        "p99_ms": 6.89,
+        "mean_ms": 2.82,
+        "non_2xx_share": 0.0,
+        "measured_L": 1.435,
+        "on_wire_mean": 0.768
+      },
+      {
+        "run": 2,
+        "offered_rps": 499.73,
+        "achieved_rps": 499.77,
+        "p50_ms": 2.84,
+        "p95_ms": 4.17,
+        "p99_ms": 5.83,
+        "mean_ms": 2.77,
+        "non_2xx_share": 0.0,
+        "measured_L": 1.445,
+        "on_wire_mean": 0.751
+      },
+      {
+        "run": 3,
+        "offered_rps": 499.73,
+        "achieved_rps": 499.73,
+        "p50_ms": 2.79,
+        "p95_ms": 4.38,
+        "p99_ms": 8.34,
+        "mean_ms": 2.84,
+        "non_2xx_share": 0.0,
+        "measured_L": 1.471,
+        "on_wire_mean": 0.803
+      }
+    ]
+  }
+]

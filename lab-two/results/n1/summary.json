@@ -1,0 +1,499 @@
+{
+  "path": "/vaccine-lots/{id}",
+  "procs": 12,
+  "conn_limit_total": 15000,
+  "timeout_s": 5.0,
+  "warmup_s": 10,
+  "warmup_rate": 200,
+  "step_rps": 200,
+  "step_seconds": 20,
+  "g": 8000.3,
+  "start_epoch": 1792324488.9,
+  "stopped_at_s": 392,
+  "decisions": [
+    {
+      "step": 0,
+      "target": 200,
+      "achieved_mean": 200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 1,
+      "target": 400,
+      "achieved_mean": 400.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 2,
+      "target": 600,
+      "achieved_mean": 600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 3,
+      "target": 800,
+      "achieved_mean": 800.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 4,
+      "target": 1000,
+      "achieved_mean": 999.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 5,
+      "target": 1200,
+      "achieved_mean": 1200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 6,
+      "target": 1400,
+      "achieved_mean": 1399.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 7,
+      "target": 1600,
+      "achieved_mean": 1600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 8,
+      "target": 1800,
+      "achieved_mean": 1800.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 9,
+      "target": 2000,
+      "achieved_mean": 2000.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 10,
+      "target": 2200,
+      "achieved_mean": 2199.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 11,
+      "target": 2400,
+      "achieved_mean": 2400.1,
+      "below_in_row": 0
+    },
+    {
+      "step": 12,
+      "target": 2600,
+      "achieved_mean": 2600.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 13,
+      "target": 2800,
+      "achieved_mean": 2800.9,
+      "below_in_row": 0
+    },
+    {
+      "step": 14,
+      "target": 3000,
+      "achieved_mean": 3000.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 15,
+      "target": 3200,
+      "achieved_mean": 3200.0,
+      "below_in_row": 0
+    },
+    {
+      "step": 16,
+      "target": 3400,
+      "achieved_mean": 3400.3,
+      "below_in_row": 0
+    },
+    {
+      "step": 17,
+      "target": 3600,
+      "achieved_mean": 674.5,
+      "below_in_row": 1
+    },
+    {
+      "step": 18,
+      "target": 3800,
+      "achieved_mean": 0.1,
+      "below_in_row": 2
+    }
+  ],
+  "steps": [
+    {
+      "step": 0,
+      "target_rps": 200,
+      "begin_s": 10,
+      "end_s": 30,
+      "window_epoch": [
+        1792324503.9,
+        1792324518.9
+      ],
+      "sent_mean": 200.0,
+      "achieved_mean": 200.0,
+      "achieved_std": 0.0,
+      "p50_ms": 3.6,
+      "p95_ms": 5.92,
+      "p99_ms": 7.93,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 1,
+      "target_rps": 400,
+      "begin_s": 30,
+      "end_s": 50,
+      "window_epoch": [
+        1792324523.9,
+        1792324538.9
+      ],
+      "sent_mean": 400.0,
+      "achieved_mean": 400.0,
+      "achieved_std": 0.8,
+      "p50_ms": 3.23,
+      "p95_ms": 4.68,
+      "p99_ms": 6.9,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 2,
+      "target_rps": 600,
+      "begin_s": 50,
+      "end_s": 70,
+      "window_epoch": [
+        1792324543.9,
+        1792324558.9
+      ],
+      "sent_mean": 600.0,
+      "achieved_mean": 600.0,
+      "achieved_std": 0.0,
+      "p50_ms": 3.33,
+      "p95_ms": 4.73,
+      "p99_ms": 6.08,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 3,
+      "target_rps": 800,
+      "begin_s": 70,
+      "end_s": 90,
+      "window_epoch": [
+        1792324563.9,
+        1792324578.9
+      ],
+      "sent_mean": 800.0,
+      "achieved_mean": 800.0,
+      "achieved_std": 1.7,
+      "p50_ms": 3.25,
+      "p95_ms": 5.07,
+      "p99_ms": 7.77,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 4,
+      "target_rps": 1000,
+      "begin_s": 90,
+      "end_s": 110,
+      "window_epoch": [
+        1792324583.9,
+        1792324598.9
+      ],
+      "sent_mean": 999.7,
+      "achieved_mean": 999.9,
+      "achieved_std": 3.1,
+      "p50_ms": 2.83,
+      "p95_ms": 4.59,
+      "p99_ms": 7.41,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 5,
+      "target_rps": 1200,
+      "begin_s": 110,
+      "end_s": 130,
+      "window_epoch": [
+        1792324603.9,
+        1792324618.9
+      ],
+      "sent_mean": 1200.1,
+      "achieved_mean": 1200.0,
+      "achieved_std": 0.0,
+      "p50_ms": 2.69,
+      "p95_ms": 4.17,
+      "p99_ms": 8.53,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 6,
+      "target_rps": 1400,
+      "begin_s": 130,
+      "end_s": 150,
+      "window_epoch": [
+        1792324623.9,
+        1792324638.9
+      ],
+      "sent_mean": 1400.1,
+      "achieved_mean": 1399.9,
+      "achieved_std": 2.1,
+      "p50_ms": 2.43,
+      "p95_ms": 3.81,
+      "p99_ms": 11.61,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 7,
+      "target_rps": 1600,
+      "begin_s": 150,
+      "end_s": 170,
+      "window_epoch": [
+        1792324643.9,
+        1792324658.9
+      ],
+      "sent_mean": 1600.0,
+      "achieved_mean": 1600.0,
+      "achieved_std": 3.0,
+      "p50_ms": 2.21,
+      "p95_ms": 3.72,
+      "p99_ms": 16.88,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 8,
+      "target_rps": 1800,
+      "begin_s": 170,
+      "end_s": 190,
+      "window_epoch": [
+        1792324663.9,
+        1792324678.9
+      ],
+      "sent_mean": 1800.0,
+      "achieved_mean": 1800.0,
+      "achieved_std": 3.0,
+      "p50_ms": 2.09,
+      "p95_ms": 3.25,
+      "p99_ms": 13.66,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 9,
+      "target_rps": 2000,
+      "begin_s": 190,
+      "end_s": 210,
+      "window_epoch": [
+        1792324683.9,
+        1792324698.9
+      ],
+      "sent_mean": 1999.9,
+      "achieved_mean": 2000.0,
+      "achieved_std": 3.8,
+      "p50_ms": 1.98,
+      "p95_ms": 3.25,
+      "p99_ms": 23.27,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 10,
+      "target_rps": 2200,
+      "begin_s": 210,
+      "end_s": 230,
+      "window_epoch": [
+        1792324703.9,
+        1792324718.9
+      ],
+      "sent_mean": 2200.0,
+      "achieved_mean": 2199.9,
+      "achieved_std": 3.9,
+      "p50_ms": 1.9,
+      "p95_ms": 3.97,
+      "p99_ms": 28.98,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 11,
+      "target_rps": 2400,
+      "begin_s": 230,
+      "end_s": 250,
+      "window_epoch": [
+        1792324723.9,
+        1792324738.9
+      ],
+      "sent_mean": 2400.1,
+      "achieved_mean": 2400.1,
+      "achieved_std": 2.6,
+      "p50_ms": 1.81,
+      "p95_ms": 3.08,
+      "p99_ms": 23.67,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 12,
+      "target_rps": 2600,
+      "begin_s": 250,
+      "end_s": 270,
+      "window_epoch": [
+        1792324743.9,
+        1792324758.9
+      ],
+      "sent_mean": 2600.0,
+      "achieved_mean": 2600.0,
+      "achieved_std": 36.0,
+      "p50_ms": 1.81,
+      "p95_ms": 4.76,
+      "p99_ms": 43.47,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 13,
+      "target_rps": 2800,
+      "begin_s": 270,
+      "end_s": 290,
+      "window_epoch": [
+        1792324763.9,
+        1792324778.9
+      ],
+      "sent_mean": 2799.6,
+      "achieved_mean": 2800.9,
+      "achieved_std": 79.9,
+      "p50_ms": 1.79,
+      "p95_ms": 11.22,
+      "p99_ms": 64.39,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 14,
+      "target_rps": 3000,
+      "begin_s": 290,
+      "end_s": 310,
+      "window_epoch": [
+        1792324783.9,
+        1792324798.9
+      ],
+      "sent_mean": 3000.0,
+      "achieved_mean": 3000.0,
+      "achieved_std": 8.9,
+      "p50_ms": 1.74,
+      "p95_ms": 24.04,
+      "p99_ms": 59.41,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 15,
+      "target_rps": 3200,
+      "begin_s": 310,
+      "end_s": 330,
+      "window_epoch": [
+        1792324803.9,
+        1792324818.9
+      ],
+      "sent_mean": 3200.0,
+      "achieved_mean": 3200.0,
+      "achieved_std": 42.8,
+      "p50_ms": 1.69,
+      "p95_ms": 37.52,
+      "p99_ms": 86.74,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 16,
+      "target_rps": 3400,
+      "begin_s": 330,
+      "end_s": 350,
+      "window_epoch": [
+        1792324823.9,
+        1792324838.9
+      ],
+      "sent_mean": 3400.1,
+      "achieved_mean": 3400.3,
+      "achieved_std": 147.7,
+      "p50_ms": 1.71,
+      "p95_ms": 83.28,
+      "p99_ms": 166.47,
+      "non_2xx_share": 0.0,
+      "conn_errors": 0
+    },
+    {
+      "step": 17,
+      "target_rps": 3600,
+      "begin_s": 350,
+      "end_s": 370,
+      "window_epoch": [
+        1792324843.9,
+        1792324858.9
+      ],
+      "sent_mean": 2243.4,
+      "achieved_mean": 674.5,
+      "achieved_std": 1122.4,
+      "p50_ms": 5000.68,
+      "p95_ms": 5589.66,
+      "p99_ms": 7799.73,
+      "non_2xx_share": 0.64435,
+      "conn_errors": 2844
+    },
+    {
+      "step": 18,
+      "target_rps": 3800,
+      "begin_s": 370,
+      "end_s": 390,
+      "window_epoch": [
+        1792324863.9,
+        1792324878.9
+      ],
+      "sent_mean": 1168.8,
+      "achieved_mean": 0.1,
+      "achieved_std": 0.3,
+      "p50_ms": 13517.85,
+      "p95_ms": 16469.75,
+      "p99_ms": 21903.33,
+      "non_2xx_share": 0.99997,
+      "conn_errors": 16422
+    }
+  ],
+  "X": {
+    "step": 16,
+    "target_rps": 3400,
+    "begin_s": 330,
+    "end_s": 350,
+    "window_epoch": [
+      1792324823.9,
+      1792324838.9
+    ],
+    "sent_mean": 3400.1,
+    "achieved_mean": 3400.3,
+    "achieved_std": 147.7,
+    "p50_ms": 1.71,
+    "p95_ms": 83.28,
+    "p99_ms": 166.47,
+    "non_2xx_share": 0.0,
+    "conn_errors": 0
+  },
+  "pods": {
+    "fb40f658f7c5": 639364
+  },
+  "error_kinds": {
+    "Timeout": 57142,
+    "ConnectionResetError": 16928,
+    "TimeoutError:60": 53178
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pdb": "no",
+  "rate": 6000.0,
+  "node": "lab3-worker",
+  "pods_before": {
+    "lab3-worker2": 1,
+    "lab3-worker": 2
+  },
+  "drain": {
+    "start": 30.001242876052856,
+    "end": 37.114051818847656,
+    "rc": 0
+  },
+  "start_epoch": 1793926530.1965172
+}

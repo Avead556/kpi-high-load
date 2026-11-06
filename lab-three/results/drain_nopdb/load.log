@@ -1,0 +1,3 @@
+segment 0-30s target 6000: achieved 5993.4, p99 605.01 ms, non-2xx 0
+segment 30-150s target 6000: achieved 5459.4, p99 5000.52 ms, non-2xx 35135
+totals {'scheduled': 900065, 'sent': 880770, 'achieved': 853106, 'non_2xx': 46959, 'conn_errors': 0, 'conns_opened': 8821} errors {'Timeout': 27664, 'Timeout waiting for connection': 19295}

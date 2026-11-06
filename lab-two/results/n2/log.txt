@@ -1,0 +1,24 @@
+step  0 target    200 achieved     200.0
+step  1 target    400 achieved     400.0
+step  2 target    600 achieved     600.0
+step  3 target    800 achieved     800.0
+step  4 target   1000 achieved    1000.0
+step  5 target   1200 achieved    1200.0
+step  6 target   1400 achieved    1399.8
+step  7 target   1600 achieved    1600.0
+step  8 target   1800 achieved    1800.0
+step  9 target   2000 achieved    2000.0
+step 10 target   2200 achieved    2200.0
+step 11 target   2400 achieved    2399.8
+step 12 target   2600 achieved    2600.0
+step 13 target   2800 achieved    2799.9
+step 14 target   3000 achieved    3000.3
+step 15 target   3200 achieved    3199.9
+step 16 target   3400 achieved    3324.6
+step 17 target   3600 achieved    3667.4
+step 18 target   3800 achieved    3814.9
+step 19 target   4000 achieved    4000.0
+step 20 target   4200 achieved    1301.1
+step 21 target   4400 achieved       0.0
+X = 4000.0 +- 70.4 rps at step target 4000, p99 client 90.37 ms, non-2xx share 0.0
+pods {'3a2d541e6971': 441224, 'fb40f658f7c5': 444233} errors {'Timeout': 74372, 'ConnectionResetError': 7751, 'TimeoutError:60': 51619}

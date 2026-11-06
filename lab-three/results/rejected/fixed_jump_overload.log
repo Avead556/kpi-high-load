@@ -1,0 +1,7 @@
+deployment.apps/web scaled
+deployment "web" successfully rolled out
+segment 0-30s target 1615: achieved 1614.9, p99 16.61 ms, non-2xx 0
+segment 30-90s target 8077: achieved 7211.7, p99 5000.32 ms, non-2xx 12596
+segment 90-180s target 1615: achieved 2050.8, p99 4905.5 ms, non-2xx 115
+totals {'scheduled': 678443, 'sent': 673170, 'achieved': 665732, 'non_2xx': 12711, 'conn_errors': 0, 'conns_opened': 6744} errors {'Timeout': 7438, 'Timeout waiting for connection': 5273}
+exported {'requests': 3, 'buckets': 36, 'cfs_periods': 3, 'cfs_throttled': 3, 'cpu_seconds': 3, 'cpu_rate': 3, 'ready': 1, 'desired': 0, 'pod_node': 4, 'pg_connections': 1}

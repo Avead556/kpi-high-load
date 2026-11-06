@@ -1,0 +1,23 @@
+{
+  "path": "/vaccine-lots/{id}",
+  "procs": 12,
+  "conn_limit_total": 15000,
+  "timeout_s": 5.0,
+  "warmup_s": 5.0,
+  "warmup_rate": 200,
+  "step_rps": 200,
+  "step_seconds": 20,
+  "g": null,
+  "start_epoch": 1792326925.294,
+  "stopped_at_s": 35,
+  "decisions": [],
+  "steps": [],
+  "X": null,
+  "pods": {
+    "ec3c7a0565ed": 34714,
+    "3a2d541e6971": 34713,
+    "06ee0811f4c9": 34713,
+    "fb40f658f7c5": 34713
+  },
+  "error_kinds": {}
+}

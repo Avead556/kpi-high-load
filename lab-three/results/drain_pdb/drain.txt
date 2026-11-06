@@ -1,0 +1,11 @@
+node/lab3-worker cordoned
+evicting pod vaccines/web-79d5499db8-xbfpg
+evicting pod vaccines/web-79d5499db8-b4zph
+evicting pod vaccines/web-79d5499db8-b4zph
+pod/web-79d5499db8-xbfpg evicted
+evicting pod vaccines/web-79d5499db8-b4zph
+pod/web-79d5499db8-b4zph evicted
+node/lab3-worker drained
+Warning: ignoring DaemonSet-managed Pods: kube-system/kindnet-vkhfz, kube-system/kube-proxy-ds57g
+error when evicting pods/"web-79d5499db8-b4zph" -n "vaccines" (will retry after 5s): Cannot evict pod as it would violate the pod's disruption budget.
+error when evicting pods/"web-79d5499db8-b4zph" -n "vaccines" (will retry after 5s): Cannot evict pod as it would violate the pod's disruption budget.

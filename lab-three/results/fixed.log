@@ -1,0 +1,4 @@
+segment 0-30s target 1615: achieved 1614.9, p99 9.88 ms, non-2xx 0
+segment 30-90s target 8077: achieved 8076.1, p99 139.96 ms, non-2xx 0
+segment 90-180s target 1615: achieved 1615.8, p99 14.03 ms, non-2xx 0
+totals {'scheduled': 678443, 'sent': 678443, 'achieved': 678443, 'non_2xx': 0, 'conn_errors': 0, 'conns_opened': 6795} errors {}

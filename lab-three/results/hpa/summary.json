@@ -1,0 +1,79 @@
+{
+  "path": "/vaccine-lots/{id}",
+  "url": "http://127.0.0.1:8080",
+  "procs": 8,
+  "conns": 24,
+  "per_conn": 100,
+  "timeout_s": 5.0,
+  "warmup_s": 0,
+  "warmup_rate": 200,
+  "start_rps": 200,
+  "step_rps": 200,
+  "step_seconds": 30,
+  "window_s": 20,
+  "profile": [
+    [
+      30.0,
+      1615.0
+    ],
+    [
+      60.0,
+      8077.0
+    ],
+    [
+      90.0,
+      1615.0
+    ]
+  ],
+  "start_epoch": 1793925649.448,
+  "stopped_at_s": 180,
+  "decisions": [],
+  "steps": [],
+  "segments": [
+    {
+      "begin_s": 0,
+      "end_s": 30.0,
+      "target_rps": 1615.0,
+      "achieved_mean": 1614.9,
+      "p50_ms": 1.59,
+      "p99_ms": 37.54,
+      "non_2xx": 0
+    },
+    {
+      "begin_s": 30.0,
+      "end_s": 90.0,
+      "target_rps": 8077.0,
+      "achieved_mean": 6810.4,
+      "p50_ms": 4622.83,
+      "p99_ms": 5000.18,
+      "non_2xx": 36891
+    },
+    {
+      "begin_s": 90.0,
+      "end_s": 180.0,
+      "target_rps": 1615.0,
+      "achieved_mean": 2044.7,
+      "p50_ms": 2.91,
+      "p99_ms": 4989.17,
+      "non_2xx": 456
+    }
+  ],
+  "X": null,
+  "pods_total": {
+    "web-f665c499f-62nfh": 122678,
+    "web-f665c499f-c9mh9": 290338,
+    "web-f665c499f-pjfrn": 228080
+  },
+  "error_kinds": {
+    "Timeout": 26268,
+    "Timeout waiting for connection": 11079
+  },
+  "totals": {
+    "scheduled": 678443,
+    "sent": 667364,
+    "achieved": 641096,
+    "non_2xx": 37347,
+    "conn_errors": 0,
+    "conns_opened": 6688
+  }
+}

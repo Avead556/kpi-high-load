@@ -1,0 +1,34 @@
+== targets
+    ('podMonitor/monitoring/web/0', 'up') 3
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-apiserver/0', 'up') 1
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-kubelet/0', 'up') 3
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-kubelet/1', 'up') 3
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-operator/0', 'up') 1
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-prometheus/0', 'up') 1
+    ('serviceMonitor/monitoring/kps-kube-prometheus-stack-prometheus/1', 'up') 1
+    ('serviceMonitor/monitoring/kps-kube-state-metrics/0', 'up') 1
+    ('serviceMonitor/vaccines/pg-exporter-prometheus-postgres-exporter/0', 'up') 1
+== requests per web pod
+    {'pod': 'web-76484bc4b8-dxf56'} 183276
+    {'pod': 'web-76484bc4b8-8sj9w'} 178302
+    {'pod': 'web-76484bc4b8-d24pt'} 176163
+== CFS periods (web)
+    {'__name__': 'container_cpu_cfs_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-dxf56'} 2410
+    {'__name__': 'container_cpu_cfs_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-8sj9w'} 2362
+    {'__name__': 'container_cpu_cfs_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-d24pt'} 2414
+== CFS throttled (web)
+    {'__name__': 'container_cpu_cfs_throttled_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-dxf56'} 2
+    {'__name__': 'container_cpu_cfs_throttled_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-8sj9w'} 3
+    {'__name__': 'container_cpu_cfs_throttled_periods_total', 'container': 'web', 'pod': 'web-76484bc4b8-d24pt'} 2
+== ready replicas
+    {'__name__': 'kube_deployment_status_replicas_ready', 'container': 'kube-state-metrics', 'deployment': 'web', 'pod': 'kps-kube-state-metrics-77674766c9-4vt22'} 3
+== postgres exporter
+    {'__name__': 'pg_up', 'container': 'prometheus-postgres-exporter', 'pod': 'pg-exporter-prometheus-postgres-exporter-dc966bc64-vn5m7'} 1
+    {'__name__': 'pg_settings_max_connections', 'container': 'prometheus-postgres-exporter', 'pod': 'pg-exporter-prometheus-postgres-exporter-dc966bc64-vn5m7'} 100
+== kubectl top pods
+NAME                                                       CPU(cores)   MEMORY(bytes)   
+pg-exporter-prometheus-postgres-exporter-dc966bc64-vn5m7   5m           16Mi            
+postgres-0                                                 12m          80Mi            
+web-76484bc4b8-8sj9w                                       8m           41Mi            
+web-76484bc4b8-d24pt                                       13m          41Mi            
+web-76484bc4b8-dxf56                                       13m          41Mi            
