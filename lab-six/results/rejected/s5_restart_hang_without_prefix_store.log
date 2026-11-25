@@ -1,0 +1,89 @@
+W1125 02:41:21.679000 5402 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+W1125 02:41:24.525000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5405 closing signal SIGTERM
+W1125 02:41:24.526000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5406 closing signal SIGTERM
+W1125 02:41:24.526000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5407 closing signal SIGTERM
+E1125 02:41:24.564000 5402 torch/distributed/elastic/multiprocessing/api.py:1002] failed (exitcode: 1) local_rank: 3 (pid: 5408) of binary: /Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/bin/python3.14
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/train.py", line 253, in <module>
+[rank1]:     main()
+[rank1]:     ~~~~^^
+[rank1]:   File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/train.py", line 238, in main
+[rank1]:     t = Trainer(a)
+[rank1]:   File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/train.py", line 65, in __init__
+[rank1]:     self.model = DDP(self.base) if args.mode in ("ddp", "ddp_nosync") else self.base
+[rank1]:                  ~~~^^^^^^^^^^^
+[rank1]:   File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/nn/parallel/distributed.py", line 1076, in __init__
+[rank1]:     _verify_param_shape_across_processes(self.process_group, parameters)
+[rank1]:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/utils.py", line 299, in _verify_param_shape_across_processes
+[rank1]:     return dist._verify_params_across_processes(process_group, tensors, logger)
+[rank1]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: RuntimeError: [/Users/runner/work/pytorch/pytorch/third_party/gloo/gloo/transport/uv/unbound_buffer.cc:101] Timed out waiting 120000ms for send operation to complete
+W1125 02:43:27.488000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5420 closing signal SIGTERM
+W1125 02:43:27.489000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5422 closing signal SIGTERM
+W1125 02:43:27.489000 5402 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 5423 closing signal SIGTERM
+E1125 02:43:27.526000 5402 torch/distributed/elastic/multiprocessing/api.py:1002] failed (exitcode: 1) local_rank: 1 (pid: 5421) of binary: /Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/bin/python3.14
+Traceback (most recent call last):
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 384, in wrapper
+    result = f(*args, **kwargs)
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/run.py", line 1138, in main
+    run(args)
+    ~~~^^^^^^
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/run.py", line 1129, in run
+    elastic_launch(
+    ~~~~~~~~~~~~~~~
+        config=config,
+        ~~~~~~~~~~~~~~
+        entrypoint=cmd,
+        ~~~~~~~~~~~~~~~
+    )(*cmd_args)
+    ~^^^^^^^^^^^
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/launcher/api.py", line 197, in __call__
+    return launch_agent(
+        self._config,
+    ...<2 lines>...
+        health_check_server=self._health_check_server,
+    )
+  File "/Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/lib/python3.14/site-packages/torch/distributed/launcher/api.py", line 386, in launch_agent
+    raise ChildFailedError(
+    ...<2 lines>...
+    )
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-11-25_02:43:27
+  host      : MacBook-Pro-Daniil.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 5420)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 5420
+[2]:
+  time      : 2026-11-25_02:43:27
+  host      : MacBook-Pro-Daniil.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : -15 (pid: 5422)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 5422
+[3]:
+  time      : 2026-11-25_02:43:27
+  host      : MacBook-Pro-Daniil.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : -15 (pid: 5423)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 5423
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-11-25_02:43:27
+  host      : MacBook-Pro-Daniil.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 5421) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

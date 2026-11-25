@@ -1,0 +1,6 @@
+{"steps_total": 216, "steps_per_epoch": 72, "train_seconds_this_attempt": 4.391366958618164, "ACC": 0.357, "AUC": 0.7009813333333333, "max_loss_last_epoch": 1.2603589296340942, "loss_first": 1.1164062023162842, "loss_last": 0.8843615651130676, "weight_sum_spread": 0.0, "mode": "ddp", "task": "train", "P": 4, "B": 96, "b": 24, "lr": 0.02, "epochs": 3, "n_th": 3, "torch": "2.15.0"}
+W1125 02:48:25.111000 7773 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+W1125 02:48:29.557000 7773 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 7795 closing signal SIGTERM
+W1125 02:48:29.557000 7773 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 7796 closing signal SIGTERM
+W1125 02:48:29.557000 7773 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 7797 closing signal SIGTERM
+E1125 02:48:29.581000 7773 torch/distributed/elastic/multiprocessing/api.py:1002] failed (exitcode: 1) local_rank: 3 (pid: 7798) of binary: /Users/daniilpitertsev/Documents/projects/kpi/high-load/lab-six/.venv/bin/python3.14

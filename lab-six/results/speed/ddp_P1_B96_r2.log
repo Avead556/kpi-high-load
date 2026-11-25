@@ -1,0 +1,2 @@
+{"t_step_ms": 22.712771000442444, "t_total_s": 1.1546302919996378, "X": 4157.1748405172675, "t_step_mean_ms": 23.090734239885933, "per_rank": [{"t_step_ms": 22.712771000442444, "t_total_s": 1.1546302919996378}], "ddp_buckets": {"bucket_sizes": "3291664", "bucket_cap_bytes": 26214400}, "mode": "ddp", "task": "speed", "P": 1, "B": 96, "b": 96, "lr": 0.02, "epochs": 3, "n_th": 3, "torch": "2.15.0"}
+W1125 02:50:40.721000 8434 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.

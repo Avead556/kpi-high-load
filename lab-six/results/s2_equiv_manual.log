@@ -1,0 +1,2 @@
+{"grad_ratio_max": 2.258081622130703e-06, "weight_sums": [-45.92076750156527, -45.92076750156527, -45.92076750156527, -45.92076750156527], "weight_sum_spread": 0.0, "mode": "manual", "task": "equiv", "P": 4, "B": 96, "b": 24, "lr": 0.02, "epochs": 3, "n_th": 3, "torch": "2.15.0"}
+W1125 02:38:04.414000 4084 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.

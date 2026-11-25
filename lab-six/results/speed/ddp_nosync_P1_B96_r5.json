@@ -1,0 +1,25 @@
+{
+ "t_step_ms": 31.265729499864392,
+ "t_total_s": 1.72054449999996,
+ "X": 2789.814503490094,
+ "t_step_mean_ms": 34.40901171976293,
+ "per_rank": [
+  {
+   "t_step_ms": 31.265729499864392,
+   "t_total_s": 1.72054449999996
+  }
+ ],
+ "ddp_buckets": {
+  "bucket_sizes": "3291664",
+  "bucket_cap_bytes": 26214400
+ },
+ "mode": "ddp_nosync",
+ "task": "speed",
+ "P": 1,
+ "B": 96,
+ "b": 96,
+ "lr": 0.02,
+ "epochs": 3,
+ "n_th": 3,
+ "torch": "2.15.0"
+}

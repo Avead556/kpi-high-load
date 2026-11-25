@@ -1,0 +1,19 @@
+{
+ "steps_total": 216,
+ "steps_per_epoch": 72,
+ "train_seconds_this_attempt": 4.0230207443237305,
+ "ACC": 0.357,
+ "AUC": 0.7007906666666667,
+ "max_loss_last_epoch": 1.259258508682251,
+ "loss_first": 1.402101993560791,
+ "loss_last": 0.8850674033164978,
+ "mode": "single",
+ "task": "train",
+ "P": 1,
+ "B": 96,
+ "b": 96,
+ "lr": 0.02,
+ "epochs": 3,
+ "n_th": 3,
+ "torch": "2.15.0"
+}

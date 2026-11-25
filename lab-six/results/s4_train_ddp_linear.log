@@ -1,0 +1,2 @@
+{"steps_total": 216, "steps_per_epoch": 72, "train_seconds_this_attempt": 2.91117787361145, "ACC": 0.368, "AUC": 0.7643053333333333, "max_loss_last_epoch": 1.2481446266174316, "loss_first": 1.4021018743515015, "loss_last": 0.8668644428253174, "weight_sum_spread": 0.0, "mode": "ddp", "task": "train", "P": 4, "B": 96, "b": 24, "lr": 0.08, "epochs": 3, "n_th": 3, "torch": "2.15.0"}
+W1125 02:41:14.632000 5369 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
