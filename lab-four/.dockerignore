@@ -1,0 +1,6 @@
+*
+!requirements.txt
+!app/*.py
+!app/**/*.py
+!worker/*.py
+!worker/requirements.txt

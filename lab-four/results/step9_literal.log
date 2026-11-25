@@ -1,0 +1,8 @@
+01:48:24 scenario F5: set {'LEASE_SECONDS': 0.0098, 'HEARTBEAT': 0}
+01:48:28 rolled in 3.6 s
+01:50:04 scenario F5: set {'LEASE_SECONDS': 0.0098, 'HEARTBEAT': 1}
+01:50:08 rolled in 3.6 s
+01:51:57 {"name": "baseline L=10s, heartbeat", "window": [1795564004.883459, 1795564104.986119], "tasks": 668, "attempts": {"1": 578, "2": 80, "3": 10}, "share_attempts_gt1": 0.1347305389221557, "status": {"done": 666, "failed": 2}, "share_failed": 0.0029940119760479044, "multi_result": 0, "zero_row_lines": {}, "crashes": 114, "reaped": {"queued": 100, "failed": 2}, "X_done": 6.65316985976599, "W_q_p50_ms": 52215.95299243927}
+01:51:57 {"name": "F5 L=0.0098s, no heartbeat", "window": [1795564108.53763, 1795564204.987219], "tasks": 601, "attempts": {"1": 468, "2": 91, "3": 42}, "share_attempts_gt1": 0.22129783693843594, "status": {"done": 593, "failed": 8}, "share_failed": 0.013311148086522463, "multi_result": 0, "zero_row_lines": {"store": 50, "check": 19}, "crashes": 106, "reaped": {"queued": 177, "failed": 13}, "X_done": 6.148289547543805, "W_q_p50_ms": 132856.65917396545}
+01:51:57 {"name": "F5 L=0.0098s, heartbeat", "window": [1795564208.570093, 1795564305.201136], "tasks": 626, "attempts": {"1": 505, "2": 86, "3": 35}, "share_attempts_gt1": 0.19329073482428116, "status": {"done": 621, "failed": 5}, "share_failed": 0.007987220447284345, "multi_result": 0, "zero_row_lines": {"heartbeat": 70, "store": 30, "check": 20}, "crashes": 108, "reaped": {"queued": 156, "failed": 5}, "X_done": 6.426506218526228, "W_q_p50_ms": 217861.08088493347}
+01:51:57 exits {1: 352}, statuses {'done': 1983, 'failed': 16, 'running': 1, 'queued': 15444}

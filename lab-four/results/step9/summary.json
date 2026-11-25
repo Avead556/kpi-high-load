@@ -1,0 +1,138 @@
+{
+  "fail_rate": 0.15,
+  "rate": 5.25,
+  "X_R": 83.06666666666666,
+  "X_f": 7.5,
+  "t_cpu_s": 0.01959,
+  "L_half_s": 0.0098,
+  "t0": 1795561105.770586,
+  "t1": 1795561405.859969,
+  "phases": [
+    {
+      "at": 1795561205.86847,
+      "env": {
+        "LEASE_SECONDS": 0.0098,
+        "HEARTBEAT": 0
+      },
+      "rolled": 1795561227.625436
+    },
+    {
+      "at": 1795561305.885523,
+      "env": {
+        "LEASE_SECONDS": 0.0098,
+        "HEARTBEAT": 1
+      },
+      "rolled": 1795561326.512809
+    }
+  ],
+  "per_phase": [
+    {
+      "name": "baseline L=10s, heartbeat",
+      "window": [
+        1795561105.770586,
+        1795561205.86847
+      ],
+      "tasks": 525,
+      "attempts": {
+        "1": 440,
+        "2": 74,
+        "3": 11
+      },
+      "share_attempts_gt1": 0.1619047619047619,
+      "status": {
+        "done": 523,
+        "failed": 2
+      },
+      "share_failed": 0.0038095238095238095,
+      "multi_result": 0,
+      "zero_row_lines": {},
+      "crashes": 92,
+      "reaped": {
+        "queued": 80
+      },
+      "X_done": 5.114993243096067,
+      "W_q_p50_ms": 540.4319763183594
+    },
+    {
+      "name": "F5 L=0.0098s, no heartbeat",
+      "window": [
+        1795561227.625436,
+        1795561305.885523
+      ],
+      "tasks": 411,
+      "attempts": {
+        "1": 286,
+        "2": 74,
+        "3": 51
+      },
+      "share_attempts_gt1": 0.30413625304136255,
+      "status": {
+        "done": 403,
+        "failed": 8
+      },
+      "share_failed": 0.019464720194647202,
+      "multi_result": 0,
+      "zero_row_lines": {
+        "check": 21,
+        "store": 83
+      },
+      "crashes": 89,
+      "reaped": {
+        "queued": 192,
+        "failed": 30
+      },
+      "X_done": 5.302830802242348,
+      "W_q_p50_ms": 1112.7710342407227
+    },
+    {
+      "name": "F5 L=0.0098s, heartbeat",
+      "window": [
+        1795561326.512809,
+        1795561405.859969
+      ],
+      "tasks": 417,
+      "attempts": {
+        "1": 333,
+        "2": 63,
+        "3": 21
+      },
+      "share_attempts_gt1": 0.2014388489208633,
+      "status": {
+        "done": 413,
+        "failed": 4
+      },
+      "share_failed": 0.009592326139088728,
+      "multi_result": 0,
+      "zero_row_lines": {
+        "heartbeat": 54,
+        "store": 9,
+        "check": 9
+      },
+      "crashes": 90,
+      "reaped": {
+        "queued": 106,
+        "failed": 7
+      },
+      "X_done": 5.204975209139039,
+      "W_q_p50_ms": 1772.7279663085938
+    }
+  ],
+  "attempts_all": {
+    "1": 1189,
+    "2": 263,
+    "3": 123
+  },
+  "status_all": {
+    "done": 1559,
+    "failed": 16
+  },
+  "multi_result": 0,
+  "container_exits": {
+    "1": 319,
+    "0": 3
+  },
+  "crash_exits": 319,
+  "crash_events_logged": 319,
+  "accepted": 1575,
+  "non_2xx": 0
+}

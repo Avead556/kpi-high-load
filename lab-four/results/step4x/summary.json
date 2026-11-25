@@ -1,0 +1,208 @@
+{
+  "skip_locked": {
+    "rate": 3000,
+    "count": 1500,
+    "accepted": 1500,
+    "non_2xx": 0,
+    "t_start": 1795558703.99507,
+    "t_end": 1795558710.853435,
+    "pods": [
+      "worker-97679854d-2fgkb",
+      "worker-97679854d-2rvp4",
+      "worker-97679854d-7f5h8",
+      "worker-97679854d-8dzhd",
+      "worker-97679854d-d88zm",
+      "worker-97679854d-dm2kc",
+      "worker-97679854d-lzlrv",
+      "worker-97679854d-mqpm2",
+      "worker-97679854d-s66bg",
+      "worker-97679854d-t6zg2",
+      "worker-97679854d-vq7ws",
+      "worker-97679854d-znv5z"
+    ],
+    "claim_p99_ms": 6.389,
+    "claim_p50_ms": 0.361,
+    "claims_empty": 4458.0,
+    "claims_task": 1500.0,
+    "claim_buckets": [
+      [
+        0.0005,
+        4123.0
+      ],
+      [
+        0.001,
+        5108.0
+      ],
+      [
+        0.002,
+        5652.0
+      ],
+      [
+        0.004,
+        5859.0
+      ],
+      [
+        0.008,
+        5925.0
+      ],
+      [
+        0.016,
+        5945.0
+      ],
+      [
+        0.032,
+        5957.0
+      ],
+      [
+        0.064,
+        5958.0
+      ],
+      [
+        0.128,
+        5958.0
+      ],
+      [
+        0.256,
+        5958.0
+      ],
+      [
+        0.512,
+        5958.0
+      ],
+      [
+        1.024,
+        5958.0
+      ],
+      [
+        2.048,
+        5958.0
+      ],
+      [
+        4.096,
+        5958.0
+      ],
+      [
+        Infinity,
+        5958.0
+      ]
+    ],
+    "lock_waiting_max_1s": 0,
+    "lock_samples_1s": 9,
+    "lock_waiting_max_10ms": 0,
+    "lock_samples_10ms": 911,
+    "lock_waiting_share_10ms": 0.0,
+    "n": 1500,
+    "dup_by_results": 0,
+    "D_results": 0.0,
+    "dup_by_logs": 0,
+    "D_logs": 0.0,
+    "result_rows": 1500,
+    "done_events": 1500,
+    "max_results_per_task": 1,
+    "duration_s": 6.858365058898926,
+    "W": 12
+  },
+  "for_update": {
+    "rate": 3000,
+    "count": 1500,
+    "accepted": 1500,
+    "non_2xx": 0,
+    "t_start": 1795558730.773999,
+    "t_end": 1795558737.714967,
+    "pods": [
+      "worker-59445898d5-4b2sz",
+      "worker-59445898d5-6stq5",
+      "worker-59445898d5-74htt",
+      "worker-59445898d5-cwk2q",
+      "worker-59445898d5-p9ksn",
+      "worker-59445898d5-qmnxh",
+      "worker-59445898d5-rmprc",
+      "worker-59445898d5-tqkg5",
+      "worker-59445898d5-vj8hj",
+      "worker-59445898d5-vzkqk",
+      "worker-59445898d5-w98ww",
+      "worker-59445898d5-z77mp"
+    ],
+    "claim_p99_ms": 9.998,
+    "claim_p50_ms": 0.378,
+    "claims_empty": 3876.0,
+    "claims_task": 1500.0,
+    "claim_buckets": [
+      [
+        0.0005,
+        3558.0
+      ],
+      [
+        0.001,
+        4427.0
+      ],
+      [
+        0.002,
+        4968.0
+      ],
+      [
+        0.004,
+        5214.0
+      ],
+      [
+        0.008,
+        5314.0
+      ],
+      [
+        0.016,
+        5347.0
+      ],
+      [
+        0.032,
+        5371.0
+      ],
+      [
+        0.064,
+        5376.0
+      ],
+      [
+        0.128,
+        5376.0
+      ],
+      [
+        0.256,
+        5376.0
+      ],
+      [
+        0.512,
+        5376.0
+      ],
+      [
+        1.024,
+        5376.0
+      ],
+      [
+        2.048,
+        5376.0
+      ],
+      [
+        4.096,
+        5376.0
+      ],
+      [
+        Infinity,
+        5376.0
+      ]
+    ],
+    "lock_waiting_max_1s": 1,
+    "lock_samples_1s": 9,
+    "lock_waiting_max_10ms": 9,
+    "lock_samples_10ms": 908,
+    "lock_waiting_share_10ms": 0.04955947136563876,
+    "n": 1500,
+    "dup_by_results": 0,
+    "D_results": 0.0,
+    "dup_by_logs": 0,
+    "D_logs": 0.0,
+    "result_rows": 1500,
+    "done_events": 1500,
+    "max_results_per_task": 1,
+    "duration_s": 6.940968036651611,
+    "W": 12
+  }
+}

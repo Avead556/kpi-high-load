@@ -1,0 +1,14 @@
+NAME                      READY   STATUS    RESTARTS      AGE
+worker-7b76f4bd88-6d9db   0/1     Error     38 (2s ago)   109s
+worker-7b76f4bd88-r2mnv   1/1     Running   37 (1s ago)   109s
+worker-7b76f4bd88-xzjrv   0/1     Error     37 (3s ago)   108s
+
+NAME                     READY   STATUS    RESTARTS      AGE
+worker-965d4c949-4rfq9   1/1     Running   35 (2s ago)   99s
+worker-965d4c949-ccmx8   1/1     Running   37 (2s ago)   99s
+worker-965d4c949-lpmms   1/1     Running   37 (2s ago)   99s
+
+NAME                      READY   STATUS    RESTARTS      AGE
+worker-7db595f954-826zj   0/1     Error     38 (3s ago)   100s
+worker-7db595f954-jplv8   1/1     Running   36 (3s ago)   100s
+worker-7db595f954-kp6l7   1/1     Running   36 (3s ago)   100s

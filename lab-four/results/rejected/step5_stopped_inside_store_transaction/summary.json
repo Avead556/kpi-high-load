@@ -1,0 +1,83 @@
+{
+  "victim": "worker-6d6884b848-hsdxb",
+  "other": "worker-6d6884b848-mnb4r",
+  "task": 61,
+  "tries": 10,
+  "stop_seconds": 20.169373035430908,
+  "node_pid": [
+    "lab4-worker",
+    17620
+  ],
+  "state_while_stopped": "State:\tT (stopped)",
+  "before": {
+    "id": "61",
+    "status": "running",
+    "attempts": "1",
+    "token": "1",
+    "worker_id": "worker-6d6884b848-hsdxb",
+    "lease_until": "2026-11-24 22:20:46.869522+00",
+    "started_at": "2026-11-24 22:20:36.869523+00",
+    "finished_at": ""
+  },
+  "at_continue": {
+    "id": "61",
+    "status": "running",
+    "attempts": "1",
+    "token": "1",
+    "worker_id": "worker-6d6884b848-hsdxb",
+    "lease_until": "2026-11-24 22:20:46.869522+00",
+    "started_at": "2026-11-24 22:20:36.869523+00",
+    "finished_at": ""
+  },
+  "after": {
+    "id": "61",
+    "status": "done",
+    "attempts": "1",
+    "token": "1",
+    "worker_id": "worker-6d6884b848-hsdxb",
+    "lease_until": "2026-11-24 22:21:07.063957+00",
+    "started_at": "2026-11-24 22:20:36.869523+00",
+    "finished_at": "2026-11-24 22:20:36.88974+00"
+  },
+  "results": [
+    {
+      "task_id": "61",
+      "token": "1",
+      "worker_id": "worker-6d6884b848-hsdxb",
+      "created_at": "2026-11-24 22:20:36.890248+00"
+    }
+  ],
+  "task_log": [
+    {
+      "pod": "worker-6d6884b848-hsdxb",
+      "restart": "0",
+      "ts": "2026-11-24T22:20:36.870Z",
+      "event": "claimed",
+      "worker": "worker-6d6884b848-hsdxb",
+      "task": "61",
+      "token": "1",
+      "attempts": "1",
+      "record": "62"
+    },
+    {
+      "pod": "worker-6d6884b848-hsdxb",
+      "restart": "0",
+      "ts": "2026-11-24T22:20:57.065Z",
+      "event": "done",
+      "worker": "worker-6d6884b848-hsdxb",
+      "task": "61",
+      "token": "1",
+      "attempts": "1",
+      "fetch_ms": "1.19",
+      "process_ms": "17.84",
+      "store_ms": "20176.07",
+      "p_lo": "43",
+      "p_hi": "4052"
+    }
+  ],
+  "victim_stale_lines": [],
+  "all_tasks": {
+    "done": 100
+  },
+  "accepted": 100
+}

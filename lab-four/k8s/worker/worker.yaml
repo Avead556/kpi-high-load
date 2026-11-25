@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: worker-config
+  namespace: vaccines
+data:
+  DB_HOST: postgres-0.postgres.vaccines.svc.cluster.local
+  DB_PORT: "5432"
+  DB_USER: vaccines
+  DB_NAME: vaccines
+  WEB_URL: http://web.vaccines.svc.cluster.local
+  # variant 18: q_lo / q_hi = 0.01 / 0.99, T_poll = 10 ms, L = 10 s
+  Q_LO: "0.01"
+  Q_HI: "0.99"
+  SLICE_SIZE: "256"
+  POLL_MS: "10"
+  LEASE_SECONDS: "10"
+  HEARTBEAT: "1"
+  REAP: "1"
+  CLAIM_MODE: skip_locked
+  STORE_MODE: idempotent
+  FAIL_RATE: "0"
+  GRACE_SECONDS: "25"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+  namespace: vaccines
+  labels: {app: worker}
+spec:
+  selector:
+    matchLabels: {app: worker}
+  template:
+    metadata:
+      labels: {app: worker}
+    spec:
+      terminationGracePeriodSeconds: 30
+      containers:
+        - name: worker
+          image: vaccine-lots-worker:4.0
+          imagePullPolicy: Never
+          ports:
+            - {name: metrics, containerPort: 9100}
+          envFrom:
+            - configMapRef: {name: worker-config}
+          env:
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef: {name: db-credentials, key: password}
+            - name: WORKER_ID
+              valueFrom:
+                fieldRef: {fieldPath: metadata.name}
+          resources:
+            requests: {cpu: 250m}
+            limits: {cpu: 500m, memory: 512Mi}

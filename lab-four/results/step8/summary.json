@@ -1,0 +1,95 @@
+{
+  "rate": 58.14666666666666,
+  "t_restart": 1795559751.61164,
+  "t_rolled": 1795559769.82776,
+  "old_pods": [
+    "worker-cccf95b4c-gwb8v",
+    "worker-cccf95b4c-jhb2q",
+    "worker-cccf95b4c-rkt2v"
+  ],
+  "exits": [
+    {
+      "pod": "worker-cccf95b4c-jhb2q",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:35:57Z"
+    },
+    {
+      "pod": "worker-cccf95b4c-gwb8v",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:36:03Z"
+    },
+    {
+      "pod": "worker-cccf95b4c-rkt2v",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:36:09Z"
+    }
+  ],
+  "exit_codes": {
+    "0": 3
+  },
+  "sigterm": [
+    {
+      "pod": "worker-cccf95b4c-jhb2q",
+      "restart": "0",
+      "ts": "2026-11-24T22:35:57.733Z",
+      "event": "sigterm",
+      "worker": "worker-cccf95b4c-jhb2q",
+      "in_flight": "None"
+    },
+    {
+      "pod": "worker-cccf95b4c-gwb8v",
+      "restart": "0",
+      "ts": "2026-11-24T22:36:03.796Z",
+      "event": "sigterm",
+      "worker": "worker-cccf95b4c-gwb8v",
+      "in_flight": "2444"
+    },
+    {
+      "pod": "worker-cccf95b4c-rkt2v",
+      "restart": "0",
+      "ts": "2026-11-24T22:36:09.747Z",
+      "event": "sigterm",
+      "worker": "worker-cccf95b4c-rkt2v",
+      "in_flight": "None"
+    }
+  ],
+  "exit_lines": [
+    {
+      "pod": "worker-cccf95b4c-jhb2q",
+      "restart": "0",
+      "ts": "2026-11-24T22:35:57.733Z",
+      "event": "exit",
+      "worker": "worker-cccf95b4c-jhb2q",
+      "code": "0"
+    },
+    {
+      "pod": "worker-cccf95b4c-gwb8v",
+      "restart": "0",
+      "ts": "2026-11-24T22:36:03.802Z",
+      "event": "exit",
+      "worker": "worker-cccf95b4c-gwb8v",
+      "code": "0"
+    },
+    {
+      "pod": "worker-cccf95b4c-rkt2v",
+      "restart": "0",
+      "ts": "2026-11-24T22:36:09.748Z",
+      "event": "exit",
+      "worker": "worker-cccf95b4c-rkt2v",
+      "code": "0"
+    }
+  ],
+  "returned": [],
+  "status": {
+    "done": 5233
+  },
+  "failed": 0,
+  "multi_result": 0,
+  "attempts_gt1": 0,
+  "tasks": 5233,
+  "accepted": 5233,
+  "non_2xx": 0
+}

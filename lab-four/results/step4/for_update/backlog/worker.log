@@ -1,0 +1,600 @@
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.073Z event=claimed worker=worker-59445898d5-4m6ks task=1 token=1 attempts=1 record=85
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.073Z event=claimed worker=worker-59445898d5-4qxjb task=2 token=1 attempts=1 record=58
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.074Z event=claimed worker=worker-59445898d5-f8qvs task=3 token=1 attempts=1 record=16
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.096Z event=done worker=worker-59445898d5-4m6ks task=1 token=1 attempts=1 fetch_ms=4.07 process_ms=17.9 store_ms=1.29 p_lo=39 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.097Z event=done worker=worker-59445898d5-f8qvs task=3 token=1 attempts=1 fetch_ms=3.86 process_ms=17.36 store_ms=1.37 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.097Z event=claimed worker=worker-59445898d5-4m6ks task=4 token=1 attempts=1 record=43
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.098Z event=claimed worker=worker-59445898d5-f8qvs task=5 token=1 attempts=1 record=24
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.098Z event=done worker=worker-59445898d5-4qxjb task=2 token=1 attempts=1 fetch_ms=4.23 process_ms=19.27 store_ms=1.45 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.099Z event=claimed worker=worker-59445898d5-4qxjb task=6 token=1 attempts=1 record=26
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.117Z event=done worker=worker-59445898d5-f8qvs task=5 token=1 attempts=1 fetch_ms=1.71 process_ms=17.05 store_ms=1.04 p_lo=42 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.118Z event=claimed worker=worker-59445898d5-f8qvs task=7 token=1 attempts=1 record=63
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.120Z event=done worker=worker-59445898d5-4qxjb task=6 token=1 attempts=1 fetch_ms=1.0 process_ms=18.44 store_ms=1.31 p_lo=41 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.121Z event=claimed worker=worker-59445898d5-4qxjb task=8 token=1 attempts=1 record=64
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.121Z event=done worker=worker-59445898d5-4m6ks task=4 token=1 attempts=1 fetch_ms=1.88 process_ms=20.81 store_ms=1.43 p_lo=44 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.122Z event=claimed worker=worker-59445898d5-4m6ks task=9 token=1 attempts=1 record=81
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.142Z event=done worker=worker-59445898d5-4m6ks task=9 token=1 attempts=1 fetch_ms=0.93 process_ms=17.92 store_ms=0.86 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.142Z event=claimed worker=worker-59445898d5-4m6ks task=10 token=1 attempts=1 record=24
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.159Z event=done worker=worker-59445898d5-f8qvs task=7 token=1 attempts=1 fetch_ms=1.33 process_ms=37.78 store_ms=0.97 p_lo=41 p_hi=4058
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.160Z event=claimed worker=worker-59445898d5-f8qvs task=11 token=1 attempts=1 record=62
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.162Z event=done worker=worker-59445898d5-4m6ks task=10 token=1 attempts=1 fetch_ms=0.79 process_ms=18.17 store_ms=1.08 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.164Z event=claimed worker=worker-59445898d5-4m6ks task=12 token=1 attempts=1 record=59
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.181Z event=done worker=worker-59445898d5-4qxjb task=8 token=1 attempts=1 fetch_ms=1.7 process_ms=58.11 store_ms=0.9 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.182Z event=claimed worker=worker-59445898d5-4qxjb task=13 token=1 attempts=1 record=38
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.197Z event=done worker=worker-59445898d5-f8qvs task=11 token=1 attempts=1 fetch_ms=1.66 process_ms=35.43 store_ms=0.82 p_lo=39 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.198Z event=claimed worker=worker-59445898d5-f8qvs task=14 token=1 attempts=1 record=31
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.203Z event=done worker=worker-59445898d5-4qxjb task=13 token=1 attempts=1 fetch_ms=0.96 process_ms=18.6 store_ms=1.22 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.204Z event=claimed worker=worker-59445898d5-4qxjb task=15 token=1 attempts=1 record=26
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.219Z event=done worker=worker-59445898d5-f8qvs task=14 token=1 attempts=1 fetch_ms=1.4 process_ms=18.27 store_ms=1.09 p_lo=39 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.220Z event=claimed worker=worker-59445898d5-f8qvs task=16 token=1 attempts=1 record=34
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.230Z event=done worker=worker-59445898d5-4m6ks task=12 token=1 attempts=1 fetch_ms=1.63 process_ms=60.38 store_ms=3.76 p_lo=39 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.230Z event=claimed worker=worker-59445898d5-4m6ks task=17 token=1 attempts=1 record=33
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.236Z event=done worker=worker-59445898d5-4qxjb task=15 token=1 attempts=1 fetch_ms=0.95 process_ms=30.46 store_ms=0.74 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.237Z event=claimed worker=worker-59445898d5-4qxjb task=18 token=1 attempts=1 record=89
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.250Z event=done worker=worker-59445898d5-4m6ks task=17 token=1 attempts=1 fetch_ms=0.71 process_ms=18.2 store_ms=0.72 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.251Z event=claimed worker=worker-59445898d5-4m6ks task=19 token=1 attempts=1 record=16
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.264Z event=done worker=worker-59445898d5-f8qvs task=16 token=1 attempts=1 fetch_ms=0.8 process_ms=42.69 store_ms=0.8 p_lo=41 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.265Z event=claimed worker=worker-59445898d5-f8qvs task=20 token=1 attempts=1 record=42
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.293Z event=done worker=worker-59445898d5-4qxjb task=18 token=1 attempts=1 fetch_ms=0.9 process_ms=54.14 store_ms=1.8 p_lo=41 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.297Z event=claimed worker=worker-59445898d5-4qxjb task=21 token=1 attempts=1 record=67
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.307Z event=done worker=worker-59445898d5-f8qvs task=20 token=1 attempts=1 fetch_ms=1.13 process_ms=38.87 store_ms=1.86 p_lo=43 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.308Z event=claimed worker=worker-59445898d5-f8qvs task=22 token=1 attempts=1 record=87
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.313Z event=done worker=worker-59445898d5-4m6ks task=19 token=1 attempts=1 fetch_ms=0.9 process_ms=60.68 store_ms=1.13 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.314Z event=claimed worker=worker-59445898d5-4m6ks task=23 token=1 attempts=1 record=98
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.326Z event=done worker=worker-59445898d5-4qxjb task=21 token=1 attempts=1 fetch_ms=2.85 process_ms=24.73 store_ms=1.2 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.327Z event=claimed worker=worker-59445898d5-4qxjb task=24 token=1 attempts=1 record=23
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.337Z event=done worker=worker-59445898d5-4m6ks task=23 token=1 attempts=1 fetch_ms=1.85 process_ms=19.62 store_ms=1.4 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.338Z event=claimed worker=worker-59445898d5-4m6ks task=25 token=1 attempts=1 record=31
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.356Z event=done worker=worker-59445898d5-f8qvs task=22 token=1 attempts=1 fetch_ms=1.5 process_ms=46.44 store_ms=0.94 p_lo=40 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.357Z event=claimed worker=worker-59445898d5-f8qvs task=26 token=1 attempts=1 record=22
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.358Z event=done worker=worker-59445898d5-4m6ks task=25 token=1 attempts=1 fetch_ms=1.01 process_ms=17.44 store_ms=1.11 p_lo=44 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.358Z event=claimed worker=worker-59445898d5-4m6ks task=27 token=1 attempts=1 record=31
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.388Z event=done worker=worker-59445898d5-4qxjb task=24 token=1 attempts=1 fetch_ms=1.27 process_ms=59.43 store_ms=0.95 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.389Z event=claimed worker=worker-59445898d5-4qxjb task=28 token=1 attempts=1 record=26
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.399Z event=done worker=worker-59445898d5-f8qvs task=26 token=1 attempts=1 fetch_ms=1.06 process_ms=39.81 store_ms=0.67 p_lo=37 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.399Z event=claimed worker=worker-59445898d5-f8qvs task=29 token=1 attempts=1 record=95
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.409Z event=done worker=worker-59445898d5-4qxjb task=28 token=1 attempts=1 fetch_ms=0.92 process_ms=18.41 store_ms=0.67 p_lo=38 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.410Z event=claimed worker=worker-59445898d5-4qxjb task=30 token=1 attempts=1 record=47
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.418Z event=done worker=worker-59445898d5-f8qvs task=29 token=1 attempts=1 fetch_ms=1.15 process_ms=16.51 store_ms=0.64 p_lo=39 p_hi=4058
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.418Z event=claimed worker=worker-59445898d5-f8qvs task=31 token=1 attempts=1 record=74
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.430Z event=done worker=worker-59445898d5-4m6ks task=27 token=1 attempts=1 fetch_ms=0.66 process_ms=70.52 store_ms=0.9 p_lo=37 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.431Z event=claimed worker=worker-59445898d5-4m6ks task=32 token=1 attempts=1 record=65
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.442Z event=done worker=worker-59445898d5-4qxjb task=30 token=1 attempts=1 fetch_ms=0.96 process_ms=29.82 store_ms=1.13 p_lo=39 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.443Z event=claimed worker=worker-59445898d5-4qxjb task=33 token=1 attempts=1 record=26
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.451Z event=done worker=worker-59445898d5-4m6ks task=32 token=1 attempts=1 fetch_ms=0.88 process_ms=17.69 store_ms=1.11 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.451Z event=claimed worker=worker-59445898d5-4m6ks task=34 token=1 attempts=1 record=87
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.464Z event=done worker=worker-59445898d5-f8qvs task=31 token=1 attempts=1 fetch_ms=0.82 process_ms=44.13 store_ms=0.92 p_lo=43 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.465Z event=claimed worker=worker-59445898d5-f8qvs task=35 token=1 attempts=1 record=97
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.496Z event=done worker=worker-59445898d5-4qxjb task=33 token=1 attempts=1 fetch_ms=1.36 process_ms=50.69 store_ms=1.08 p_lo=44 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.497Z event=claimed worker=worker-59445898d5-4qxjb task=36 token=1 attempts=1 record=64
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.502Z event=done worker=worker-59445898d5-f8qvs task=35 token=1 attempts=1 fetch_ms=0.97 process_ms=35.21 store_ms=0.67 p_lo=40 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.502Z event=claimed worker=worker-59445898d5-f8qvs task=37 token=1 attempts=1 record=28
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.517Z event=done worker=worker-59445898d5-4m6ks task=34 token=1 attempts=1 fetch_ms=1.06 process_ms=63.81 store_ms=0.88 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.518Z event=claimed worker=worker-59445898d5-4m6ks task=38 token=1 attempts=1 record=92
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.519Z event=done worker=worker-59445898d5-4qxjb task=36 token=1 attempts=1 fetch_ms=0.92 process_ms=20.23 store_ms=1.17 p_lo=42 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.519Z event=claimed worker=worker-59445898d5-4qxjb task=39 token=1 attempts=1 record=39
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.521Z event=done worker=worker-59445898d5-f8qvs task=37 token=1 attempts=1 fetch_ms=0.74 process_ms=16.56 store_ms=0.86 p_lo=39 p_hi=4051
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.521Z event=claimed worker=worker-59445898d5-f8qvs task=40 token=1 attempts=1 record=34
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.537Z event=done worker=worker-59445898d5-4m6ks task=38 token=1 attempts=1 fetch_ms=0.82 process_ms=17.54 store_ms=0.75 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.538Z event=claimed worker=worker-59445898d5-4m6ks task=41 token=1 attempts=1 record=1
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.556Z event=done worker=worker-59445898d5-4m6ks task=41 token=1 attempts=1 fetch_ms=0.82 process_ms=16.98 store_ms=0.79 p_lo=42 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.557Z event=claimed worker=worker-59445898d5-4m6ks task=42 token=1 attempts=1 record=44
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.567Z event=done worker=worker-59445898d5-f8qvs task=40 token=1 attempts=1 fetch_ms=0.69 process_ms=44.54 store_ms=0.79 p_lo=41 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.568Z event=claimed worker=worker-59445898d5-f8qvs task=43 token=1 attempts=1 record=52
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.584Z event=done worker=worker-59445898d5-4qxjb task=39 token=1 attempts=1 fetch_ms=0.86 process_ms=62.86 store_ms=0.96 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.585Z event=claimed worker=worker-59445898d5-4qxjb task=44 token=1 attempts=1 record=29
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.605Z event=done worker=worker-59445898d5-f8qvs task=43 token=1 attempts=1 fetch_ms=0.9 process_ms=35.22 store_ms=1.28 p_lo=40 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.606Z event=claimed worker=worker-59445898d5-f8qvs task=45 token=1 attempts=1 record=99
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.606Z event=done worker=worker-59445898d5-4qxjb task=44 token=1 attempts=1 fetch_ms=1.11 process_ms=18.63 store_ms=1.23 p_lo=39 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.607Z event=claimed worker=worker-59445898d5-4qxjb task=46 token=1 attempts=1 record=94
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.616Z event=done worker=worker-59445898d5-4m6ks task=42 token=1 attempts=1 fetch_ms=0.85 process_ms=57.47 store_ms=0.91 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.617Z event=claimed worker=worker-59445898d5-4m6ks task=47 token=1 attempts=1 record=52
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.638Z event=done worker=worker-59445898d5-4qxjb task=46 token=1 attempts=1 fetch_ms=0.97 process_ms=29.16 store_ms=0.86 p_lo=44 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.638Z event=claimed worker=worker-59445898d5-4qxjb task=48 token=1 attempts=1 record=69
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.639Z event=done worker=worker-59445898d5-4m6ks task=47 token=1 attempts=1 fetch_ms=0.93 process_ms=19.86 store_ms=1.01 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.639Z event=claimed worker=worker-59445898d5-4m6ks task=49 token=1 attempts=1 record=45
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.653Z event=done worker=worker-59445898d5-f8qvs task=45 token=1 attempts=1 fetch_ms=1.4 process_ms=45.09 store_ms=0.89 p_lo=40 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.654Z event=claimed worker=worker-59445898d5-f8qvs task=50 token=1 attempts=1 record=76
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.658Z event=done worker=worker-59445898d5-4m6ks task=49 token=1 attempts=1 fetch_ms=0.75 process_ms=17.23 store_ms=0.67 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.659Z event=claimed worker=worker-59445898d5-4m6ks task=51 token=1 attempts=1 record=74
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.672Z event=done worker=worker-59445898d5-f8qvs task=50 token=1 attempts=1 fetch_ms=0.84 process_ms=16.82 store_ms=1.01 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.673Z event=claimed worker=worker-59445898d5-f8qvs task=52 token=1 attempts=1 record=68
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.692Z event=done worker=worker-59445898d5-4qxjb task=48 token=1 attempts=1 fetch_ms=1.25 process_ms=51.53 store_ms=1.0 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.693Z event=claimed worker=worker-59445898d5-4qxjb task=53 token=1 attempts=1 record=35
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.707Z event=done worker=worker-59445898d5-f8qvs task=52 token=1 attempts=1 fetch_ms=0.98 process_ms=32.38 store_ms=0.86 p_lo=40 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.708Z event=claimed worker=worker-59445898d5-f8qvs task=54 token=1 attempts=1 record=35
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.714Z event=done worker=worker-59445898d5-4qxjb task=53 token=1 attempts=1 fetch_ms=1.81 process_ms=18.59 store_ms=0.71 p_lo=42 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.715Z event=claimed worker=worker-59445898d5-4qxjb task=55 token=1 attempts=1 record=77
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.721Z event=done worker=worker-59445898d5-4m6ks task=51 token=1 attempts=1 fetch_ms=0.67 process_ms=60.73 store_ms=0.71 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.721Z event=claimed worker=worker-59445898d5-4m6ks task=56 token=1 attempts=1 record=91
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.743Z event=done worker=worker-59445898d5-4m6ks task=56 token=1 attempts=1 fetch_ms=0.84 process_ms=19.79 store_ms=0.74 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.744Z event=claimed worker=worker-59445898d5-4m6ks task=57 token=1 attempts=1 record=71
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.754Z event=done worker=worker-59445898d5-f8qvs task=54 token=1 attempts=1 fetch_ms=0.85 process_ms=44.03 store_ms=0.7 p_lo=41 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.754Z event=claimed worker=worker-59445898d5-f8qvs task=58 token=1 attempts=1 record=39
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.762Z event=done worker=worker-59445898d5-4m6ks task=57 token=1 attempts=1 fetch_ms=0.88 process_ms=17.26 store_ms=0.73 p_lo=43 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.763Z event=claimed worker=worker-59445898d5-4m6ks task=59 token=1 attempts=1 record=15
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.773Z event=done worker=worker-59445898d5-f8qvs task=58 token=1 attempts=1 fetch_ms=0.89 process_ms=16.93 store_ms=0.71 p_lo=42 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.773Z event=claimed worker=worker-59445898d5-f8qvs task=60 token=1 attempts=1 record=37
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.781Z event=done worker=worker-59445898d5-4qxjb task=55 token=1 attempts=1 fetch_ms=1.08 process_ms=64.54 store_ms=0.77 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.782Z event=claimed worker=worker-59445898d5-4qxjb task=61 token=1 attempts=1 record=62
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.801Z event=done worker=worker-59445898d5-4qxjb task=61 token=1 attempts=1 fetch_ms=0.83 process_ms=17.76 store_ms=0.78 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.802Z event=claimed worker=worker-59445898d5-4qxjb task=62 token=1 attempts=1 record=73
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.810Z event=done worker=worker-59445898d5-f8qvs task=60 token=1 attempts=1 fetch_ms=1.07 process_ms=35.09 store_ms=0.75 p_lo=42 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.811Z event=claimed worker=worker-59445898d5-f8qvs task=63 token=1 attempts=1 record=65
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.821Z event=done worker=worker-59445898d5-4qxjb task=62 token=1 attempts=1 fetch_ms=0.86 process_ms=17.66 store_ms=0.73 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.821Z event=claimed worker=worker-59445898d5-4qxjb task=64 token=1 attempts=1 record=19
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.831Z event=done worker=worker-59445898d5-4m6ks task=59 token=1 attempts=1 fetch_ms=0.89 process_ms=66.27 store_ms=0.65 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.831Z event=claimed worker=worker-59445898d5-4m6ks task=65 token=1 attempts=1 record=64
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.850Z event=done worker=worker-59445898d5-4m6ks task=65 token=1 attempts=1 fetch_ms=0.74 process_ms=16.97 store_ms=0.97 p_lo=44 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.851Z event=claimed worker=worker-59445898d5-4m6ks task=66 token=1 attempts=1 record=88
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.858Z event=done worker=worker-59445898d5-f8qvs task=63 token=1 attempts=1 fetch_ms=0.87 process_ms=44.61 store_ms=1.48 p_lo=38 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.859Z event=claimed worker=worker-59445898d5-f8qvs task=67 token=1 attempts=1 record=81
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.887Z event=done worker=worker-59445898d5-4qxjb task=64 token=1 attempts=1 fetch_ms=0.88 process_ms=63.07 store_ms=1.19 p_lo=42 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.888Z event=claimed worker=worker-59445898d5-4qxjb task=68 token=1 attempts=1 record=21
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.897Z event=done worker=worker-59445898d5-f8qvs task=67 token=1 attempts=1 fetch_ms=1.06 process_ms=36.69 store_ms=0.89 p_lo=44 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.898Z event=claimed worker=worker-59445898d5-f8qvs task=69 token=1 attempts=1 record=25
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.908Z event=done worker=worker-59445898d5-4qxjb task=68 token=1 attempts=1 fetch_ms=0.93 process_ms=18.23 store_ms=0.72 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.908Z event=claimed worker=worker-59445898d5-4qxjb task=70 token=1 attempts=1 record=27
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.915Z event=done worker=worker-59445898d5-4m6ks task=66 token=1 attempts=1 fetch_ms=1.48 process_ms=62.02 store_ms=0.93 p_lo=41 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.916Z event=claimed worker=worker-59445898d5-4m6ks task=71 token=1 attempts=1 record=83
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.917Z event=done worker=worker-59445898d5-f8qvs task=69 token=1 attempts=1 fetch_ms=0.83 process_ms=16.95 store_ms=0.96 p_lo=43 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.917Z event=claimed worker=worker-59445898d5-f8qvs task=72 token=1 attempts=1 record=88
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.936Z event=done worker=worker-59445898d5-4m6ks task=71 token=1 attempts=1 fetch_ms=0.99 process_ms=18.41 store_ms=0.91 p_lo=43 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.937Z event=claimed worker=worker-59445898d5-4m6ks task=73 token=1 attempts=1 record=56
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.940Z event=done worker=worker-59445898d5-4qxjb task=70 token=1 attempts=1 fetch_ms=0.82 process_ms=30.47 store_ms=0.76 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.941Z event=claimed worker=worker-59445898d5-4qxjb task=74 token=1 attempts=1 record=17
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.956Z event=done worker=worker-59445898d5-4m6ks task=73 token=1 attempts=1 fetch_ms=0.89 process_ms=17.54 store_ms=0.81 p_lo=39 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:49.956Z event=claimed worker=worker-59445898d5-4m6ks task=75 token=1 attempts=1 record=53
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.962Z event=done worker=worker-59445898d5-f8qvs task=72 token=1 attempts=1 fetch_ms=0.8 process_ms=42.9 store_ms=0.81 p_lo=43 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.962Z event=claimed worker=worker-59445898d5-f8qvs task=76 token=1 attempts=1 record=66
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.995Z event=done worker=worker-59445898d5-4qxjb task=74 token=1 attempts=1 fetch_ms=0.73 process_ms=52.67 store_ms=1.1 p_lo=40 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:49.996Z event=claimed worker=worker-59445898d5-4qxjb task=77 token=1 attempts=1 record=62
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:49.999Z event=done worker=worker-59445898d5-f8qvs task=76 token=1 attempts=1 fetch_ms=0.76 process_ms=35.24 store_ms=0.88 p_lo=42 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.000Z event=claimed worker=worker-59445898d5-f8qvs task=78 token=1 attempts=1 record=74
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.017Z event=done worker=worker-59445898d5-4qxjb task=77 token=1 attempts=1 fetch_ms=0.98 process_ms=18.9 store_ms=0.91 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.018Z event=done worker=worker-59445898d5-4m6ks task=75 token=1 attempts=1 fetch_ms=0.9 process_ms=59.31 store_ms=1.11 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.018Z event=claimed worker=worker-59445898d5-4qxjb task=79 token=1 attempts=1 record=13
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.019Z event=claimed worker=worker-59445898d5-4m6ks task=80 token=1 attempts=1 record=91
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.019Z event=done worker=worker-59445898d5-f8qvs task=78 token=1 attempts=1 fetch_ms=1.1 process_ms=16.83 store_ms=1.44 p_lo=41 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.020Z event=claimed worker=worker-59445898d5-f8qvs task=81 token=1 attempts=1 record=26
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.041Z event=done worker=worker-59445898d5-4m6ks task=80 token=1 attempts=1 fetch_ms=1.3 process_ms=19.86 store_ms=0.83 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.041Z event=claimed worker=worker-59445898d5-4m6ks task=82 token=1 attempts=1 record=76
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.060Z event=done worker=worker-59445898d5-4m6ks task=82 token=1 attempts=1 fetch_ms=0.83 process_ms=16.84 store_ms=0.79 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.060Z event=claimed worker=worker-59445898d5-4m6ks task=83 token=1 attempts=1 record=34
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.064Z event=done worker=worker-59445898d5-f8qvs task=81 token=1 attempts=1 fetch_ms=0.79 process_ms=42.4 store_ms=0.66 p_lo=40 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.064Z event=claimed worker=worker-59445898d5-f8qvs task=84 token=1 attempts=1 record=69
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.083Z event=done worker=worker-59445898d5-4qxjb task=79 token=1 attempts=1 fetch_ms=1.17 process_ms=63.31 store_ms=0.88 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.084Z event=claimed worker=worker-59445898d5-4qxjb task=85 token=1 attempts=1 record=44
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.101Z event=done worker=worker-59445898d5-f8qvs task=84 token=1 attempts=1 fetch_ms=0.97 process_ms=35.12 store_ms=0.9 p_lo=42 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.102Z event=claimed worker=worker-59445898d5-f8qvs task=86 token=1 attempts=1 record=85
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.105Z event=done worker=worker-59445898d5-4qxjb task=85 token=1 attempts=1 fetch_ms=0.99 process_ms=18.88 store_ms=0.85 p_lo=43 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.106Z event=claimed worker=worker-59445898d5-4qxjb task=87 token=1 attempts=1 record=70
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.121Z event=done worker=worker-59445898d5-f8qvs task=86 token=1 attempts=1 fetch_ms=1.15 process_ms=16.82 store_ms=0.93 p_lo=35 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.121Z event=done worker=worker-59445898d5-4m6ks task=83 token=1 attempts=1 fetch_ms=0.9 process_ms=58.49 store_ms=1.1 p_lo=43 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.121Z event=claimed worker=worker-59445898d5-f8qvs task=88 token=1 attempts=1 record=61
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.122Z event=claimed worker=worker-59445898d5-4m6ks task=89 token=1 attempts=1 record=12
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.141Z event=done worker=worker-59445898d5-4qxjb task=87 token=1 attempts=1 fetch_ms=0.98 process_ms=31.51 store_ms=2.14 p_lo=42 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.143Z event=claimed worker=worker-59445898d5-4qxjb task=90 token=1 attempts=1 record=63
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.152Z event=done worker=worker-59445898d5-4m6ks task=89 token=1 attempts=1 fetch_ms=0.85 process_ms=28.46 store_ms=1.21 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.153Z event=claimed worker=worker-59445898d5-4m6ks task=91 token=1 attempts=1 record=19
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.167Z event=done worker=worker-59445898d5-f8qvs task=88 token=1 attempts=1 fetch_ms=1.27 process_ms=42.84 store_ms=1.56 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.168Z event=claimed worker=worker-59445898d5-f8qvs task=92 token=1 attempts=1 record=62
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.198Z event=done worker=worker-59445898d5-4qxjb task=90 token=1 attempts=1 fetch_ms=2.29 process_ms=51.91 store_ms=1.01 p_lo=43 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.199Z event=claimed worker=worker-59445898d5-4qxjb task=93 token=1 attempts=1 record=20
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.206Z event=done worker=worker-59445898d5-f8qvs task=92 token=1 attempts=1 fetch_ms=1.18 process_ms=35.57 store_ms=1.26 p_lo=39 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.207Z event=claimed worker=worker-59445898d5-f8qvs task=94 token=1 attempts=1 record=63
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.216Z event=done worker=worker-59445898d5-4m6ks task=91 token=1 attempts=1 fetch_ms=1.2 process_ms=61.48 store_ms=0.86 p_lo=38 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.217Z event=claimed worker=worker-59445898d5-4m6ks task=95 token=1 attempts=1 record=11
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.221Z event=done worker=worker-59445898d5-4qxjb task=93 token=1 attempts=1 fetch_ms=1.42 process_ms=19.18 store_ms=1.16 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.222Z event=claimed worker=worker-59445898d5-4qxjb task=96 token=1 attempts=1 record=32
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.239Z event=done worker=worker-59445898d5-4m6ks task=95 token=1 attempts=1 fetch_ms=1.05 process_ms=20.18 store_ms=1.04 p_lo=39 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.240Z event=claimed worker=worker-59445898d5-4m6ks task=97 token=1 attempts=1 record=83
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.253Z event=done worker=worker-59445898d5-f8qvs task=94 token=1 attempts=1 fetch_ms=1.17 process_ms=43.7 store_ms=0.96 p_lo=40 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.254Z event=claimed worker=worker-59445898d5-f8qvs task=98 token=1 attempts=1 record=12
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.259Z event=done worker=worker-59445898d5-4m6ks task=97 token=1 attempts=1 fetch_ms=1.14 process_ms=17.01 store_ms=0.78 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.259Z event=claimed worker=worker-59445898d5-4m6ks task=99 token=1 attempts=1 record=70
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.272Z event=done worker=worker-59445898d5-f8qvs task=98 token=1 attempts=1 fetch_ms=0.96 process_ms=16.43 store_ms=0.72 p_lo=39 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.272Z event=claimed worker=worker-59445898d5-f8qvs task=100 token=1 attempts=1 record=46
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.290Z event=done worker=worker-59445898d5-4qxjb task=96 token=1 attempts=1 fetch_ms=1.37 process_ms=64.49 store_ms=1.83 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.290Z event=claimed worker=worker-59445898d5-4qxjb task=101 token=1 attempts=1 record=27
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.307Z event=done worker=worker-59445898d5-f8qvs task=100 token=1 attempts=1 fetch_ms=0.81 process_ms=32.73 store_ms=0.86 p_lo=40 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.307Z event=claimed worker=worker-59445898d5-f8qvs task=102 token=1 attempts=1 record=81
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.310Z event=done worker=worker-59445898d5-4qxjb task=101 token=1 attempts=1 fetch_ms=0.87 process_ms=18.26 store_ms=0.59 p_lo=40 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.311Z event=claimed worker=worker-59445898d5-4qxjb task=103 token=1 attempts=1 record=51
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.321Z event=done worker=worker-59445898d5-4m6ks task=99 token=1 attempts=1 fetch_ms=0.91 process_ms=59.87 store_ms=0.76 p_lo=39 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.322Z event=claimed worker=worker-59445898d5-4m6ks task=104 token=1 attempts=1 record=75
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.342Z event=done worker=worker-59445898d5-4m6ks task=104 token=1 attempts=1 fetch_ms=0.87 process_ms=18.4 store_ms=0.89 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.342Z event=done worker=worker-59445898d5-4qxjb task=103 token=1 attempts=1 fetch_ms=0.71 process_ms=29.89 store_ms=0.83 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.342Z event=claimed worker=worker-59445898d5-4m6ks task=105 token=1 attempts=1 record=69
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.343Z event=claimed worker=worker-59445898d5-4qxjb task=106 token=1 attempts=1 record=88
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.354Z event=done worker=worker-59445898d5-f8qvs task=102 token=1 attempts=1 fetch_ms=0.92 process_ms=44.53 store_ms=0.83 p_lo=40 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.354Z event=claimed worker=worker-59445898d5-f8qvs task=107 token=1 attempts=1 record=98
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.361Z event=done worker=worker-59445898d5-4m6ks task=105 token=1 attempts=1 fetch_ms=1.13 process_ms=17.19 store_ms=0.71 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.362Z event=claimed worker=worker-59445898d5-4m6ks task=108 token=1 attempts=1 record=68
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.373Z event=done worker=worker-59445898d5-f8qvs task=107 token=1 attempts=1 fetch_ms=0.9 process_ms=17.05 store_ms=0.69 p_lo=43 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.373Z event=claimed worker=worker-59445898d5-f8qvs task=109 token=1 attempts=1 record=1
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.398Z event=done worker=worker-59445898d5-4qxjb task=106 token=1 attempts=1 fetch_ms=0.88 process_ms=53.38 store_ms=0.8 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.398Z event=claimed worker=worker-59445898d5-4qxjb task=110 token=1 attempts=1 record=18
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.408Z event=done worker=worker-59445898d5-f8qvs task=109 token=1 attempts=1 fetch_ms=0.82 process_ms=32.77 store_ms=0.8 p_lo=43 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.409Z event=claimed worker=worker-59445898d5-f8qvs task=111 token=1 attempts=1 record=99
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.420Z event=done worker=worker-59445898d5-4qxjb task=110 token=1 attempts=1 fetch_ms=0.98 process_ms=19.14 store_ms=1.39 p_lo=41 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.421Z event=claimed worker=worker-59445898d5-4qxjb task=112 token=1 attempts=1 record=89
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.431Z event=done worker=worker-59445898d5-4m6ks task=108 token=1 attempts=1 fetch_ms=0.85 process_ms=66.41 store_ms=1.35 p_lo=43 p_hi=4052
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.431Z event=claimed worker=worker-59445898d5-4m6ks task=113 token=1 attempts=1 record=12
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.452Z event=done worker=worker-59445898d5-4m6ks task=113 token=1 attempts=1 fetch_ms=1.1 process_ms=18.74 store_ms=1.04 p_lo=44 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.453Z event=claimed worker=worker-59445898d5-4m6ks task=114 token=1 attempts=1 record=62
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.455Z event=done worker=worker-59445898d5-f8qvs task=111 token=1 attempts=1 fetch_ms=1.23 process_ms=44.26 store_ms=0.79 p_lo=40 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.456Z event=claimed worker=worker-59445898d5-f8qvs task=115 token=1 attempts=1 record=52
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.474Z event=done worker=worker-59445898d5-f8qvs task=115 token=1 attempts=1 fetch_ms=0.83 process_ms=16.63 store_ms=0.83 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.475Z event=claimed worker=worker-59445898d5-f8qvs task=116 token=1 attempts=1 record=52
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.486Z event=done worker=worker-59445898d5-4qxjb task=112 token=1 attempts=1 fetch_ms=1.33 process_ms=62.83 store_ms=0.95 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.487Z event=claimed worker=worker-59445898d5-4qxjb task=117 token=1 attempts=1 record=24
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.508Z event=done worker=worker-59445898d5-4qxjb task=117 token=1 attempts=1 fetch_ms=1.02 process_ms=19.01 store_ms=0.86 p_lo=43 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.508Z event=claimed worker=worker-59445898d5-4qxjb task=118 token=1 attempts=1 record=50
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.511Z event=done worker=worker-59445898d5-f8qvs task=116 token=1 attempts=1 fetch_ms=0.93 process_ms=35.01 store_ms=0.62 p_lo=37 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.512Z event=claimed worker=worker-59445898d5-f8qvs task=119 token=1 attempts=1 record=54
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.515Z event=done worker=worker-59445898d5-4m6ks task=114 token=1 attempts=1 fetch_ms=0.94 process_ms=59.95 store_ms=0.79 p_lo=41 p_hi=4058
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.515Z event=claimed worker=worker-59445898d5-4m6ks task=120 token=1 attempts=1 record=17
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.536Z event=done worker=worker-59445898d5-4m6ks task=120 token=1 attempts=1 fetch_ms=0.78 process_ms=19.31 store_ms=0.75 p_lo=38 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.537Z event=claimed worker=worker-59445898d5-4m6ks task=121 token=1 attempts=1 record=35
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.538Z event=done worker=worker-59445898d5-4qxjb task=118 token=1 attempts=1 fetch_ms=0.91 process_ms=27.77 store_ms=0.85 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.538Z event=claimed worker=worker-59445898d5-4qxjb task=122 token=1 attempts=1 record=91
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.556Z event=done worker=worker-59445898d5-4m6ks task=121 token=1 attempts=1 fetch_ms=0.89 process_ms=17.28 store_ms=1.08 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.557Z event=claimed worker=worker-59445898d5-4m6ks task=123 token=1 attempts=1 record=51
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.558Z event=done worker=worker-59445898d5-f8qvs task=119 token=1 attempts=1 fetch_ms=0.94 process_ms=43.36 store_ms=1.29 p_lo=40 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.559Z event=claimed worker=worker-59445898d5-f8qvs task=124 token=1 attempts=1 record=88
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.595Z event=done worker=worker-59445898d5-4qxjb task=122 token=1 attempts=1 fetch_ms=0.67 process_ms=54.73 store_ms=0.95 p_lo=43 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.595Z event=claimed worker=worker-59445898d5-4qxjb task=125 token=1 attempts=1 record=90
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.596Z event=done worker=worker-59445898d5-f8qvs task=124 token=1 attempts=1 fetch_ms=1.17 process_ms=35.77 store_ms=0.88 p_lo=43 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.597Z event=claimed worker=worker-59445898d5-f8qvs task=126 token=1 attempts=1 record=47
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.615Z event=done worker=worker-59445898d5-4qxjb task=125 token=1 attempts=1 fetch_ms=0.97 process_ms=17.84 store_ms=1.01 p_lo=40 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.616Z event=done worker=worker-59445898d5-f8qvs task=126 token=1 attempts=1 fetch_ms=0.7 process_ms=16.98 store_ms=0.9 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.616Z event=claimed worker=worker-59445898d5-4qxjb task=127 token=1 attempts=1 record=19
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.616Z event=claimed worker=worker-59445898d5-f8qvs task=128 token=1 attempts=1 record=43
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.618Z event=done worker=worker-59445898d5-4m6ks task=123 token=1 attempts=1 fetch_ms=1.46 process_ms=59.11 store_ms=0.92 p_lo=41 p_hi=4052
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.619Z event=claimed worker=worker-59445898d5-4m6ks task=129 token=1 attempts=1 record=44
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.641Z event=done worker=worker-59445898d5-4m6ks task=129 token=1 attempts=1 fetch_ms=0.87 process_ms=20.18 store_ms=0.8 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.641Z event=claimed worker=worker-59445898d5-4m6ks task=130 token=1 attempts=1 record=94
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.660Z event=done worker=worker-59445898d5-4m6ks task=130 token=1 attempts=1 fetch_ms=0.76 process_ms=17.26 store_ms=1.0 p_lo=42 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.661Z event=claimed worker=worker-59445898d5-4m6ks task=131 token=1 attempts=1 record=79
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.661Z event=done worker=worker-59445898d5-f8qvs task=128 token=1 attempts=1 fetch_ms=0.91 process_ms=42.92 store_ms=1.15 p_lo=40 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.662Z event=claimed worker=worker-59445898d5-f8qvs task=132 token=1 attempts=1 record=39
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.682Z event=done worker=worker-59445898d5-4qxjb task=127 token=1 attempts=1 fetch_ms=1.16 process_ms=64.68 store_ms=0.73 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.683Z event=claimed worker=worker-59445898d5-4qxjb task=133 token=1 attempts=1 record=17
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.699Z event=done worker=worker-59445898d5-f8qvs task=132 token=1 attempts=1 fetch_ms=0.66 process_ms=34.9 store_ms=1.04 p_lo=39 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.699Z event=claimed worker=worker-59445898d5-f8qvs task=134 token=1 attempts=1 record=56
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.703Z event=done worker=worker-59445898d5-4qxjb task=133 token=1 attempts=1 fetch_ms=0.79 process_ms=18.26 store_ms=0.87 p_lo=39 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.704Z event=claimed worker=worker-59445898d5-4qxjb task=135 token=1 attempts=1 record=90
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.719Z event=done worker=worker-59445898d5-f8qvs task=134 token=1 attempts=1 fetch_ms=1.18 process_ms=17.74 store_ms=1.05 p_lo=39 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.721Z event=claimed worker=worker-59445898d5-f8qvs task=136 token=1 attempts=1 record=70
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.722Z event=done worker=worker-59445898d5-4m6ks task=131 token=1 attempts=1 fetch_ms=1.04 process_ms=58.83 store_ms=1.53 p_lo=41 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.723Z event=claimed worker=worker-59445898d5-4m6ks task=137 token=1 attempts=1 record=3
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.726Z event=done worker=worker-59445898d5-4qxjb task=135 token=1 attempts=1 fetch_ms=1.26 process_ms=18.73 store_ms=1.67 p_lo=39 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.726Z event=claimed worker=worker-59445898d5-4qxjb task=138 token=1 attempts=1 record=74
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.744Z event=done worker=worker-59445898d5-4m6ks task=137 token=1 attempts=1 fetch_ms=1.19 process_ms=18.91 store_ms=0.86 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.745Z event=claimed worker=worker-59445898d5-4m6ks task=139 token=1 attempts=1 record=55
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.762Z event=done worker=worker-59445898d5-f8qvs task=136 token=1 attempts=1 fetch_ms=1.26 process_ms=39.69 store_ms=0.88 p_lo=42 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.763Z event=claimed worker=worker-59445898d5-f8qvs task=140 token=1 attempts=1 record=19
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.764Z event=done worker=worker-59445898d5-4m6ks task=139 token=1 attempts=1 fetch_ms=0.94 process_ms=17.5 store_ms=0.87 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.765Z event=claimed worker=worker-59445898d5-4m6ks task=141 token=1 attempts=1 record=99
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.789Z event=done worker=worker-59445898d5-4qxjb task=138 token=1 attempts=1 fetch_ms=1.09 process_ms=60.65 store_ms=0.94 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.790Z event=claimed worker=worker-59445898d5-4qxjb task=142 token=1 attempts=1 record=21
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.803Z event=done worker=worker-59445898d5-f8qvs task=140 token=1 attempts=1 fetch_ms=0.92 process_ms=38.22 store_ms=0.81 p_lo=41 p_hi=4051
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.803Z event=claimed worker=worker-59445898d5-f8qvs task=143 token=1 attempts=1 record=79
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.811Z event=done worker=worker-59445898d5-4qxjb task=142 token=1 attempts=1 fetch_ms=0.91 process_ms=18.86 store_ms=1.15 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.811Z event=claimed worker=worker-59445898d5-4qxjb task=144 token=1 attempts=1 record=95
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.822Z event=done worker=worker-59445898d5-f8qvs task=143 token=1 attempts=1 fetch_ms=0.99 process_ms=16.92 store_ms=0.76 p_lo=38 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.823Z event=claimed worker=worker-59445898d5-f8qvs task=145 token=1 attempts=1 record=84
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.829Z event=done worker=worker-59445898d5-4m6ks task=141 token=1 attempts=1 fetch_ms=0.78 process_ms=62.99 store_ms=0.79 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.830Z event=claimed worker=worker-59445898d5-4m6ks task=146 token=1 attempts=1 record=55
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.840Z event=done worker=worker-59445898d5-4qxjb task=144 token=1 attempts=1 fetch_ms=0.8 process_ms=27.14 store_ms=0.63 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.840Z event=claimed worker=worker-59445898d5-4qxjb task=147 token=1 attempts=1 record=1
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.849Z event=done worker=worker-59445898d5-4m6ks task=146 token=1 attempts=1 fetch_ms=0.9 process_ms=17.51 store_ms=0.63 p_lo=41 p_hi=4051
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.849Z event=claimed worker=worker-59445898d5-4m6ks task=148 token=1 attempts=1 record=72
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.867Z event=done worker=worker-59445898d5-f8qvs task=145 token=1 attempts=1 fetch_ms=1.04 process_ms=42.61 store_ms=1.02 p_lo=42 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.868Z event=claimed worker=worker-59445898d5-f8qvs task=149 token=1 attempts=1 record=72
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.898Z event=done worker=worker-59445898d5-4qxjb task=147 token=1 attempts=1 fetch_ms=0.96 process_ms=55.9 store_ms=0.86 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.899Z event=claimed worker=worker-59445898d5-4qxjb task=150 token=1 attempts=1 record=66
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.905Z event=done worker=worker-59445898d5-f8qvs task=149 token=1 attempts=1 fetch_ms=1.01 process_ms=35.49 store_ms=0.68 p_lo=44 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.906Z event=claimed worker=worker-59445898d5-f8qvs task=151 token=1 attempts=1 record=59
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.913Z event=done worker=worker-59445898d5-4m6ks task=148 token=1 attempts=1 fetch_ms=0.8 process_ms=62.27 store_ms=0.73 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.914Z event=claimed worker=worker-59445898d5-4m6ks task=152 token=1 attempts=1 record=71
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.925Z event=done worker=worker-59445898d5-4qxjb task=150 token=1 attempts=1 fetch_ms=0.91 process_ms=22.94 store_ms=1.95 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.926Z event=claimed worker=worker-59445898d5-4qxjb task=153 token=1 attempts=1 record=13
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.942Z event=done worker=worker-59445898d5-4m6ks task=152 token=1 attempts=1 fetch_ms=3.79 process_ms=23.33 store_ms=0.85 p_lo=40 p_hi=4052
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.943Z event=claimed worker=worker-59445898d5-4m6ks task=154 token=1 attempts=1 record=2
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.958Z event=done worker=worker-59445898d5-f8qvs task=151 token=1 attempts=1 fetch_ms=0.76 process_ms=49.58 store_ms=1.66 p_lo=40 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.958Z event=claimed worker=worker-59445898d5-f8qvs task=155 token=1 attempts=1 record=99
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.964Z event=done worker=worker-59445898d5-4m6ks task=154 token=1 attempts=1 fetch_ms=1.09 process_ms=19.69 store_ms=0.87 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:50.965Z event=claimed worker=worker-59445898d5-4m6ks task=156 token=1 attempts=1 record=78
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.992Z event=done worker=worker-59445898d5-4qxjb task=153 token=1 attempts=1 fetch_ms=1.1 process_ms=63.34 store_ms=1.05 p_lo=42 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:50.993Z event=claimed worker=worker-59445898d5-4qxjb task=157 token=1 attempts=1 record=99
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.998Z event=done worker=worker-59445898d5-f8qvs task=155 token=1 attempts=1 fetch_ms=1.27 process_ms=37.66 store_ms=0.8 p_lo=41 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:50.999Z event=claimed worker=worker-59445898d5-f8qvs task=158 token=1 attempts=1 record=33
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.015Z event=done worker=worker-59445898d5-4qxjb task=157 token=1 attempts=1 fetch_ms=1.05 process_ms=19.28 store_ms=1.27 p_lo=39 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.015Z event=claimed worker=worker-59445898d5-4qxjb task=159 token=1 attempts=1 record=55
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.019Z event=done worker=worker-59445898d5-f8qvs task=158 token=1 attempts=1 fetch_ms=1.28 process_ms=17.75 store_ms=0.77 p_lo=40 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.019Z event=claimed worker=worker-59445898d5-f8qvs task=160 token=1 attempts=1 record=96
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.030Z event=done worker=worker-59445898d5-4m6ks task=156 token=1 attempts=1 fetch_ms=1.75 process_ms=62.56 store_ms=0.72 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.031Z event=claimed worker=worker-59445898d5-4m6ks task=161 token=1 attempts=1 record=52
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.051Z event=done worker=worker-59445898d5-4m6ks task=161 token=1 attempts=1 fetch_ms=0.8 process_ms=18.05 store_ms=0.87 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.051Z event=claimed worker=worker-59445898d5-4m6ks task=162 token=1 attempts=1 record=62
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.063Z event=done worker=worker-59445898d5-f8qvs task=160 token=1 attempts=1 fetch_ms=0.72 process_ms=42.09 store_ms=0.85 p_lo=40 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.063Z event=claimed worker=worker-59445898d5-f8qvs task=163 token=1 attempts=1 record=79
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.080Z event=done worker=worker-59445898d5-4qxjb task=159 token=1 attempts=1 fetch_ms=1.06 process_ms=62.87 store_ms=0.79 p_lo=43 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.081Z event=claimed worker=worker-59445898d5-4qxjb task=164 token=1 attempts=1 record=72
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.101Z event=done worker=worker-59445898d5-4qxjb task=164 token=1 attempts=1 fetch_ms=1.1 process_ms=18.37 store_ms=0.94 p_lo=43 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.102Z event=claimed worker=worker-59445898d5-4qxjb task=165 token=1 attempts=1 record=61
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.102Z event=done worker=worker-59445898d5-f8qvs task=163 token=1 attempts=1 fetch_ms=0.83 process_ms=36.54 store_ms=1.0 p_lo=41 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.102Z event=claimed worker=worker-59445898d5-f8qvs task=166 token=1 attempts=1 record=54
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.114Z event=done worker=worker-59445898d5-4m6ks task=162 token=1 attempts=1 fetch_ms=0.83 process_ms=61.56 store_ms=0.72 p_lo=40 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.115Z event=claimed worker=worker-59445898d5-4m6ks task=167 token=1 attempts=1 record=20
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.120Z event=done worker=worker-59445898d5-f8qvs task=166 token=1 attempts=1 fetch_ms=0.72 process_ms=16.24 store_ms=0.81 p_lo=41 p_hi=4051
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.121Z event=claimed worker=worker-59445898d5-f8qvs task=168 token=1 attempts=1 record=29
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.122Z event=done worker=worker-59445898d5-4qxjb task=165 token=1 attempts=1 fetch_ms=1.26 process_ms=18.01 store_ms=0.81 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.122Z event=claimed worker=worker-59445898d5-4qxjb task=169 token=1 attempts=1 record=23
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.134Z event=done worker=worker-59445898d5-4m6ks task=167 token=1 attempts=1 fetch_ms=0.93 process_ms=17.33 store_ms=0.77 p_lo=40 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.135Z event=claimed worker=worker-59445898d5-4m6ks task=170 token=1 attempts=1 record=23
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.154Z event=done worker=worker-59445898d5-4m6ks task=170 token=1 attempts=1 fetch_ms=0.83 process_ms=17.35 store_ms=0.76 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.154Z event=claimed worker=worker-59445898d5-4m6ks task=171 token=1 attempts=1 record=48
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.166Z event=done worker=worker-59445898d5-f8qvs task=168 token=1 attempts=1 fetch_ms=0.85 process_ms=43.6 store_ms=0.84 p_lo=39 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.167Z event=claimed worker=worker-59445898d5-f8qvs task=172 token=1 attempts=1 record=94
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.188Z event=done worker=worker-59445898d5-4qxjb task=169 token=1 attempts=1 fetch_ms=0.75 process_ms=63.62 store_ms=0.86 p_lo=39 p_hi=4058
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.188Z event=claimed worker=worker-59445898d5-4qxjb task=173 token=1 attempts=1 record=81
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.203Z event=done worker=worker-59445898d5-f8qvs task=172 token=1 attempts=1 fetch_ms=0.9 process_ms=34.82 store_ms=0.91 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.204Z event=claimed worker=worker-59445898d5-f8qvs task=174 token=1 attempts=1 record=39
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.208Z event=done worker=worker-59445898d5-4qxjb task=173 token=1 attempts=1 fetch_ms=0.78 process_ms=18.38 store_ms=0.75 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.209Z event=claimed worker=worker-59445898d5-4qxjb task=175 token=1 attempts=1 record=64
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.217Z event=done worker=worker-59445898d5-4m6ks task=171 token=1 attempts=1 fetch_ms=0.98 process_ms=61.23 store_ms=0.71 p_lo=40 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.218Z event=claimed worker=worker-59445898d5-4m6ks task=176 token=1 attempts=1 record=8
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.222Z event=done worker=worker-59445898d5-f8qvs task=174 token=1 attempts=1 fetch_ms=1.08 process_ms=16.41 store_ms=0.66 p_lo=41 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.223Z event=claimed worker=worker-59445898d5-f8qvs task=177 token=1 attempts=1 record=100
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.238Z event=done worker=worker-59445898d5-4m6ks task=176 token=1 attempts=1 fetch_ms=0.88 process_ms=18.46 store_ms=1.11 p_lo=42 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.239Z event=done worker=worker-59445898d5-4qxjb task=175 token=1 attempts=1 fetch_ms=0.99 process_ms=27.55 store_ms=1.16 p_lo=40 p_hi=4052
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.239Z event=claimed worker=worker-59445898d5-4m6ks task=178 token=1 attempts=1 record=12
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.240Z event=claimed worker=worker-59445898d5-4qxjb task=179 token=1 attempts=1 record=46
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.261Z event=done worker=worker-59445898d5-4m6ks task=178 token=1 attempts=1 fetch_ms=1.12 process_ms=19.45 store_ms=1.05 p_lo=39 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.262Z event=claimed worker=worker-59445898d5-4m6ks task=180 token=1 attempts=1 record=98
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.269Z event=done worker=worker-59445898d5-f8qvs task=177 token=1 attempts=1 fetch_ms=1.11 process_ms=43.21 store_ms=1.88 p_lo=40 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.270Z event=claimed worker=worker-59445898d5-f8qvs task=181 token=1 attempts=1 record=70
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.294Z event=done worker=worker-59445898d5-4qxjb task=179 token=1 attempts=1 fetch_ms=0.82 process_ms=52.27 store_ms=0.9 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.294Z event=claimed worker=worker-59445898d5-4qxjb task=182 token=1 attempts=1 record=95
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.308Z event=done worker=worker-59445898d5-f8qvs task=181 token=1 attempts=1 fetch_ms=1.24 process_ms=35.86 store_ms=0.78 p_lo=41 p_hi=4058
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.308Z event=claimed worker=worker-59445898d5-f8qvs task=183 token=1 attempts=1 record=23
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.314Z event=done worker=worker-59445898d5-4qxjb task=182 token=1 attempts=1 fetch_ms=1.02 process_ms=17.96 store_ms=0.68 p_lo=38 p_hi=4058
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.315Z event=claimed worker=worker-59445898d5-4qxjb task=184 token=1 attempts=1 record=68
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.325Z event=done worker=worker-59445898d5-4m6ks task=180 token=1 attempts=1 fetch_ms=1.41 process_ms=60.28 store_ms=1.13 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.325Z event=claimed worker=worker-59445898d5-4m6ks task=185 token=1 attempts=1 record=20
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.345Z event=done worker=worker-59445898d5-4m6ks task=185 token=1 attempts=1 fetch_ms=0.97 process_ms=17.72 store_ms=0.94 p_lo=42 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.346Z event=claimed worker=worker-59445898d5-4m6ks task=186 token=1 attempts=1 record=28
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.355Z event=done worker=worker-59445898d5-f8qvs task=183 token=1 attempts=1 fetch_ms=0.96 process_ms=45.32 store_ms=0.79 p_lo=41 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.356Z event=claimed worker=worker-59445898d5-f8qvs task=187 token=1 attempts=1 record=34
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.364Z event=done worker=worker-59445898d5-4m6ks task=186 token=1 attempts=1 fetch_ms=0.88 process_ms=17.07 store_ms=0.72 p_lo=41 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.365Z event=claimed worker=worker-59445898d5-4m6ks task=188 token=1 attempts=1 record=10
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.374Z event=done worker=worker-59445898d5-f8qvs task=187 token=1 attempts=1 fetch_ms=0.78 process_ms=16.64 store_ms=0.75 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.374Z event=claimed worker=worker-59445898d5-f8qvs task=189 token=1 attempts=1 record=21
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.382Z event=done worker=worker-59445898d5-4qxjb task=184 token=1 attempts=1 fetch_ms=0.85 process_ms=65.5 store_ms=0.7 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.382Z event=claimed worker=worker-59445898d5-4qxjb task=190 token=1 attempts=1 record=74
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.402Z event=done worker=worker-59445898d5-4qxjb task=190 token=1 attempts=1 fetch_ms=0.71 process_ms=18.18 store_ms=0.76 p_lo=40 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.403Z event=claimed worker=worker-59445898d5-4qxjb task=191 token=1 attempts=1 record=90
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.410Z event=done worker=worker-59445898d5-f8qvs task=189 token=1 attempts=1 fetch_ms=0.91 process_ms=33.66 store_ms=0.88 p_lo=41 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.410Z event=claimed worker=worker-59445898d5-f8qvs task=192 token=1 attempts=1 record=30
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.423Z event=done worker=worker-59445898d5-4qxjb task=191 token=1 attempts=1 fetch_ms=0.89 process_ms=18.64 store_ms=0.86 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.424Z event=claimed worker=worker-59445898d5-4qxjb task=193 token=1 attempts=1 record=17
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.433Z event=done worker=worker-59445898d5-4m6ks task=188 token=1 attempts=1 fetch_ms=1.35 process_ms=65.47 store_ms=0.83 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.433Z event=claimed worker=worker-59445898d5-4m6ks task=194 token=1 attempts=1 record=39
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.453Z event=done worker=worker-59445898d5-4m6ks task=194 token=1 attempts=1 fetch_ms=0.83 process_ms=18.15 store_ms=0.96 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.454Z event=claimed worker=worker-59445898d5-4m6ks task=195 token=1 attempts=1 record=14
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.455Z event=done worker=worker-59445898d5-f8qvs task=192 token=1 attempts=1 fetch_ms=0.77 process_ms=42.43 store_ms=1.65 p_lo=43 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.456Z event=claimed worker=worker-59445898d5-f8qvs task=196 token=1 attempts=1 record=76
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.475Z event=done worker=worker-59445898d5-f8qvs task=196 token=1 attempts=1 fetch_ms=0.77 process_ms=16.81 store_ms=0.83 p_lo=43 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.475Z event=claimed worker=worker-59445898d5-f8qvs task=197 token=1 attempts=1 record=48
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.487Z event=done worker=worker-59445898d5-4qxjb task=193 token=1 attempts=1 fetch_ms=0.85 process_ms=61.82 store_ms=1.05 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.488Z event=claimed worker=worker-59445898d5-4qxjb task=198 token=1 attempts=1 record=9
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.513Z event=done worker=worker-59445898d5-4qxjb task=198 token=1 attempts=1 fetch_ms=1.04 process_ms=21.84 store_ms=1.8 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.514Z event=claimed worker=worker-59445898d5-4qxjb task=199 token=1 attempts=1 record=46
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.515Z event=done worker=worker-59445898d5-f8qvs task=197 token=1 attempts=1 fetch_ms=0.8 process_ms=36.6 store_ms=2.03 p_lo=41 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.516Z event=claimed worker=worker-59445898d5-f8qvs task=200 token=1 attempts=1 record=43
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.518Z event=done worker=worker-59445898d5-4m6ks task=195 token=1 attempts=1 fetch_ms=1.39 process_ms=60.12 store_ms=2.19 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.519Z event=claimed worker=worker-59445898d5-4m6ks task=201 token=1 attempts=1 record=12
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.545Z event=done worker=worker-59445898d5-4m6ks task=201 token=1 attempts=1 fetch_ms=1.69 process_ms=22.96 store_ms=1.12 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.546Z event=claimed worker=worker-59445898d5-4m6ks task=202 token=1 attempts=1 record=78
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.564Z event=done worker=worker-59445898d5-f8qvs task=200 token=1 attempts=1 fetch_ms=1.65 process_ms=45.08 store_ms=1.16 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.564Z event=claimed worker=worker-59445898d5-f8qvs task=203 token=1 attempts=1 record=35
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.566Z event=done worker=worker-59445898d5-4m6ks task=202 token=1 attempts=1 fetch_ms=1.02 process_ms=17.9 store_ms=1.04 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.566Z event=claimed worker=worker-59445898d5-4m6ks task=204 token=1 attempts=1 record=45
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.584Z event=done worker=worker-59445898d5-4qxjb task=199 token=1 attempts=1 fetch_ms=1.95 process_ms=66.63 store_ms=0.97 p_lo=38 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.585Z event=claimed worker=worker-59445898d5-4qxjb task=205 token=1 attempts=1 record=93
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.601Z event=done worker=worker-59445898d5-f8qvs task=203 token=1 attempts=1 fetch_ms=1.08 process_ms=34.5 store_ms=0.8 p_lo=41 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.601Z event=claimed worker=worker-59445898d5-f8qvs task=206 token=1 attempts=1 record=22
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.605Z event=done worker=worker-59445898d5-4qxjb task=205 token=1 attempts=1 fetch_ms=1.07 process_ms=18.9 store_ms=0.7 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.606Z event=claimed worker=worker-59445898d5-4qxjb task=207 token=1 attempts=1 record=51
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.620Z event=done worker=worker-59445898d5-f8qvs task=206 token=1 attempts=1 fetch_ms=1.06 process_ms=16.59 store_ms=0.77 p_lo=39 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.620Z event=claimed worker=worker-59445898d5-f8qvs task=208 token=1 attempts=1 record=90
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.626Z event=done worker=worker-59445898d5-4qxjb task=207 token=1 attempts=1 fetch_ms=0.78 process_ms=17.84 store_ms=0.9 p_lo=39 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.626Z event=claimed worker=worker-59445898d5-4qxjb task=209 token=1 attempts=1 record=53
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.630Z event=done worker=worker-59445898d5-4m6ks task=204 token=1 attempts=1 fetch_ms=0.73 process_ms=58.26 store_ms=4.73 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.631Z event=claimed worker=worker-59445898d5-4m6ks task=210 token=1 attempts=1 record=66
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.649Z event=done worker=worker-59445898d5-4m6ks task=210 token=1 attempts=1 fetch_ms=0.65 process_ms=17.36 store_ms=0.81 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.650Z event=claimed worker=worker-59445898d5-4m6ks task=211 token=1 attempts=1 record=53
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.665Z event=done worker=worker-59445898d5-f8qvs task=208 token=1 attempts=1 fetch_ms=1.1 process_ms=42.67 store_ms=0.85 p_lo=40 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.666Z event=claimed worker=worker-59445898d5-f8qvs task=212 token=1 attempts=1 record=95
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.691Z event=done worker=worker-59445898d5-4qxjb task=209 token=1 attempts=1 fetch_ms=0.72 process_ms=63.28 store_ms=0.87 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.691Z event=claimed worker=worker-59445898d5-4qxjb task=213 token=1 attempts=1 record=67
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.710Z event=done worker=worker-59445898d5-f8qvs task=212 token=1 attempts=1 fetch_ms=0.93 process_ms=40.99 store_ms=2.09 p_lo=41 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.712Z event=claimed worker=worker-59445898d5-f8qvs task=214 token=1 attempts=1 record=91
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.713Z event=done worker=worker-59445898d5-4m6ks task=211 token=1 attempts=1 fetch_ms=0.9 process_ms=17.46 store_ms=44.94 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.714Z event=claimed worker=worker-59445898d5-4m6ks task=215 token=1 attempts=1 record=2
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.719Z event=done worker=worker-59445898d5-4qxjb task=213 token=1 attempts=1 fetch_ms=0.84 process_ms=25.84 store_ms=1.05 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.720Z event=claimed worker=worker-59445898d5-4qxjb task=216 token=1 attempts=1 record=35
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.734Z event=done worker=worker-59445898d5-4m6ks task=215 token=1 attempts=1 fetch_ms=0.88 process_ms=18.64 store_ms=0.72 p_lo=39 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.735Z event=claimed worker=worker-59445898d5-4m6ks task=217 token=1 attempts=1 record=56
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.754Z event=done worker=worker-59445898d5-4m6ks task=217 token=1 attempts=1 fetch_ms=0.84 process_ms=17.27 store_ms=0.84 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.755Z event=claimed worker=worker-59445898d5-4m6ks task=218 token=1 attempts=1 record=96
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.756Z event=done worker=worker-59445898d5-f8qvs task=214 token=1 attempts=1 fetch_ms=1.46 process_ms=41.09 store_ms=0.79 p_lo=41 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.756Z event=claimed worker=worker-59445898d5-f8qvs task=219 token=1 attempts=1 record=6
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.774Z event=done worker=worker-59445898d5-f8qvs task=219 token=1 attempts=1 fetch_ms=0.74 process_ms=16.23 store_ms=0.65 p_lo=42 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.774Z event=claimed worker=worker-59445898d5-f8qvs task=220 token=1 attempts=1 record=73
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.786Z event=done worker=worker-59445898d5-4qxjb task=216 token=1 attempts=1 fetch_ms=1.33 process_ms=64.22 store_ms=0.7 p_lo=41 p_hi=4050
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.787Z event=claimed worker=worker-59445898d5-4qxjb task=221 token=1 attempts=1 record=33
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.807Z event=done worker=worker-59445898d5-4qxjb task=221 token=1 attempts=1 fetch_ms=0.81 process_ms=18.61 store_ms=0.91 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.808Z event=claimed worker=worker-59445898d5-4qxjb task=222 token=1 attempts=1 record=52
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.813Z event=done worker=worker-59445898d5-f8qvs task=220 token=1 attempts=1 fetch_ms=19.73 process_ms=17.72 store_ms=0.75 p_lo=41 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.813Z event=claimed worker=worker-59445898d5-f8qvs task=223 token=1 attempts=1 record=36
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.817Z event=done worker=worker-59445898d5-4m6ks task=218 token=1 attempts=1 fetch_ms=1.07 process_ms=60.6 store_ms=0.69 p_lo=38 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.817Z event=claimed worker=worker-59445898d5-4m6ks task=224 token=1 attempts=1 record=12
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.838Z event=done worker=worker-59445898d5-4qxjb task=222 token=1 attempts=1 fetch_ms=1.04 process_ms=27.98 store_ms=1.16 p_lo=41 p_hi=4058
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.839Z event=claimed worker=worker-59445898d5-4qxjb task=225 token=1 attempts=1 record=28
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.840Z event=done worker=worker-59445898d5-4m6ks task=224 token=1 attempts=1 fetch_ms=0.97 process_ms=20.3 store_ms=0.92 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.840Z event=claimed worker=worker-59445898d5-4m6ks task=226 token=1 attempts=1 record=37
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.859Z event=done worker=worker-59445898d5-4m6ks task=226 token=1 attempts=1 fetch_ms=0.65 process_ms=17.29 store_ms=0.84 p_lo=44 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.859Z event=done worker=worker-59445898d5-f8qvs task=223 token=1 attempts=1 fetch_ms=1.1 process_ms=43.42 store_ms=0.98 p_lo=39 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.860Z event=claimed worker=worker-59445898d5-f8qvs task=227 token=1 attempts=1 record=21
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.860Z event=claimed worker=worker-59445898d5-4m6ks task=228 token=1 attempts=1 record=48
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.893Z event=done worker=worker-59445898d5-4qxjb task=225 token=1 attempts=1 fetch_ms=1.03 process_ms=52.34 store_ms=0.81 p_lo=42 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.893Z event=claimed worker=worker-59445898d5-4qxjb task=229 token=1 attempts=1 record=18
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.896Z event=done worker=worker-59445898d5-f8qvs task=227 token=1 attempts=1 fetch_ms=1.09 process_ms=34.57 store_ms=0.71 p_lo=42 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.897Z event=claimed worker=worker-59445898d5-f8qvs task=230 token=1 attempts=1 record=89
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.913Z event=done worker=worker-59445898d5-4qxjb task=229 token=1 attempts=1 fetch_ms=1.06 process_ms=18.03 store_ms=0.83 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.914Z event=claimed worker=worker-59445898d5-4qxjb task=231 token=1 attempts=1 record=87
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.915Z event=done worker=worker-59445898d5-f8qvs task=230 token=1 attempts=1 fetch_ms=0.74 process_ms=16.46 store_ms=1.08 p_lo=38 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.916Z event=claimed worker=worker-59445898d5-f8qvs task=232 token=1 attempts=1 record=83
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.924Z event=done worker=worker-59445898d5-4m6ks task=228 token=1 attempts=1 fetch_ms=0.86 process_ms=62.36 store_ms=0.95 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.925Z event=claimed worker=worker-59445898d5-4m6ks task=233 token=1 attempts=1 record=57
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.944Z event=done worker=worker-59445898d5-4m6ks task=233 token=1 attempts=1 fetch_ms=0.83 process_ms=17.0 store_ms=0.82 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.944Z event=claimed worker=worker-59445898d5-4m6ks task=234 token=1 attempts=1 record=12
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.961Z event=done worker=worker-59445898d5-f8qvs task=232 token=1 attempts=1 fetch_ms=0.82 process_ms=43.82 store_ms=0.8 p_lo=41 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:51.962Z event=claimed worker=worker-59445898d5-f8qvs task=235 token=1 attempts=1 record=14
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.963Z event=done worker=worker-59445898d5-4m6ks task=234 token=1 attempts=1 fetch_ms=0.93 process_ms=17.04 store_ms=0.91 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:51.964Z event=claimed worker=worker-59445898d5-4m6ks task=236 token=1 attempts=1 record=97
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.981Z event=done worker=worker-59445898d5-4qxjb task=231 token=1 attempts=1 fetch_ms=1.19 process_ms=64.06 store_ms=1.0 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:51.981Z event=claimed worker=worker-59445898d5-4qxjb task=237 token=1 attempts=1 record=42
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.000Z event=done worker=worker-59445898d5-f8qvs task=235 token=1 attempts=1 fetch_ms=0.98 process_ms=36.14 store_ms=0.99 p_lo=42 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.001Z event=claimed worker=worker-59445898d5-f8qvs task=238 token=1 attempts=1 record=88
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.002Z event=done worker=worker-59445898d5-4qxjb task=237 token=1 attempts=1 fetch_ms=1.05 process_ms=18.53 store_ms=1.12 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.003Z event=claimed worker=worker-59445898d5-4qxjb task=239 token=1 attempts=1 record=34
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.020Z event=done worker=worker-59445898d5-f8qvs task=238 token=1 attempts=1 fetch_ms=1.18 process_ms=17.0 store_ms=0.93 p_lo=42 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.020Z event=claimed worker=worker-59445898d5-f8qvs task=240 token=1 attempts=1 record=100
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.023Z event=done worker=worker-59445898d5-4qxjb task=239 token=1 attempts=1 fetch_ms=0.85 process_ms=18.9 store_ms=0.65 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.024Z event=claimed worker=worker-59445898d5-4qxjb task=241 token=1 attempts=1 record=72
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.030Z event=done worker=worker-59445898d5-4m6ks task=236 token=1 attempts=1 fetch_ms=1.05 process_ms=64.82 store_ms=0.76 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.031Z event=claimed worker=worker-59445898d5-4m6ks task=242 token=1 attempts=1 record=100
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.050Z event=done worker=worker-59445898d5-4m6ks task=242 token=1 attempts=1 fetch_ms=0.75 process_ms=17.07 store_ms=0.87 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.050Z event=claimed worker=worker-59445898d5-4m6ks task=243 token=1 attempts=1 record=60
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.064Z event=done worker=worker-59445898d5-f8qvs task=240 token=1 attempts=1 fetch_ms=1.06 process_ms=41.68 store_ms=0.74 p_lo=41 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.065Z event=claimed worker=worker-59445898d5-f8qvs task=244 token=1 attempts=1 record=68
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.089Z event=done worker=worker-59445898d5-4qxjb task=241 token=1 attempts=1 fetch_ms=0.96 process_ms=63.34 store_ms=1.26 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.090Z event=claimed worker=worker-59445898d5-4qxjb task=245 token=1 attempts=1 record=74
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.102Z event=done worker=worker-59445898d5-f8qvs task=244 token=1 attempts=1 fetch_ms=1.07 process_ms=35.57 store_ms=1.11 p_lo=40 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.103Z event=claimed worker=worker-59445898d5-f8qvs task=246 token=1 attempts=1 record=12
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.111Z event=done worker=worker-59445898d5-4qxjb task=245 token=1 attempts=1 fetch_ms=1.24 process_ms=18.63 store_ms=1.08 p_lo=38 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.112Z event=claimed worker=worker-59445898d5-4qxjb task=247 token=1 attempts=1 record=29
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.113Z event=done worker=worker-59445898d5-4m6ks task=243 token=1 attempts=1 fetch_ms=0.95 process_ms=60.07 store_ms=1.69 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.114Z event=claimed worker=worker-59445898d5-4m6ks task=248 token=1 attempts=1 record=91
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.122Z event=done worker=worker-59445898d5-f8qvs task=246 token=1 attempts=1 fetch_ms=1.35 process_ms=16.96 store_ms=0.67 p_lo=40 p_hi=4057
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.123Z event=claimed worker=worker-59445898d5-f8qvs task=249 token=1 attempts=1 record=10
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.135Z event=done worker=worker-59445898d5-4m6ks task=248 token=1 attempts=1 fetch_ms=1.02 process_ms=18.79 store_ms=0.98 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.135Z event=claimed worker=worker-59445898d5-4m6ks task=250 token=1 attempts=1 record=60
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.140Z event=done worker=worker-59445898d5-4qxjb task=247 token=1 attempts=1 fetch_ms=0.94 process_ms=26.24 store_ms=0.86 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.141Z event=claimed worker=worker-59445898d5-4qxjb task=251 token=1 attempts=1 record=100
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.156Z event=done worker=worker-59445898d5-4m6ks task=250 token=1 attempts=1 fetch_ms=0.95 process_ms=17.92 store_ms=1.18 p_lo=39 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.156Z event=claimed worker=worker-59445898d5-4m6ks task=252 token=1 attempts=1 record=41
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.167Z event=done worker=worker-59445898d5-f8qvs task=249 token=1 attempts=1 fetch_ms=0.98 process_ms=42.1 store_ms=0.78 p_lo=40 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.167Z event=claimed worker=worker-59445898d5-f8qvs task=253 token=1 attempts=1 record=21
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.196Z event=done worker=worker-59445898d5-4qxjb task=251 token=1 attempts=1 fetch_ms=0.9 process_ms=53.62 store_ms=1.04 p_lo=43 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.197Z event=claimed worker=worker-59445898d5-4qxjb task=254 token=1 attempts=1 record=98
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.205Z event=done worker=worker-59445898d5-f8qvs task=253 token=1 attempts=1 fetch_ms=0.89 process_ms=36.31 store_ms=0.92 p_lo=39 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.206Z event=claimed worker=worker-59445898d5-f8qvs task=255 token=1 attempts=1 record=93
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.218Z event=done worker=worker-59445898d5-4qxjb task=254 token=1 attempts=1 fetch_ms=1.42 process_ms=18.94 store_ms=0.76 p_lo=40 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.218Z event=done worker=worker-59445898d5-4m6ks task=252 token=1 attempts=1 fetch_ms=0.89 process_ms=60.21 store_ms=1.03 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.219Z event=claimed worker=worker-59445898d5-4qxjb task=256 token=1 attempts=1 record=12
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.219Z event=claimed worker=worker-59445898d5-4m6ks task=257 token=1 attempts=1 record=29
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.241Z event=done worker=worker-59445898d5-4m6ks task=257 token=1 attempts=1 fetch_ms=0.71 process_ms=19.23 store_ms=1.23 p_lo=38 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.241Z event=claimed worker=worker-59445898d5-4m6ks task=258 token=1 attempts=1 record=47
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.252Z event=done worker=worker-59445898d5-f8qvs task=255 token=1 attempts=1 fetch_ms=1.09 process_ms=44.09 store_ms=1.06 p_lo=39 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.253Z event=claimed worker=worker-59445898d5-f8qvs task=259 token=1 attempts=1 record=69
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.261Z event=done worker=worker-59445898d5-4m6ks task=258 token=1 attempts=1 fetch_ms=1.05 process_ms=17.95 store_ms=1.07 p_lo=40 p_hi=4057
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.262Z event=claimed worker=worker-59445898d5-4m6ks task=260 token=1 attempts=1 record=82
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.272Z event=done worker=worker-59445898d5-f8qvs task=259 token=1 attempts=1 fetch_ms=0.91 process_ms=16.93 store_ms=0.77 p_lo=42 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.272Z event=claimed worker=worker-59445898d5-f8qvs task=261 token=1 attempts=1 record=63
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.290Z event=done worker=worker-59445898d5-4qxjb task=256 token=1 attempts=1 fetch_ms=1.47 process_ms=68.7 store_ms=0.91 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.290Z event=claimed worker=worker-59445898d5-4qxjb task=262 token=1 attempts=1 record=68
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.307Z event=done worker=worker-59445898d5-f8qvs task=261 token=1 attempts=1 fetch_ms=0.87 process_ms=32.56 store_ms=1.23 p_lo=41 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.307Z event=claimed worker=worker-59445898d5-f8qvs task=263 token=1 attempts=1 record=99
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.311Z event=done worker=worker-59445898d5-4qxjb task=262 token=1 attempts=1 fetch_ms=0.93 process_ms=18.39 store_ms=1.0 p_lo=41 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.311Z event=claimed worker=worker-59445898d5-4qxjb task=264 token=1 attempts=1 record=65
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.323Z event=done worker=worker-59445898d5-4m6ks task=260 token=1 attempts=1 fetch_ms=0.82 process_ms=59.29 store_ms=0.74 p_lo=37 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.324Z event=claimed worker=worker-59445898d5-4m6ks task=265 token=1 attempts=1 record=100
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.337Z event=done worker=worker-59445898d5-4qxjb task=264 token=1 attempts=1 fetch_ms=0.74 process_ms=24.52 store_ms=0.67 p_lo=41 p_hi=4057
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.338Z event=claimed worker=worker-59445898d5-4qxjb task=266 token=1 attempts=1 record=49
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.345Z event=done worker=worker-59445898d5-4m6ks task=265 token=1 attempts=1 fetch_ms=0.92 process_ms=19.73 store_ms=1.12 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.346Z event=claimed worker=worker-59445898d5-4m6ks task=267 token=1 attempts=1 record=52
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.354Z event=done worker=worker-59445898d5-f8qvs task=263 token=1 attempts=1 fetch_ms=0.96 process_ms=45.02 store_ms=1.11 p_lo=42 p_hi=4051
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.355Z event=claimed worker=worker-59445898d5-f8qvs task=268 token=1 attempts=1 record=87
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.366Z event=done worker=worker-59445898d5-4m6ks task=267 token=1 attempts=1 fetch_ms=1.06 process_ms=17.8 store_ms=1.18 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.367Z event=claimed worker=worker-59445898d5-4m6ks task=269 token=1 attempts=1 record=40
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.374Z event=done worker=worker-59445898d5-f8qvs task=268 token=1 attempts=1 fetch_ms=1.09 process_ms=16.89 store_ms=1.0 p_lo=41 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.375Z event=claimed worker=worker-59445898d5-f8qvs task=270 token=1 attempts=1 record=59
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.395Z event=done worker=worker-59445898d5-4qxjb task=266 token=1 attempts=1 fetch_ms=0.91 process_ms=55.13 store_ms=1.17 p_lo=40 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.396Z event=claimed worker=worker-59445898d5-4qxjb task=271 token=1 attempts=1 record=97
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.409Z event=done worker=worker-59445898d5-f8qvs task=270 token=1 attempts=1 fetch_ms=1.06 process_ms=31.87 store_ms=0.84 p_lo=41 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.409Z event=claimed worker=worker-59445898d5-f8qvs task=272 token=1 attempts=1 record=3
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.416Z event=done worker=worker-59445898d5-4qxjb task=271 token=1 attempts=1 fetch_ms=0.92 process_ms=18.1 store_ms=0.75 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.416Z event=claimed worker=worker-59445898d5-4qxjb task=273 token=1 attempts=1 record=66
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.432Z event=done worker=worker-59445898d5-4m6ks task=269 token=1 attempts=1 fetch_ms=0.91 process_ms=62.72 store_ms=0.87 p_lo=42 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.432Z event=claimed worker=worker-59445898d5-4m6ks task=274 token=1 attempts=1 record=83
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.455Z event=done worker=worker-59445898d5-4m6ks task=274 token=1 attempts=1 fetch_ms=0.87 process_ms=20.37 store_ms=1.88 p_lo=42 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.456Z event=claimed worker=worker-59445898d5-4m6ks task=275 token=1 attempts=1 record=25
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.457Z event=done worker=worker-59445898d5-f8qvs task=272 token=1 attempts=1 fetch_ms=0.86 process_ms=44.63 store_ms=1.71 p_lo=41 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.458Z event=claimed worker=worker-59445898d5-f8qvs task=276 token=1 attempts=1 record=85
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.483Z event=done worker=worker-59445898d5-4qxjb task=273 token=1 attempts=1 fetch_ms=0.91 process_ms=64.18 store_ms=1.24 p_lo=39 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.486Z event=claimed worker=worker-59445898d5-4qxjb task=277 token=1 attempts=1 record=27
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.496Z event=done worker=worker-59445898d5-f8qvs task=276 token=1 attempts=1 fetch_ms=1.14 process_ms=35.35 store_ms=1.68 p_lo=44 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.496Z event=claimed worker=worker-59445898d5-f8qvs task=278 token=1 attempts=1 record=3
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.512Z event=done worker=worker-59445898d5-4qxjb task=277 token=1 attempts=1 fetch_ms=2.81 process_ms=21.42 store_ms=0.91 p_lo=43 p_hi=4055
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.512Z event=claimed worker=worker-59445898d5-4qxjb task=279 token=1 attempts=1 record=11
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.515Z event=done worker=worker-59445898d5-f8qvs task=278 token=1 attempts=1 fetch_ms=1.02 process_ms=16.55 store_ms=1.05 p_lo=42 p_hi=4052
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.516Z event=claimed worker=worker-59445898d5-f8qvs task=280 token=1 attempts=1 record=51
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.519Z event=done worker=worker-59445898d5-4m6ks task=275 token=1 attempts=1 fetch_ms=1.59 process_ms=59.9 store_ms=0.79 p_lo=39 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.519Z event=claimed worker=worker-59445898d5-4m6ks task=281 token=1 attempts=1 record=85
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.538Z event=done worker=worker-59445898d5-4qxjb task=279 token=1 attempts=1 fetch_ms=1.11 process_ms=23.67 store_ms=0.68 p_lo=40 p_hi=4051
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.538Z event=claimed worker=worker-59445898d5-4qxjb task=282 token=1 attempts=1 record=97
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.541Z event=done worker=worker-59445898d5-4m6ks task=281 token=1 attempts=1 fetch_ms=0.8 process_ms=20.21 store_ms=0.66 p_lo=42 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.541Z event=claimed worker=worker-59445898d5-4m6ks task=283 token=1 attempts=1 record=47
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.559Z event=done worker=worker-59445898d5-f8qvs task=280 token=1 attempts=1 fetch_ms=0.89 process_ms=41.72 store_ms=0.89 p_lo=41 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.560Z event=claimed worker=worker-59445898d5-f8qvs task=284 token=1 attempts=1 record=92
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.561Z event=done worker=worker-59445898d5-4m6ks task=283 token=1 attempts=1 fetch_ms=0.75 process_ms=17.26 store_ms=1.13 p_lo=39 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.561Z event=claimed worker=worker-59445898d5-4m6ks task=285 token=1 attempts=1 record=9
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.593Z event=done worker=worker-59445898d5-4qxjb task=282 token=1 attempts=1 fetch_ms=0.88 process_ms=52.73 store_ms=0.77 p_lo=42 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.593Z event=claimed worker=worker-59445898d5-4qxjb task=286 token=1 attempts=1 record=74
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.598Z event=done worker=worker-59445898d5-f8qvs task=284 token=1 attempts=1 fetch_ms=0.87 process_ms=36.63 store_ms=0.76 p_lo=41 p_hi=4053
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.599Z event=claimed worker=worker-59445898d5-f8qvs task=287 token=1 attempts=1 record=2
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.615Z event=done worker=worker-59445898d5-4qxjb task=286 token=1 attempts=1 fetch_ms=1.2 process_ms=18.88 store_ms=1.35 p_lo=40 p_hi=4056
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.616Z event=claimed worker=worker-59445898d5-4qxjb task=288 token=1 attempts=1 record=36
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.619Z event=done worker=worker-59445898d5-f8qvs task=287 token=1 attempts=1 fetch_ms=0.9 process_ms=16.94 store_ms=2.03 p_lo=40 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.619Z event=claimed worker=worker-59445898d5-f8qvs task=289 token=1 attempts=1 record=28
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.625Z event=done worker=worker-59445898d5-4m6ks task=285 token=1 attempts=1 fetch_ms=0.64 process_ms=62.05 store_ms=1.55 p_lo=40 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.627Z event=claimed worker=worker-59445898d5-4m6ks task=290 token=1 attempts=1 record=32
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.649Z event=done worker=worker-59445898d5-4m6ks task=290 token=1 attempts=1 fetch_ms=2.25 process_ms=18.79 store_ms=1.1 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.650Z event=claimed worker=worker-59445898d5-4m6ks task=291 token=1 attempts=1 record=69
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.663Z event=done worker=worker-59445898d5-f8qvs task=289 token=1 attempts=1 fetch_ms=0.97 process_ms=41.91 store_ms=0.98 p_lo=39 p_hi=4055
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.664Z event=claimed worker=worker-59445898d5-f8qvs task=292 token=1 attempts=1 record=18
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.685Z event=done worker=worker-59445898d5-4qxjb task=288 token=1 attempts=1 fetch_ms=1.89 process_ms=66.0 store_ms=0.79 p_lo=37 p_hi=4054
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.685Z event=claimed worker=worker-59445898d5-4qxjb task=293 token=1 attempts=1 record=92
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.702Z event=done worker=worker-59445898d5-f8qvs task=292 token=1 attempts=1 fetch_ms=1.03 process_ms=36.02 store_ms=0.88 p_lo=42 p_hi=4056
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.702Z event=claimed worker=worker-59445898d5-f8qvs task=294 token=1 attempts=1 record=83
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.706Z event=done worker=worker-59445898d5-4qxjb task=293 token=1 attempts=1 fetch_ms=0.93 process_ms=18.79 store_ms=0.59 p_lo=40 p_hi=4052
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.706Z event=claimed worker=worker-59445898d5-4qxjb task=295 token=1 attempts=1 record=41
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.712Z event=done worker=worker-59445898d5-4m6ks task=291 token=1 attempts=1 fetch_ms=1.0 process_ms=17.22 store_ms=43.9 p_lo=41 p_hi=4056
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.712Z event=claimed worker=worker-59445898d5-4m6ks task=296 token=1 attempts=1 record=3
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.720Z event=done worker=worker-59445898d5-f8qvs task=294 token=1 attempts=1 fetch_ms=0.98 process_ms=16.47 store_ms=0.7 p_lo=40 p_hi=4054
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.721Z event=claimed worker=worker-59445898d5-f8qvs task=297 token=1 attempts=1 record=17
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.734Z event=done worker=worker-59445898d5-4m6ks task=296 token=1 attempts=1 fetch_ms=0.96 process_ms=19.74 store_ms=0.7 p_lo=41 p_hi=4055
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.734Z event=claimed worker=worker-59445898d5-4m6ks task=298 token=1 attempts=1 record=30
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.737Z event=done worker=worker-59445898d5-4qxjb task=295 token=1 attempts=1 fetch_ms=0.95 process_ms=28.37 store_ms=0.72 p_lo=41 p_hi=4053
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.737Z event=claimed worker=worker-59445898d5-4qxjb task=299 token=1 attempts=1 record=92
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.753Z event=done worker=worker-59445898d5-4m6ks task=298 token=1 attempts=1 fetch_ms=0.96 process_ms=17.3 store_ms=0.76 p_lo=39 p_hi=4053
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.754Z event=claimed worker=worker-59445898d5-4m6ks task=300 token=1 attempts=1 record=91
+pod=worker-59445898d5-f8qvs restart=0 ts=2026-11-24T22:17:52.765Z event=done worker=worker-59445898d5-f8qvs task=297 token=1 attempts=1 fetch_ms=0.91 process_ms=41.89 store_ms=0.83 p_lo=44 p_hi=4059
+pod=worker-59445898d5-4qxjb restart=0 ts=2026-11-24T22:17:52.792Z event=done worker=worker-59445898d5-4qxjb task=299 token=1 attempts=1 fetch_ms=0.75 process_ms=53.01 store_ms=1.12 p_lo=41 p_hi=4054
+pod=worker-59445898d5-4m6ks restart=0 ts=2026-11-24T22:17:52.816Z event=done worker=worker-59445898d5-4m6ks task=300 token=1 attempts=1 fetch_ms=1.02 process_ms=59.75 store_ms=1.06 p_lo=41 p_hi=4054

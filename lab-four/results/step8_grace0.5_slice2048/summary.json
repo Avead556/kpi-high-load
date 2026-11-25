@@ -1,0 +1,120 @@
+{
+  "rate": 3.0,
+  "env": {
+    "GRACE_SECONDS": 0.5,
+    "SLICE_SIZE": 2048
+  },
+  "t_restart": 1795560050.876387,
+  "t_rolled": 1795560064.400056,
+  "old_pods": [
+    "worker-6fb6f9c445-r8f9n",
+    "worker-6fb6f9c445-wvn27",
+    "worker-6fb6f9c445-zlxzt"
+  ],
+  "exits": [
+    {
+      "pod": "worker-6fb6f9c445-wvn27",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:40:52Z"
+    },
+    {
+      "pod": "worker-6fb6f9c445-r8f9n",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:40:58Z"
+    },
+    {
+      "pod": "worker-6fb6f9c445-zlxzt",
+      "exit_code": 0,
+      "reason": "Completed",
+      "finished": "2026-11-24T22:41:04Z"
+    }
+  ],
+  "exit_codes": {
+    "0": 3
+  },
+  "sigterm": [
+    {
+      "pod": "worker-6fb6f9c445-wvn27",
+      "restart": "0",
+      "ts": "2026-11-24T22:40:52.230Z",
+      "event": "sigterm",
+      "worker": "worker-6fb6f9c445-wvn27",
+      "in_flight": "13"
+    },
+    {
+      "pod": "worker-6fb6f9c445-r8f9n",
+      "restart": "0",
+      "ts": "2026-11-24T22:40:58.365Z",
+      "event": "sigterm",
+      "worker": "worker-6fb6f9c445-r8f9n",
+      "in_flight": "27"
+    },
+    {
+      "pod": "worker-6fb6f9c445-zlxzt",
+      "restart": "0",
+      "ts": "2026-11-24T22:41:04.294Z",
+      "event": "sigterm",
+      "worker": "worker-6fb6f9c445-zlxzt",
+      "in_flight": "33"
+    }
+  ],
+  "exit_lines": [
+    {
+      "pod": "worker-6fb6f9c445-wvn27",
+      "restart": "0",
+      "ts": "2026-11-24T22:40:52.600Z",
+      "event": "exit",
+      "worker": "worker-6fb6f9c445-wvn27",
+      "code": "0"
+    },
+    {
+      "pod": "worker-6fb6f9c445-r8f9n",
+      "restart": "0",
+      "ts": "2026-11-24T22:40:58.880Z",
+      "event": "exit",
+      "worker": "worker-6fb6f9c445-r8f9n",
+      "code": "0",
+      "reason": "grace"
+    },
+    {
+      "pod": "worker-6fb6f9c445-zlxzt",
+      "restart": "0",
+      "ts": "2026-11-24T22:41:04.472Z",
+      "event": "exit",
+      "worker": "worker-6fb6f9c445-zlxzt",
+      "code": "0"
+    }
+  ],
+  "returned": [
+    {
+      "pod": "worker-6fb6f9c445-r8f9n",
+      "restart": "0",
+      "ts": "2026-11-24T22:40:58.880Z",
+      "event": "returned",
+      "worker": "worker-6fb6f9c445-r8f9n",
+      "task": "27",
+      "token": "1",
+      "rows": "1"
+    }
+  ],
+  "status": {
+    "done": 90
+  },
+  "failed": 0,
+  "multi_result": 0,
+  "attempts_gt1": 1,
+  "tasks": 90,
+  "accepted": 90,
+  "non_2xx": 0,
+  "returned_tasks": [
+    {
+      "task": 27,
+      "status": "done",
+      "attempts": 2,
+      "results": 1,
+      "worker": "worker-bf69fd9bc-9nvxb"
+    }
+  ]
+}

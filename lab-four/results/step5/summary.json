@@ -1,0 +1,130 @@
+{
+  "victim": "worker-cccf95b4c-655gv",
+  "other": "worker-cccf95b4c-8ss48",
+  "task": 68,
+  "tries": 12,
+  "stop_seconds": 20.15689182281494,
+  "node_pid": [
+    "lab4-worker",
+    19972
+  ],
+  "state_while_stopped": "State:\tT (stopped)",
+  "before": {
+    "id": "68",
+    "status": "running",
+    "attempts": "1",
+    "token": "1",
+    "worker_id": "worker-cccf95b4c-655gv",
+    "lease_until": "2026-11-24 22:21:57.377435+00",
+    "started_at": "2026-11-24 22:21:47.377436+00",
+    "finished_at": ""
+  },
+  "at_continue": {
+    "id": "68",
+    "status": "done",
+    "attempts": "2",
+    "token": "2",
+    "worker_id": "worker-cccf95b4c-8ss48",
+    "lease_until": "",
+    "started_at": "2026-11-24 22:21:57.384031+00",
+    "finished_at": "2026-11-24 22:21:57.40226+00"
+  },
+  "after": {
+    "id": "68",
+    "status": "done",
+    "attempts": "2",
+    "token": "2",
+    "worker_id": "worker-cccf95b4c-8ss48",
+    "lease_until": "",
+    "started_at": "2026-11-24 22:21:57.384031+00",
+    "finished_at": "2026-11-24 22:21:57.40226+00"
+  },
+  "results": [
+    {
+      "task_id": "68",
+      "token": "2",
+      "worker_id": "worker-cccf95b4c-8ss48",
+      "created_at": "2026-11-24 22:21:57.402455+00"
+    }
+  ],
+  "task_log": [
+    {
+      "pod": "worker-cccf95b4c-655gv",
+      "restart": "0",
+      "ts": "2026-11-24T22:21:47.377Z",
+      "event": "claimed",
+      "worker": "worker-cccf95b4c-655gv",
+      "task": "68",
+      "token": "1",
+      "attempts": "1",
+      "record": "21"
+    },
+    {
+      "pod": "worker-cccf95b4c-8ss48",
+      "restart": "0",
+      "ts": "2026-11-24T22:21:57.383Z",
+      "event": "reaped",
+      "worker": "worker-cccf95b4c-8ss48",
+      "task": "68",
+      "to": "queued",
+      "token": "1",
+      "attempts": "1"
+    },
+    {
+      "pod": "worker-cccf95b4c-8ss48",
+      "restart": "0",
+      "ts": "2026-11-24T22:21:57.384Z",
+      "event": "claimed",
+      "worker": "worker-cccf95b4c-8ss48",
+      "task": "68",
+      "token": "2",
+      "attempts": "2",
+      "record": "21"
+    },
+    {
+      "pod": "worker-cccf95b4c-8ss48",
+      "restart": "0",
+      "ts": "2026-11-24T22:21:57.402Z",
+      "event": "done",
+      "worker": "worker-cccf95b4c-8ss48",
+      "task": "68",
+      "token": "2",
+      "attempts": "2",
+      "fetch_ms": "1.04",
+      "process_ms": "16.64",
+      "store_ms": "0.83",
+      "p_lo": "40",
+      "p_hi": "4053"
+    },
+    {
+      "pod": "worker-cccf95b4c-655gv",
+      "restart": "0",
+      "ts": "2026-11-24T22:22:07.557Z",
+      "event": "stale",
+      "worker": "worker-cccf95b4c-655gv",
+      "op": "heartbeat",
+      "rows": "0",
+      "task": "68",
+      "token": "1"
+    },
+    {
+      "pod": "worker-cccf95b4c-655gv",
+      "restart": "0",
+      "ts": "2026-11-24T22:22:07.565Z",
+      "event": "stale",
+      "worker": "worker-cccf95b4c-655gv",
+      "op": "store",
+      "rows": "0",
+      "task": "68",
+      "token": "1"
+    }
+  ],
+  "victim_stale_lines": [
+    "pod=worker-cccf95b4c-655gv restart=0 ts=2026-11-24T22:22:07.557Z event=stale worker=worker-cccf95b4c-655gv op=heartbeat rows=0 task=68 token=1",
+    "pod=worker-cccf95b4c-655gv restart=0 ts=2026-11-24T22:22:07.565Z event=stale worker=worker-cccf95b4c-655gv op=store rows=0 task=68 token=1"
+  ],
+  "all_tasks": {
+    "done": 100
+  },
+  "accepted": 100
+}

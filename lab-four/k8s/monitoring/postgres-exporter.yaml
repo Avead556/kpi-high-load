@@ -1,0 +1,15 @@
+config:
+  datasource:
+    host: postgres-0.postgres.vaccines.svc.cluster.local
+    user: vaccines
+    database: vaccines
+    sslmode: disable
+    passwordSecret:
+      name: db-credentials
+      key: password
+serviceMonitor:
+  enabled: true
+  interval: 5s
+nodeSelector: {role: infra}
+tolerations:
+  - {key: node-role.kubernetes.io/control-plane, operator: Exists, effect: NoSchedule}

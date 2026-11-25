@@ -1,0 +1,378 @@
+{
+  "skip_locked": {
+    "rate100": {
+      "rate": 100,
+      "count": 300,
+      "accepted": 300,
+      "non_2xx": 0,
+      "t_start": 1795558622.25792,
+      "t_end": 1795558626.437732,
+      "pods": [
+        "worker-97679854d-d499t",
+        "worker-97679854d-dqkst",
+        "worker-97679854d-w7nsh"
+      ],
+      "claim_p99_ms": 1.757,
+      "claim_p50_ms": 0.306,
+      "claims_empty": 959.0,
+      "claims_task": 300.0,
+      "claim_buckets": [
+        [
+          0.0005,
+          1030.0
+        ],
+        [
+          0.001,
+          1229.0
+        ],
+        [
+          0.002,
+          1252.0
+        ],
+        [
+          0.004,
+          1257.0
+        ],
+        [
+          0.008,
+          1258.0
+        ],
+        [
+          0.016,
+          1258.0
+        ],
+        [
+          0.032,
+          1258.0
+        ],
+        [
+          0.064,
+          1259.0
+        ],
+        [
+          0.128,
+          1259.0
+        ],
+        [
+          0.256,
+          1259.0
+        ],
+        [
+          0.512,
+          1259.0
+        ],
+        [
+          1.024,
+          1259.0
+        ],
+        [
+          2.048,
+          1259.0
+        ],
+        [
+          4.096,
+          1259.0
+        ],
+        [
+          Infinity,
+          1259.0
+        ]
+      ],
+      "lock_waiting_max_1s": 0,
+      "lock_samples_1s": 6,
+      "lock_waiting_max_10ms": 0,
+      "lock_samples_10ms": 606,
+      "lock_waiting_share_10ms": 0.0,
+      "n": 300,
+      "dup_by_results": 0,
+      "D_results": 0.0,
+      "dup_by_logs": 0,
+      "D_logs": 0.0,
+      "result_rows": 300,
+      "done_events": 300,
+      "max_results_per_task": 1,
+      "duration_s": 4.179811954498291
+    },
+    "backlog": {
+      "rate": 1500,
+      "count": 300,
+      "accepted": 300,
+      "non_2xx": 0,
+      "t_start": 1795558630.721125,
+      "t_end": 1795558634.877935,
+      "pods": [
+        "worker-97679854d-d499t",
+        "worker-97679854d-dqkst",
+        "worker-97679854d-w7nsh"
+      ],
+      "claim_p99_ms": 1.643,
+      "claim_p50_ms": 0.293,
+      "claims_empty": 893.0,
+      "claims_task": 300.0,
+      "claim_buckets": [
+        [
+          0.0005,
+          1019.0
+        ],
+        [
+          0.001,
+          1165.0
+        ],
+        [
+          0.002,
+          1190.0
+        ],
+        [
+          0.004,
+          1191.0
+        ],
+        [
+          0.008,
+          1192.0
+        ],
+        [
+          0.016,
+          1192.0
+        ],
+        [
+          0.032,
+          1192.0
+        ],
+        [
+          0.064,
+          1193.0
+        ],
+        [
+          0.128,
+          1193.0
+        ],
+        [
+          0.256,
+          1193.0
+        ],
+        [
+          0.512,
+          1193.0
+        ],
+        [
+          1.024,
+          1193.0
+        ],
+        [
+          2.048,
+          1193.0
+        ],
+        [
+          4.096,
+          1193.0
+        ],
+        [
+          Infinity,
+          1193.0
+        ]
+      ],
+      "lock_waiting_max_1s": 0,
+      "lock_samples_1s": 6,
+      "lock_waiting_max_10ms": 0,
+      "lock_samples_10ms": 609,
+      "lock_waiting_share_10ms": 0.0,
+      "n": 300,
+      "dup_by_results": 0,
+      "D_results": 0.0,
+      "dup_by_logs": 0,
+      "D_logs": 0.0,
+      "result_rows": 300,
+      "done_events": 300,
+      "max_results_per_task": 1,
+      "duration_s": 4.15681004524231
+    }
+  },
+  "for_update": {
+    "rate100": {
+      "rate": 100,
+      "count": 300,
+      "accepted": 300,
+      "non_2xx": 0,
+      "t_start": 1795558660.313473,
+      "t_end": 1795558664.53644,
+      "pods": [
+        "worker-59445898d5-4m6ks",
+        "worker-59445898d5-4qxjb",
+        "worker-59445898d5-f8qvs"
+      ],
+      "claim_p99_ms": 1.12,
+      "claim_p50_ms": 0.295,
+      "claims_empty": 892.0,
+      "claims_task": 300.0,
+      "claim_buckets": [
+        [
+          0.0005,
+          1011.0
+        ],
+        [
+          0.001,
+          1179.0
+        ],
+        [
+          0.002,
+          1188.0
+        ],
+        [
+          0.004,
+          1189.0
+        ],
+        [
+          0.008,
+          1191.0
+        ],
+        [
+          0.016,
+          1191.0
+        ],
+        [
+          0.032,
+          1191.0
+        ],
+        [
+          0.064,
+          1192.0
+        ],
+        [
+          0.128,
+          1192.0
+        ],
+        [
+          0.256,
+          1192.0
+        ],
+        [
+          0.512,
+          1192.0
+        ],
+        [
+          1.024,
+          1192.0
+        ],
+        [
+          2.048,
+          1192.0
+        ],
+        [
+          4.096,
+          1192.0
+        ],
+        [
+          Infinity,
+          1192.0
+        ]
+      ],
+      "lock_waiting_max_1s": 0,
+      "lock_samples_1s": 6,
+      "lock_waiting_max_10ms": 0,
+      "lock_samples_10ms": 607,
+      "lock_waiting_share_10ms": 0.0,
+      "n": 300,
+      "dup_by_results": 0,
+      "D_results": 0.0,
+      "dup_by_logs": 0,
+      "D_logs": 0.0,
+      "result_rows": 300,
+      "done_events": 300,
+      "max_results_per_task": 1,
+      "duration_s": 4.222966909408569
+    },
+    "backlog": {
+      "rate": 1500,
+      "count": 300,
+      "accepted": 300,
+      "non_2xx": 0,
+      "t_start": 1795558668.860733,
+      "t_end": 1795558672.98144,
+      "pods": [
+        "worker-59445898d5-4m6ks",
+        "worker-59445898d5-4qxjb",
+        "worker-59445898d5-f8qvs"
+      ],
+      "claim_p99_ms": 1.892,
+      "claim_p50_ms": 0.312,
+      "claims_empty": 819.0,
+      "claims_task": 300.0,
+      "claim_buckets": [
+        [
+          0.0005,
+          897.0
+        ],
+        [
+          0.001,
+          1098.0
+        ],
+        [
+          0.002,
+          1109.0
+        ],
+        [
+          0.004,
+          1115.0
+        ],
+        [
+          0.008,
+          1117.0
+        ],
+        [
+          0.016,
+          1119.0
+        ],
+        [
+          0.032,
+          1119.0
+        ],
+        [
+          0.064,
+          1119.0
+        ],
+        [
+          0.128,
+          1119.0
+        ],
+        [
+          0.256,
+          1119.0
+        ],
+        [
+          0.512,
+          1119.0
+        ],
+        [
+          1.024,
+          1119.0
+        ],
+        [
+          2.048,
+          1119.0
+        ],
+        [
+          4.096,
+          1119.0
+        ],
+        [
+          Infinity,
+          1119.0
+        ]
+      ],
+      "lock_waiting_max_1s": 0,
+      "lock_samples_1s": 6,
+      "lock_waiting_max_10ms": 0,
+      "lock_samples_10ms": 611,
+      "lock_waiting_share_10ms": 0.0,
+      "n": 300,
+      "dup_by_results": 0,
+      "D_results": 0.0,
+      "dup_by_logs": 0,
+      "D_logs": 0.0,
+      "result_rows": 300,
+      "done_events": 300,
+      "max_results_per_task": 1,
+      "duration_s": 4.120707035064697
+    }
+  }
+}
