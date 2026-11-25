@@ -1,0 +1,49 @@
+[global x1] X_1 = 268739 op/s, t_cs write 0.87 us, read 7.29 us, invariants True
+[global x1] X_1 = 269354 op/s, t_cs write 0.89 us, read 7.24 us, invariants True
+[global x1] X_1 = 267650 op/s, t_cs write 0.88 us, read 7.31 us, invariants True
+[global n=3] per thread: 1(w)=1954506, 2(r)=495615, 3(w)=1929524
+  write X =    388403 op/s, p50    0.96 us, p99     1.92 us, max t_wait  37.579 ms, w = 0.535, cv = 0.0064
+  read  X =     49562 op/s, p50   11.67 us, p99    20.00 us, max t_wait  31.309 ms, w = 0.551, cv = 0.0000
+  X = 437964 op/s, invariants after: True (49954 keys, 100000 nodes, depth 40)
+[global n=3] per thread: 1(w)=1865018, 2(r)=476474, 3(w)=1897069
+  write X =    376209 op/s, p50    1.00 us, p99     2.04 us, max t_wait  46.349 ms, w = 0.541, cv = 0.0085
+  read  X =     47647 op/s, p50   11.67 us, p99    21.00 us, max t_wait  34.310 ms, w = 0.576, cv = 0.0000
+  X = 423856 op/s, invariants after: True (49948 keys, 100000 nodes, depth 41)
+[global n=3] per thread: 1(w)=1905349, 2(r)=469758, 3(w)=1893363
+  write X =    379871 op/s, p50    1.00 us, p99     2.12 us, max t_wait  37.593 ms, w = 0.549, cv = 0.0032
+  read  X =     46976 op/s, p50   11.71 us, p99    22.50 us, max t_wait  25.155 ms, w = 0.575, cv = 0.0000
+  X = 426847 op/s, invariants after: True (50022 keys, 100000 nodes, depth 38)
+[rw x1] X_1 = 244512 op/s, t_cs write 0.85 us, read 7.28 us, invariants True
+[rw x1] X_1 = 241127 op/s, t_cs write 0.91 us, read 7.33 us, invariants True
+[rw x1] X_1 = 246545 op/s, t_cs write 0.86 us, read 7.17 us, invariants True
+[rw n=3] per thread: 1(w)=198567, 2(r)=401584, 3(w)=203018
+  write X =     40158 op/s, p50   27.00 us, p99   381.25 us, max t_wait  10.513 ms, w = 0.923, cv = 0.0111
+  read  X =     40158 op/s, p50   23.58 us, p99    42.58 us, max t_wait   5.437 ms, w = 0.546, cv = 0.0000
+  X = 80317 op/s, invariants after: True (50099 keys, 94955 nodes, depth 39)
+[rw n=3] per thread: 1(w)=195627, 2(r)=396576, 3(w)=200948
+  write X =     39658 op/s, p50   27.29 us, p99   370.29 us, max t_wait  23.949 ms, w = 0.923, cv = 0.0134
+  read  X =     39658 op/s, p50   23.79 us, p99    43.38 us, max t_wait  11.271 ms, w = 0.547, cv = 0.0000
+  X = 79315 op/s, invariants after: True (50163 keys, 94776 nodes, depth 41)
+[rw n=3] per thread: 1(w)=186916, 2(r)=381175, 3(w)=194259
+  write X =     38118 op/s, p50   27.83 us, p99   387.08 us, max t_wait   7.968 ms, w = 0.922, cv = 0.0193
+  read  X =     38118 op/s, p50   24.50 us, p99    58.33 us, max t_wait   4.085 ms, w = 0.550, cv = 0.0000
+  X = 76235 op/s, invariants after: True (49979 keys, 94424 nodes, depth 38)
+{
+ "readers": 4,
+ "seconds": 3.0,
+ "read_ops": 342729,
+ "fingerprint_equal": true,
+ "nodes_fingerprinted": 50000,
+ "version_moved_under_read_lock": 0,
+ "with_writers": {
+  "read_ops": 118285,
+  "version_moved_under_read_lock": 0,
+  "invariants": {
+   "ok": true,
+   "errors": [],
+   "nodes": 74551,
+   "present": 50006,
+   "depth": 39
+  }
+ }
+}

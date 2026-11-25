@@ -1,0 +1,19 @@
+{
+ "readers": 4,
+ "seconds": 3.0,
+ "read_ops": 342729,
+ "fingerprint_equal": true,
+ "nodes_fingerprinted": 50000,
+ "version_moved_under_read_lock": 0,
+ "with_writers": {
+  "read_ops": 118285,
+  "version_moved_under_read_lock": 0,
+  "invariants": {
+   "ok": true,
+   "errors": [],
+   "nodes": 74551,
+   "present": 50006,
+   "depth": 39
+  }
+ }
+}
